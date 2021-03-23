@@ -7,13 +7,14 @@ EVCC is an extensible EV Charge Controller with PV integration implemented in Go
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Add a new add-on repository in the menu and point it to https://github.com/andig/evcc
-1. Search for the "evcc" add-on in the Supervisor add-on store.
-1. Install the "evcc" add-on.
-1. Add your evcc configuration file to /config/evcc.yaml
-1. Start the "evcc" add-on.
-1. Check the logs of the "evcc" to see if everything went well.
-1. Open the Web UI.
+1. Navigate to the Supervisor add-on store.
+2. Add a new add-on repository in the menu and point it to https://github.com/andig/evcc-hassio-addon
+3. Search for the "evcc" add-on in the Supervisor add-on store.
+4. Install the "evcc" add-on.
+5. Add your evcc configuration file to /config/evcc.yaml
+6. Start the "evcc" add-on.
+7. Check the logs of the "evcc" to see if everything went well.
+8. Open the Web UI.
 
 
 ## Configuration
