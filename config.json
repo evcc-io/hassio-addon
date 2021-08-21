@@ -3,7 +3,7 @@
     "version": "0.62",
     "slug": "evcc",
     "description": "EV Charge Controller!",
-    "url": "https://github.com/andig/evcc",
+    "url": "https://github.com/evcc-io/evcc",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
     "panel_icon": "mdi:ev-station",
