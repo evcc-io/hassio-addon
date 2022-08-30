@@ -28,5 +28,10 @@
       "7090/udp": 7090,
       "9522/udp": 9522,
       "8887/udp": 8887
-  }
+    },
+    "ports_description": {
+      "7090/udp": "Website port",
+      "9522/udp": "Multicast udp port (SMA Speedwire)",
+      "8887/udp": "OCPP udp port",
+    }
 }
