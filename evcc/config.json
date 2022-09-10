@@ -25,13 +25,13 @@
     "map": ["config:rw"],
     "webui": "http://[HOST]:[PORT:7070]/",
     "ports": {
-      "7090/udp": 7090,
+      "7070/tcp": 7070,
       "9522/udp": 9522,
-      "8887/udp": 8887
+      "8887/tcp": 8887
     },
     "ports_description": {
-      "7090/udp": "Website port",
-      "9522/udp": "Multicast udp port (SMA Speedwire)",
-      "8887/udp": "OCPP udp port"
+      "7070/TCP": "Webserver",
+      "9522/UDP": "Multicast (SMA Speedwire)",
+      "8887/TCP": "OCPP web socket"
     }
 }
