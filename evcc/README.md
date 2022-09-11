@@ -10,7 +10,7 @@
 
 evcc is an extensible EV Charge Controller with PV integration implemented in [Go][2]. Featured in [PV magazine](https://www.pv-magazine.de/2021/01/15/selbst-ist-der-groeoenlandhof-wallbox-ladesteuerung-selbst-gebaut/).
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Features
 
