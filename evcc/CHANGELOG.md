@@ -1,3 +1,3 @@
 # Changelog
 
-(https://github.com/evcc-io/evcc/releases)
+https://github.com/evcc-io/evcc/releases
