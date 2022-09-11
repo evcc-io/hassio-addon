@@ -98,7 +98,7 @@ The personal sponsor token requires a [Github Sponsorship](https://github.com/sp
 
 ## Background
 
-<img src="https://github.com/evcc-io/evcc/docs/logo.png" align="right" width="150" />
+<img src="https://github.com/evcc-io/evcc/blob/master/docs/logo.png" align="right" width="150" />
 
 evcc is heavily inspired by [OpenWB][1]. However, in 2019, I found OpenWB's architecture slightly intimidating with everything basically global state and heavily relying on shell scripting. On the other side, especially the scripting aspect is one that contributes to OpenWB's flexibility.
 
