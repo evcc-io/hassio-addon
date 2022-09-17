@@ -4,7 +4,6 @@ slug: evcc-nightly
 name: evcc (nightly)
 description: Nightly version of EV Charge Controller!
 url: https://github.com/evcc-io/evcc
-codenotary: notary@home-assistant.io
 arch:
   - armhf
   - armv7
@@ -23,7 +22,7 @@ image: andig/evcc
 options:
   config_file: /config/evcc.yaml
 schema:
-config_file: str
+  config_file: str
 host_network: true
 map:
   - config:rw
