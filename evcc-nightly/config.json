@@ -32,5 +32,8 @@
   "7090/udp": "Keba",
   "8887/tcp": "OCPP web socket",
   "9522/udp": "Multicast (SMA Speedwire)"
-  }
+  },
+  "devices": [
+    "/etc/machine-id:/etc/machine-id:ro"
+  ]
 }
