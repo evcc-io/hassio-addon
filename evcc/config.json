@@ -22,6 +22,7 @@
       "config_file": "str"
   },
   "host_network": true,
+  "host_dbus": true,
   "map": ["config:rw"],
   "webui": "http://[HOST]:[PORT:7070]/",
   "ports": {
@@ -33,8 +34,5 @@
   "7090/udp": "Keba",
   "8887/tcp": "OCPP web socket",
   "9522/udp": "Multicast (SMA Speedwire)"
-  },
-  "devices": [
-    "/etc/machine-id"
-  ]
+  }
 }
