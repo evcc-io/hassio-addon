@@ -35,6 +35,6 @@
   "9522/udp": "Multicast (SMA Speedwire)"
   },
   "devices": [
-    "/etc/machine-id:/etc/machine-id:ro"
+    "/etc/machine-id"
   ]
 }
