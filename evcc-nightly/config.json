@@ -1,6 +1,6 @@
 {
   "name": "evcc (nightly)",
-  "version": "nightly",
+  "version": "nightly-20221005185244",
   "slug": "evcc-nightly",
   "description": "Nightly version of EV Charge Controller!",
   "url": "https://github.com/evcc-io/evcc",
