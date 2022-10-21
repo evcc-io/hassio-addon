@@ -16,10 +16,12 @@
   "init": false,
   "image": "andig/evcc",
   "options": {
-      "config_file": "/config/evcc.yaml"
+      "config_file": "/config/evcc.yaml",
+      "sqlite_file": "/data/evcc.db"
   },
   "schema":  {
-      "config_file": "str"
+      "config_file": "str",
+      "sqlite_file": "str?"
   },
   "host_network": true,
   "map": ["config:rw"],
