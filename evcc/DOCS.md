@@ -11,7 +11,7 @@ comparison to installing any other Home Assistant add-on.
 2. Add a new add-on repository in the menu and point it to https://github.com/evcc-io/hassio-addon
 3. Search for the "evcc" add-on in the Supervisor add-on store.
 4. Install the "evcc" add-on.
-5. Add your working evcc configuration file to /config/evcc.yaml [!! NOTE !!](https://github.com/evcc-io/hassio-addon/edit/main/evcc/DOCS.md#configuration)
+5. Add your working evcc configuration file to /config/evcc.yaml [!! NOTE !!](https://github.com/evcc-io/hassio-addon/blob/main/evcc/DOCS.md#configuration)
 6. Start the "evcc" add-on.
 7. Check the logs of the "evcc" to see if everything went well.
 8. Open the Web UI.
