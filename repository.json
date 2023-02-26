@@ -1,5 +1,5 @@
 {
-    "name": "EVCC Add-on",
+    "name": "evcc",
     "url": "https://github.com/evcc-io/evcc",
-    "maintainer": "andig <cpuidle@gmx.de>"
+    "maintainer": "evcc team <info@evcc.io>"
 }
