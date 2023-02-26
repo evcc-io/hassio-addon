@@ -98,8 +98,6 @@ The personal sponsor token requires a [Github Sponsorship](https://github.com/sp
 
 ## Background
 
-<img src="logo_250.png" align="right" width="150" />
-
 evcc is heavily inspired by [OpenWB][1]. However, in 2019, I found OpenWB's architecture slightly intimidating with everything basically global state and heavily relying on shell scripting. On the other side, especially the scripting aspect is one that contributes to OpenWB's flexibility.
 
 Hence, for a simplified and stricter implementation of an EV charge controller, the design goals for evcc were:
