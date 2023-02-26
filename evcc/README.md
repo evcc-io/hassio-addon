@@ -10,7 +10,7 @@
 
 evcc is an extensible EV Charge Controller with PV integration implemented in [Go][2]. Featured in [PV magazine](https://www.pv-magazine.de/2021/01/15/selbst-ist-der-groeoenlandhof-wallbox-ladesteuerung-selbst-gebaut/).
 
-![Screenshot](screenshot.png)
+![Screenshot](../docs/4_evcc_tablet_standard_light.png)
 
 ## Features
 
@@ -97,8 +97,6 @@ While evcc is open source, we would also like to encourage vendors to provide op
 The personal sponsor token requires a [Github Sponsorship](https://github.com/sponsors/andig) and can be requested at [cloud.evcc.io](https://cloud.evcc.io/). A sponsor token is valid for one year and can be renewed any time with active sponsorship.
 
 ## Background
-
-<img src="logo_250.png" align="right" width="150" />
 
 evcc is heavily inspired by [OpenWB][1]. However, in 2019, I found OpenWB's architecture slightly intimidating with everything basically global state and heavily relying on shell scripting. On the other side, especially the scripting aspect is one that contributes to OpenWB's flexibility.
 

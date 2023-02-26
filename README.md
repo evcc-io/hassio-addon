@@ -1,5 +1,5 @@
 # evcc-hassio-addon
-EVCC Add-on for Hass.io (Home Assistant Add-on: EVCC)
+evcc Add-on for Home Assistant OS
 
 # Installation
 
@@ -23,7 +23,7 @@ Follow these steps to get the add-on installed on your system:
   
   - Copy "https://github.com/evcc-io/hassio-addon" Click -> Add
   
-  - Find the "EVCC" add-on and click it.
+  - Find the "evcc" add-on and click it.
   - Click on the "INSTALL" button.
   - Go to Information nenu in the "evcc" Addon and activate "show in side bar"
   - Go to Configuration menu and select your working directory (example):
