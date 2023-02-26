@@ -1,5 +1,5 @@
 # evcc-hassio-addon
-evcc Add-on for Hass.io (Home Assistant Add-on: evcc)
+evcc Add-on for Home Assistant OS
 
 # Installation
 
