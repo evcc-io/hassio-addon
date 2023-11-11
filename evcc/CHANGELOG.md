@@ -1,6 +1,6 @@
 # Changelog
 
-!!BREAKING CHANGES!!
+!! BREAKING CHANGES !!
 
  - evcc.yaml is now in "/addon_configs/<your addon's slug>" ("/addon_configs/<ID>_evcc")
  - evcc.db could redirekt to "/addon_configs/<your addon's slug>" ("/addon_configs/<ID>_evcc")
