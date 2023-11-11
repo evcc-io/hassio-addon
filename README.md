@@ -32,8 +32,16 @@ Follow these steps to get the add-on installed on your system:
 
         - config_file: /config/evcc.yaml
         - sqlite_file: /data/evcc.db
+    
+    !! BREAKING CHANGE with version 0.122.2 !!
+  
+    /config directs to addons_config/[container-ID]_evcc (/addon_configs/<your addon's slug>) in Home Assistant.
+    To access this new share in homeassistant you have to install at least verion 11.0.0 of Samba Share
+    Copy your config from /config (in Samba share 11.0.0 /config is named /homeassistant) to addons_config/[container-ID]_evcc
+  
+    
   - evcc configuration file evcc.yaml
-      - Copy https://github.com/evcc-io/evcc/blob/master/evcc.dist.yaml to your homeassistant config directory
+      - Copy https://github.com/evcc-io/evcc/blob/master/evcc.dist.yaml to your homeassistant /addon_configs/<your addon's slug> directory
       - Rename  evcc.dist.yaml to evcc.yaml (note: configure first to your needs the evcc.yaml or use a working configuration)
         
         Location of "config" directroy in HA:
