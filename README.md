@@ -26,6 +26,7 @@ Follow these steps to get the add-on installed on your system:
   - Find the "evcc" add-on and click it.
   - Click on the "INSTALL" button.
   - Go to Information nenu in the "evcc" Addon and activate "show in side bar"
+    (evcc UI  `http://your-ha-instance-ip-address:7070`)
   - Go to Configuration menu and select your working directory (example):
   
     <img width="100" src="docs/addonstore5.png">
