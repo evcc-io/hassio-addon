@@ -36,7 +36,7 @@ Follow these steps to get the add-on installed on your system:
 
     
   - evcc configuration file evcc.yaml
-      - Copy https://github.com/evcc-io/evcc/blob/master/evcc.dist.yaml to your homeassistant /addon_configs/<your addon's slug> directory
+      - Copy https://github.com/evcc-io/evcc/blob/master/evcc.dist.yaml to your homeassistant/config/ directory
       - Rename  evcc.dist.yaml to evcc.yaml (note: configure first to your needs the evcc.yaml or use a working configuration)
         
         Location of "config" directroy in HA:
