@@ -28,6 +28,7 @@
     "uart": true,
     "webui": "http://[HOST]:[PORT:7070]/",
     "ports": {
+        "4712/tcp": 4712,
         "5200/tcp": 5200,
         "5353/udp": 5353,
         "7090/udp": 7090,
@@ -35,6 +36,7 @@
         "9522/udp": 9522
     },
     "ports_description": {
+        "4712/tcp": "EEBUS",
         "5200/tcp": "Modbus Proxy",
         "5353/udp": "Multicast DNS (mDNS)",
         "7090/udp": "Keba",
