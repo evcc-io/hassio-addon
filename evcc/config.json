@@ -33,6 +33,7 @@
         "5353/udp": 5353,
         "7090/udp": 7090,
         "8887/tcp": 8887,
+        "8899/udp": 8899,
         "9522/udp": 9522
     },
     "ports_description": {
@@ -41,6 +42,7 @@
         "5353/udp": "Multicast DNS (mDNS)",
         "7090/udp": "Keba",
         "8887/tcp": "OCPP web socket",
+        "8899/udp": "Modbus UDP",
         "9522/udp": "SMA Speedwire Multicast"
     }
 }
