@@ -23,7 +23,7 @@ Follow these steps to get the add-on installed on your system:
   
   - Copy "https://github.com/evcc-io/hassio-addon" Click -> Add
   
-  - Find the "evcc" add-on and click it.
+  - Find the "evcc" add-on and click it. (Sometimes you must reload the webside)
   - Click on the "INSTALL" button.
   - Go to Information nenu in the "evcc" Addon and activate "show in side bar"
     (evcc UI  `http://your-ha-instance-ip-address:7070`)
