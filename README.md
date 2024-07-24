@@ -44,7 +44,7 @@ Follow these steps to get the add-on installed on your system:
         - https://www.home-assistant.io/docs/configuration/
         - https://www.home-assistant.io/common-tasks/os/#installing-and-using-the-samba-add-on
 
-#!! NOTE !!
+# !! NOTE !!
 
 The Home Assistant Addon evcc is based on docker, there is no possibility to create a configuration file for evcc inside the evcc docker with "evcc configure"!
 
