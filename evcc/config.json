@@ -30,6 +30,7 @@
     "ports": {
         "4712/tcp": 4712,
         "5200/tcp": 5200,
+        "5200/tcp": 5201,
         "5353/udp": 5353,
         "7090/udp": 7090,
         "8887/tcp": 8887,
@@ -38,6 +39,7 @@
     "ports_description": {
         "4712/tcp": "EEBUS",
         "5200/tcp": "Modbus Proxy",
+        "5200/tcp": "Modbus Proxy (5201)",
         "5353/udp": "Multicast DNS (mDNS)",
         "7090/udp": "Keba",
         "8887/tcp": "OCPP web socket",
