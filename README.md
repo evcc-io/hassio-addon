@@ -73,7 +73,8 @@ Install "Advanced SSH & Web Terminal" (Advanced Version!!!)
 - restart addon
 - start UI
 
-     docker -ps a
+
+      docker -ps a
 
 save the CONTAINER ID of evcc/evcc:0.130.12  -> e.g. 6d0b4119b012 (CONTAINER ID of EVCC)
 
