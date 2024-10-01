@@ -35,6 +35,11 @@ Follow these steps to get the add-on installed on your system:
         - config_file: /config/evcc.yaml
         - sqlite_file: /data/evcc.db
 
+Alternative file location:
+
+        - config_file: /config/evcc/evcc.yaml
+        - sqlite_file: /config/evcc/evcc.db
+ You have to copy the /data/evcc.db to /config/evcc !
     
   - evcc configuration file evcc.yaml
       - Copy https://github.com/evcc-io/evcc/blob/master/evcc.dist.yaml to your homeassistant/config/ directory
@@ -59,7 +64,7 @@ To do this, perform the steps in the documentation of evcc to create a configura
 
    - https://docs.evcc.io/docs/guides/setup
 
-# How to find and copy your /data/evcc.db
+# How to find and copy /data/evcc.db
 
 Create a folder e.g. /evcc in homeassitant config directory (/homeassistant or /config).
 
