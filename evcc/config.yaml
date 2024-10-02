@@ -1,7 +1,8 @@
-name: "evcc"
-version: "0.130.12"
-slug: "evcc"
-description: "EV Charge Controller!"
+---
+name: evcc
+version: 0.130.12
+slug: evcc
+description: EV Charge Controller!
 url: https://github.com/evcc-io/evcc
 arch: 
   - armhf
