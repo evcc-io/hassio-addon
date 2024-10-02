@@ -1,6 +1,6 @@
 ---
 name: evcc
-version: 0.130.12
+version: 0.130.13
 slug: evcc
 description: EV Charge Controller!
 url: https://github.com/evcc-io/evcc
@@ -29,6 +29,8 @@ schema:
 host_network: true
 map: 
   - type: homeassistant_config
+    read_only: False
+  - type: addon_config
     read_only: False
 uart: true
 webui: http://[HOST]:[PORT:7070]/
