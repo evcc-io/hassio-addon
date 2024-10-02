@@ -1,4 +1,4 @@
-# Home Assistant EV Charge Controller Add-on: [evcc](https://github.com/evcc-io/evcc)
+# evcc 🚘☀️ Home Assistant Addon
 
 evcc is an extensible EV Charge Controller with PV integration implemented in Go.
 
