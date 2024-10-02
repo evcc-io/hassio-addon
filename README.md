@@ -50,7 +50,8 @@ Create an evcc configuration file _evcc.yaml_in your Home Assistant root configu
 Copy the content of this [Template](evcc/ha_evcc_template.yaml) to your _homeassistant/evcc.yaml_ file you just created.
 The template creates a default configuration with static demo entities.
 
-_If you want to see evcc how is running in dynamic demo instead, copy the content of https://github.com/evcc-io/evcc/blob/master/cmd/demo.yaml into your _evcc.yaml_file._
+> [!NOTE]
+>If you want to see evcc how it is running in dynamic demo instead, copy the content of https://github.com/evcc-io/evcc/blob/master/cmd/demo.yaml into your _evcc.yaml_ file.
 
 - Now you are ready to go and to start the addon.
 - Check the installation by opening the WebUI. You should see the evcc web interface in demo mode.
