@@ -24,6 +24,7 @@ Go to Configuration menu and select your working directory (example):
   caption="Screenshot der Arbeitsverzeichnisse und Dateinamen in der Konfiguration."
 />
 --->
+<!---
 > [!IMPORTANT]
 >
 > **This config will be deprecated soon.**
@@ -65,7 +66,7 @@ Go to Configuration menu and select your working directory (example):
 >
 > /data (no change)
 >
-
+--->
 Leave the Network section unchanged.
 
 Create an evcc configuration file _evcc.yaml_in your Home Assistant root configuration folder (/homeassistant).
