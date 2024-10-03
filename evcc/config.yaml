@@ -15,7 +15,7 @@ panel_icon: mdi:ev-station
 panel_admin: false
 boot: auto
 legacy: true
-stage: experimental
+stage: stable
 ingress: true
 ingress_port: 7070
 init: false
