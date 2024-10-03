@@ -24,25 +24,48 @@ Go to Configuration menu and select your working directory (example):
   caption="Screenshot der Arbeitsverzeichnisse und Dateinamen in der Konfiguration."
 />
 --->
-
+> [!IMPORTANT]
+>
+> **This config will be deprecated soon.**
+>
+> If your evcc.db is in folder /data/evcc.db you don´t have to change the db location, but it is recomended. -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/edit/main/README.md#how-to-find-and-copy-dataevccdb)
+> 
 ```sh
 - config_file: /config/evcc.yaml
 - sqlite_file: /data/evcc.db
 ```
-#### New file location  
+#### New file location (not active yet)
 > [!WARNING]
+>
+> **If your evcc.yaml and evcc.db is in Home Assistant Addon Config folder, you have to configure following.**
+> 
 > First copy your evcc.db and evcc.yaml to /config ( maps to addon_configs/49686a9f_evcc/ ) -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/edit/main/README.md#how-to-find-and-copy-dataevccdb)
 >```sh
 >- config_file: /config/evcc.yaml
 >- sqlite_file: /config/evcc.db
 >```
-#### New alternative file location
+#### New alternative file location (not active yet)
 > [!WARNING]
+>
+> **If your evcc.yaml and evcc.db is in Home Assistant root configuration folder, you have to configure following.**
+>
 > First copy your evcc.db and evcc.yaml to Home Assistant root configuration folder -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/edit/main/README.md#how-to-find-and-copy-dataevccdb)
 >```sh
 >- config_file: /homeassistant/evcc.yaml
 >- sqlite_file: /homeassistant/evcc.db
 >```
+
+> [!IMPORTANT]
+>
+> What will change:
+> 
+> /config (from /config in Home Assistant OS to /addon_configs/`<slug>`_evcc)
+> 
+> /homeassitant (will replace /config in Add On Container and maps to Home Assistant root configuration folder /config) 
+>
+> /data (no change)
+>
+
 Leave the Network section unchanged.
 
 Create an evcc configuration file _evcc.yaml_in your Home Assistant root configuration folder (/homeassistant).
