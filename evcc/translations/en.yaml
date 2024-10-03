@@ -1,7 +1,7 @@
 configuration:
   config_file:
-    name: Location of evcc.yaml
+    name: "Location of evcc.yaml (config_file)"
     description: "The location of the /evcc.yaml could be /homeassistant/* or /config/* or /data/* . Where /homeassistant/* maps to /config/* and /config/* maps to addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/49686a9f_evcc in Home Assistant OS. To access /data/* within the evcc container follow https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb "
   sqlite_file:
-    name: "Location of evcc.db"
+    name: "Location of evcc.db (sqlite_file)"
     description: "The location of the /evcc.db could be /homeassistant/* or /config/* or /data/* . Where /homeassistant/* maps to /config/* and /config/* maps to addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/49686a9f_evcc in Home Assistant OS. To access /data/* within the evcc container follow https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb. *** WARNING *** With a future release of evcc Add-On, the default location of evcc.db will be /config/evcc.db which maps to addon_configs/<slug>_evcc/evcc.db (addon_configs/49686a9f_evcc/evcc.db) in Home Assistant OS. So please save your evcc.db as described here https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb to your Home Assistant OS config directory. Directory /data will be accessibly all the time. With the new version you will need to copy evcc.de out of /data and change the location of evcc.db to /config/evcc.db. The benefit of changing to the new Add-On structure, will evcc.db and evcc.yaml store in the Add-On Backup (/config/evcc.yaml & /config/evcc.de stored in addon_configs/49686a9f_evcc/* )"
