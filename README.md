@@ -29,20 +29,22 @@ Go to Configuration menu and select your working directory (example):
 - config_file: /config/evcc.yaml
 - sqlite_file: /data/evcc.db
 ```
+<!---
 #### New file location  
 > [!WARNING]
-> First copy your evcc.db and evcc.yaml to /config ( maps to addon_configs/49686a9f_evcc/ ) -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/edit/main/README.md#how-to-find-and-copy-dataevccdb)
+> First copy your evcc.db and evcc.yaml to /config ( maps to addon_configs/49686a9f_evcc/ ) -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb)
 >```sh
 >- config_file: /config/evcc.yaml
 >- sqlite_file: /config/evcc.db
 >```
 #### New alternative file location
 > [!WARNING]
-> First copy your evcc.db and evcc.yaml to Home Assistant root configuration folder -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/edit/main/README.md#how-to-find-and-copy-dataevccdb)
+> First copy your evcc.db and evcc.yaml to Home Assistant root configuration folder -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb)
 >```sh
 >- config_file: /homeassistant/evcc.yaml
 >- sqlite_file: /homeassistant/evcc.db
 >```
+--->
 Leave the Network section unchanged.
 
 Create an evcc configuration file _evcc.yaml_in your Home Assistant root configuration folder (/homeassistant).
