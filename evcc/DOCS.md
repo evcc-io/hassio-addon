@@ -30,11 +30,14 @@ Go to Configuration menu and select your working directory (example):
 > **This config will be deprecated soon.**
 >
 > If your evcc.db is in folder /data/evcc.db you don´t have to change the db location, but it is recomended. -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/edit/main/README.md#how-to-find-and-copy-dataevccdb)
-> 
+>
+--->
+
 ```sh
 - config_file: /config/evcc.yaml
 - sqlite_file: /data/evcc.db
 ```
+<!---
 #### New file location (not active yet)
 > [!WARNING]
 >
