@@ -104,6 +104,17 @@ Proceed with installation process of the evcc Integration for Home Assistant as 
 
 The upgrade to the latest version of evcc, is included in the Home Assistant update process.
 
+## Messages and Notifications
+
+Evcc is able to send you cloudless messages and notification via the [Home Assistant app](https://companion.home-assistant.io/download/).
+With this [tutorial](https://github.com/evcc-io/evcc/discussions/15531) you are able to get nice status messages.
+
+
+<Screenshot
+  name="./docs/notify.png"
+  caption="Screenshot der Benachrichtigung in IOS"
+/>
+
 > [!TIP]
 >## How to find and copy /data/evcc.db
 >
