@@ -110,10 +110,8 @@ Evcc is able to send you cloudless messages and notification via the [Home Assis
 With this [tutorial](https://github.com/evcc-io/evcc/discussions/15531) you are able to get nice status messages.
 
 
-<Screenshot
-  name="./docs/notify.png"
-  caption="Screenshot der Benachrichtigung in IOS"
-/>
+<img src="../docs/notify.png" alt="evcc Home Assistatnt App Notify in IOS" width="400" >
+
 
 > [!TIP]
 >## How to find and copy /data/evcc.db
