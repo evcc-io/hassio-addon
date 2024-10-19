@@ -13,6 +13,7 @@ arch:
 startup: application
 panel_icon: mdi:ev-station
 panel_admin: false
+homeassistant_api: true
 boot: auto
 legacy: true
 stage: stable
