@@ -73,7 +73,7 @@ The template creates a default configuration with static demo entities.
 
 ## Installation of the evcc Integration
 
-Proceed with installation process of the evcc Integration for Home Assistant as described in this section [Integrations](../integrations/home-assistant)
+Proceed with installation process of the evcc Integration for Home Assistant as described in this section [Integrations](https://github.com/marq24/ha-evcc)
 
 ## Upgrades
 
