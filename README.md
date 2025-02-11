@@ -4,6 +4,20 @@
 >This guide is aimed for users running Home Assistant. Of course it is possible to run EVCC outside Home Assistant too, but as is has a very low footprint running EVCC as an
 >Addon is the simplest ways.
 
+> [!IMPORTANT]
+>
+>On 16.02.2025 with evcc version 0.200.1 we followed the [Home Assistant approach](https://developers.home-assistant.io/blog/2023/11/06/public-addon-config/) on how to store user configuration data hold by addons. We are handling this for you, so you should not face any issues. If you need help, ask [here](https://github.com/evcc-io/hassio-addon/issues/75).
+>
+>What exactly has changed?
+>- Your configuration file i.e. `evcc.yaml` which was previously saved within `/homeassistant/`is now transfered to `/addon_configs/<slug>_evcc/`.
+>- Your database file i.e. `evcc.db` is only transfered to `/addon_configs/<slug>_evcc/` if you manually moved it to `/homeassistant/` before, otherwise it will stay untouched in `/data/`.
+>- If you used subfolders, we are keeping them. If you used custom naming of your configuration or database file, we are also keeping them.
+>- Your old file `/homeassistant/evcc.yaml` will be renamed to `/homeassistant/evcc.yaml.migrated` and can be manually deleted. The same applies to the `evcc.db` if you had it under `/homeassistant`.
+>
+>Can I stay with my files in `/homeassistant/`?
+>- Basically you can but we do not suggest that! Why? Cause backups of evcc are then not containing your configuration and/or db.
+>- If you want to ignore that and do it, you need to manually move your files from `/addon_configs/<slug>_evcc/` to `/homeassistant/` and change the paths in your evcc addon configuration to the new path, i.e. `/homeassistant/evcc.yaml`and restart the evcc addon.
+
 ## Installation Guide
 
 1. Click -> Add-on Store under Settings - Addons.
@@ -29,25 +43,14 @@ Go to Configuration menu and select your working directory (example):
 - config_file: /config/evcc.yaml
 - sqlite_file: /data/evcc.db
 ```
-<!---
-#### New file location  
-> [!WARNING]
-> First copy your evcc.db and evcc.yaml to /config ( maps to addon_configs/49686a9f_evcc/ ) -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb)
->```sh
->- config_file: /config/evcc.yaml
->- sqlite_file: /config/evcc.db
->```
-#### New alternative file location
-> [!WARNING]
-> First copy your evcc.db and evcc.yaml to Home Assistant root configuration folder -> [How to find my evcc.db](https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb)
->```sh
->- config_file: /homeassistant/evcc.yaml
->- sqlite_file: /homeassistant/evcc.db
->```
---->
+
 Leave the Network section unchanged.
 
-Create an evcc configuration file _evcc.yaml_ in your Home Assistant root configuration folder (/config or /homeassistant).
+Create an evcc configuration file _evcc.yaml_ in your Home Assistant root folder (`/addon_configs/<slug>_evcc`).
+To access and edit the configuration file, you have plenty options:
+- [Visual Studio Code](https://github.com/hassio-addons/addon-vscode), within Visual Studio Code just click the hamburger menu in the upper left and select "File", "Open Folder...", select `/addon_configs/<slug>_evcc`
+- [File Editor](https://github.com/home-assistant/addons/tree/master/configurator), ensure that you disabled the option "Enforce Basepath" under File editor addon configuration and restart the File editor addon afterwards, then navigate to `/addon_configs/<slug>_evcc`
+- [SSH](https://github.com/hassio-addons/addon-ssh), navigate to `/addon_configs/<slug>_evcc` and use nano to edit the file
 
 Copy the content of this [Template](evcc/ha_evcc_template.yaml) to your _evcc.yaml_ file you just created.
 The template creates a default configuration with static demo entities.

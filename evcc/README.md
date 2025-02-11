@@ -7,32 +7,7 @@
 [![Latest Version](https://img.shields.io/github/release/evcc-io/evcc.svg)](https://github.com/evcc-io/evcc/releases)
 <!-- [![Pulls from Docker Hub](https://img.shields.io/docker/pulls/andig/evcc.svg)](https://hub.docker.com/r/andig/evcc) -->
 <!-- [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=48YVXXA7BDNC2) -->
-<!--
->[!IMPORTANT]
->
-> With one of the next upgdates we migrate your evcc.yaml from
->
->- /config/evcc.yaml (Home Assistant root configuration folder)
->
->  to
-> 
->- /config/evcc.yaml (Home Assistant Public Addon config -> /addon_configs/'<slug>'_evcc/evcc.yaml)
->
-> If you would like to stay with the Home Assistant root configuration folder, configure your config_file location to
->
->- /homeassistant/evcc.yaml
->
->
-> The directory structure of the Add-On will change! (!Not active yet!)
->- config_file evcc.yaml
->- sqlite_file evcc.db -> will stay in /data/evcc.db
-> 
-> The mapping will follow the new mapping structure of Home Assitant [Public Addon Config](https://developers.home-assistant.io/blog/2023/11/06/public-addon-config/)
-> [Configuration](https://github.com/evcc-io/hassio-addon?tab=readme-ov-file#configuration)
->
-> [If you need Help](https://github.com/evcc-io/hassio-addon/issues/75)
->
--->
+
 evcc is an extensible EV Charge Controller with PV integration implemented in [Go][2]. Featured in [PV magazine](https://www.pv-magazine.de/2021/01/15/selbst-ist-der-groeoenlandhof-wallbox-ladesteuerung-selbst-gebaut/).
 
 ![Screenshot](../docs/4_evcc_tablet_standard_light.png)
