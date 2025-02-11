@@ -28,7 +28,9 @@ schema:
   sqlite_file: str
 host_network: true
 map: 
-  - type: config
+  - type: addon_config
+    read_only: False
+  - type: homeassistant_config
     read_only: False
 uart: true
 webui: http://[HOST]:[PORT:7070]/
