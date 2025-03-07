@@ -38,6 +38,15 @@ body:
     validations:
       required: true
     attributes:
+      label: Hassio-Addon config details
+      render: text
+      description: >
+        Show hassio-addon configuration in home assistant addon configuration
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
       label: Configuration details
       render: yaml
       description: >
