@@ -22,8 +22,10 @@ body:
         **NOTE** Due to amount of issues raised we will close incomplete issues (unclear description what the issue actually is, missing log file, unsupported platform) without further comments.
 
         Thank you for your report! 🚀
-        [df]: https://github.com/evcc-io/evcc/discussions
-        [hah]: https://docs.evcc.io/docs/installation/home-assistant
+        
+         [df]: https://github.com/evcc-io/evcc/discussions
+         [hah]: https://docs.evcc.io/docs/installation/home-assistant
+         
   - type: textarea
     validations:
       required: true
