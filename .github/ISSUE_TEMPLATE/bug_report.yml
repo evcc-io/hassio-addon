@@ -6,6 +6,7 @@ body:
     attributes:
       value: |
         # Bug Report for the evcc Hass.io Addon
+
         
         > [!Important]
         > This form is exclusively for reporting issues related to the evcc Hass.io Addon.
