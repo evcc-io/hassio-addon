@@ -15,11 +15,9 @@ body:
          ✅ Ensure you are using the latest version of the addon.
          ✅ Check the logs for error messages and attach them.
          ✅ Search existing [issues][issue] to see if your problem has already been reported.
-         ✅ Search existing [discussion][df] to see if your problem has already been reported.
+         ✅ Search existing [discussion][df] to see if your problem has already been discussed, or ask a question.
       
         Thank you for your report! 🚀
-
-        **NOTE** Due to amount of issues raised we will close incomplete issues (unclear description what the issue actually is, missing log file, unsupported platform) without further comments.
 
         > [!NOTE]  
         > Due to amount of issues raised we will close incomplete issues 
