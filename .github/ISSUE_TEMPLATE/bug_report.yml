@@ -11,20 +11,22 @@ body:
         For general issues or feature requests related to evcc itself, please use the main repository.
         Before submitting an issue:
 
+         ✅ Ensure to read our [manual][hah].
          ✅ Ensure you are using the latest version of the addon.
          ✅ Check the logs for error messages and attach them.
-         ✅ Search existing issues to see if your problem has already been reported.
-         
-        
-        If you have a question regarding the Home Assistant Addon, please use the [Addon manual][hah].
-        If you want to start a discussion or ask a question, please use the [discussion forum][df].
+         ✅ Search existing [issues][issue] to see if your problem has already been reported.
+         ✅ Search existing [discussion][df] to see if your problem has already been reported.
+      
+        Thank you for your report! 🚀
 
         **NOTE** Due to amount of issues raised we will close incomplete issues (unclear description what the issue actually is, missing log file, unsupported platform) without further comments.
 
-        Thank you for your report! 🚀
+        > [!NOTE]  
+        > Highlights information that users should take into account, even when skimming.
         
          [df]: https://github.com/evcc-io/evcc/discussions
          [hah]: https://docs.evcc.io/docs/installation/home-assistant
+         [issue]: https://github.com/evcc-io/hassio-addon/issues?q=is%3Aissue
          
   - type: textarea
     validations:
