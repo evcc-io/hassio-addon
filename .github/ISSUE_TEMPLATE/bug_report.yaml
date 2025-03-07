@@ -70,7 +70,7 @@ body:
     validations:
       required: true
     attributes:
-      label: What type of operating system or environment does evcc run on?
+      label: What type of operating system or environment does Home Assistant run on?
       description: >
         **NOTE** if you're using HomeAssistant or Docker we ask you to reproduce the problem on plain Linux or Windows first.
       options:
@@ -80,6 +80,23 @@ body:
         - HomeAssistant Add-on
         - macOS
         - other
+
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: What type of operating system or environment does Home Assistant run on?
+      description: >
+        **NOTE** if you're using HomeAssistant or Docker we ask you to reproduce the problem on plain Linux or Windows first.
+        Home Assistant offers four different installation methods. We recommend using Home Assistant Operating System. 
+        Other methods are available for experienced users for their specific needs, for example, running Home Assistant in a virtualized
+        environment (e.g. Proxmox), or on top of an existing operating system (e.g. Windows, macOS, Linux): 
+      options:
+        - Home Assistant Operating System
+        - Home Assistant Container
+        - Home Assistant Core
+        - Home Assistant Supervised
+
 
   - type: checkboxes
     id: external
