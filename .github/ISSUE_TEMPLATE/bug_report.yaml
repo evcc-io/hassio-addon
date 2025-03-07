@@ -85,7 +85,7 @@ body:
     validations:
       required: true
     attributes:
-      label: What type of operating system or environment does Home Assistant run on?
+      label: What type of installation method?
       description: >
         **NOTE** if you're using HomeAssistant or Docker we ask you to reproduce the problem on plain Linux or Windows first.
         Home Assistant offers four different installation methods. We recommend using Home Assistant Operating System. 
