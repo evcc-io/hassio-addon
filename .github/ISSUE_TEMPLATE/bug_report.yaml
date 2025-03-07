@@ -5,11 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue form is for reporting issues only! If you want to start a discussion or ask a question, please use the [discussion forum][df].
+                This issue form is for reporting issues only!
+        If you have a question regarding the Home Assistant Addon, please use the [Addon manual][hah]
+        If you want to start a discussion or ask a question, please use the [discussion forum][df].
 
         **NOTE** Due to amount of issues raised we will close incomplete issues (unclear description what the issue actually is, missing log file, unsupported platform) without further comments.
 
         [df]: https://github.com/evcc-io/evcc/discussions
+        [hah]: https://docs.evcc.io/docs/installation/home-assistant
   - type: textarea
     validations:
       required: true
