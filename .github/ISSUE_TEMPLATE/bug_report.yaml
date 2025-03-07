@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-                This issue form is for reporting issues only!
+        This issue form is for reporting issues only!
         If you have a question regarding the Home Assistant Addon, please use the [Addon manual][hah]
         If you want to start a discussion or ask a question, please use the [discussion forum][df].
 
