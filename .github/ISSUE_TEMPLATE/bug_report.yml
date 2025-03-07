@@ -22,7 +22,9 @@ body:
         **NOTE** Due to amount of issues raised we will close incomplete issues (unclear description what the issue actually is, missing log file, unsupported platform) without further comments.
 
         > [!NOTE]  
-        > Highlights information that users should take into account, even when skimming.
+        > Due to amount of issues raised we will close incomplete issues 
+        > (unclear description what the issue actually is, missing log file, unsupported platform) 
+        > without further comments.
         
          [df]: https://github.com/evcc-io/evcc/discussions
          [hah]: https://docs.evcc.io/docs/installation/home-assistant
