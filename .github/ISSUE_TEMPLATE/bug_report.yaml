@@ -77,7 +77,6 @@ body:
         - Linux
         - Windows
         - Docker container
-        - HomeAssistant Add-on
         - macOS
         - other
 
