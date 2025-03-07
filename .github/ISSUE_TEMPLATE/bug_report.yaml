@@ -39,7 +39,6 @@ body:
       required: true
     attributes:
       label: Hassio-Addon config details
-      render: text
       description: >
         Show hassio-addon configuration in home assistant addon configuration
 
@@ -74,6 +73,11 @@ body:
       description: >
         **NOTE** if you're using HomeAssistant or Docker we ask you to reproduce the problem on plain Linux or Windows first.
       options:
+        - Yellow
+        - Green
+        - Raspberry
+        - ODROID
+        - Generic x86-64
         - Linux
         - Windows
         - Docker container
