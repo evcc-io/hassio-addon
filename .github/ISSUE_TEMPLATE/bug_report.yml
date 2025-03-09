@@ -63,7 +63,7 @@ body:
         ...
       label: Hassio-Addon config details
       render: yaml
-      description: >
+      description: >-
         Show hassio-addon configuration in home assistant addon configuration.
           -> Go to evcc home assistant addon
           -> Configuration
