@@ -69,7 +69,7 @@ body:
           -> Click on three dots menu
           -> Click edit in YAML
           -> Copy & Paste the configuration details here
-        Screenshots or any other relevant details.
+        !Screenshots or any other relevant details are welcome!
 
   - type: textarea
     validations:
