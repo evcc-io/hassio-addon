@@ -57,19 +57,20 @@ body:
       required: true
     attributes:
       value: |
-        1.
-        2.
-        3.
+        config_file: /config/evcc.yaml
+        sqlite_file: /data/evcc.db
+
         ...
       label: Hassio-Addon config details
       render: yaml
       description: >
-        Show hassio-addon configuration in home assistant addon configuration. Screenshots or any other relevant details.
-        -> Go to evcc home assistant addon
-        -> Configuration
-        -> Click on three dots menu
-        -> Click edit in YAML
-        -> Copy & Paste the configuration details here
+        Show hassio-addon configuration in home assistant addon configuration.
+          -> Go to evcc home assistant addon
+          -> Configuration
+          -> Click on three dots menu
+          -> Click edit in YAML
+          -> Copy & Paste the configuration details here
+        Screenshots or any other relevant details.
 
   - type: textarea
     validations:
