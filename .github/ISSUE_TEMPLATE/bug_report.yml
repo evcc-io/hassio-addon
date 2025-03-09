@@ -56,9 +56,20 @@ body:
     validations:
       required: true
     attributes:
+      value: |
+        1.
+        2.
+        3.
+        ...
       label: Hassio-Addon config details
+      render: yaml
       description: >
         Show hassio-addon configuration in home assistant addon configuration. Screenshots or any other relevant details.
+        -> Go to evcc home assistant addon
+        -> Configuration
+        -> Click on three dots menu
+        -> Click edit in YAML
+        -> Copy & Paste the configuration details here
 
   - type: textarea
     validations:
@@ -100,7 +111,6 @@ body:
         - Windows
         - Docker container
         - macOS
-        - other
 
   - type: dropdown
     validations:
@@ -118,7 +128,15 @@ body:
         - Home Assistant Core
         - Home Assistant Supervised
 
-
+  - type: checkboxes
+    id: external
+    attributes:
+      label: Configuration details of evcc addon
+      description: Make sure the requiered configuration details of evcc addon are attached
+      options:
+        - label: I have made sure that the configuration details are attached.
+          required: true
+      
   - type: checkboxes
     id: external
     attributes:
