@@ -27,6 +27,7 @@ schema:
   config_file: str
   sqlite_file: str
 host_network: true
+homeassistant_api: true
 map: 
   - type: addon_config
     read_only: False
