@@ -19,7 +19,7 @@ stage: stable
 ingress: true
 ingress_port: 7070
 init: false
-watchdog: http://[HOST]:[PORT:7070]/
+watchdog: http://[HOST]:[PORT:7070]/api/health
 image: evcc/evcc
 options: 
   config_file: /config/evcc.yaml
