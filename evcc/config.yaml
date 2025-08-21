@@ -40,6 +40,7 @@ ports:
   5200/tcp: 5200
   5201/tcp: 5201
   5353/udp: 5353
+  7050/tcp: 7050
   7090/udp: 7090
   8887/tcp: 8887
   8899/udp: 8899
@@ -49,7 +50,10 @@ ports_description:
   5200/tcp: "Modbus Proxy"
   5201/tcp: "Modbus Proxy (multi port)"
   5353/udp: "Multicast DNS (mDNS)"
+  7050/tcp: "evopt API"
   7090/udp: "Keba"
   8887/tcp: "OCPP web socket"
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
+environment:
+  EVOPT_URI: "http://localhost:7050"
