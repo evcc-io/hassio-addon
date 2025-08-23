@@ -5,6 +5,11 @@ configuration:
   sqlite_file:
     name: "Location of evcc.db (sqlite_file)"
     description: "The location of the evcc.db could be /homeassistant/* or /config/* or /data/*. Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. To access /data/* within the evcc container follow https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb."
-  evopt_uri:
-    name: "EV OPT Server API"
-    description: "Oly preperation !not working!, up to evopt_uri is handeld in evcc container"
+  EVOPT_URI:
+    name: "EVopt API Endpoint (EVOPT_URI)"
+    description: >
+      The endpoint URL for the EVopt API integration. 
+      This setting allows evcc to communicate with the EVopt service for advanced optimization, forecasting, and control features.
+      Enter the full URL including protocol (e.g., http://localhost:7050).
+      Leave empty if not using EVopt features.
+      Home Assistant Addon: https://github.com/thecem/hassio-evopt
