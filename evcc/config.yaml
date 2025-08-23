@@ -27,6 +27,7 @@ options:
 schema:
   config_file: str
   sqlite_file: str
+  EVOPT_URI: url?
 host_network: true
 map: 
   - type: addon_config
@@ -55,5 +56,3 @@ ports_description:
   8887/tcp: "OCPP web socket"
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
-environment:
-  EVOPT_URI: "http://localhost:7050"
