@@ -27,7 +27,7 @@ options:
 schema:
   config_file: str
   sqlite_file: str
-  EVOPT_URI: URL?
+  EVOPT_URI: url?
 host_network: true
 homeassistant_api: true
 map: 
