@@ -16,6 +16,6 @@ configuration:
     description: >
       The endpoint URL for the EVopt API integration. 
       This setting allows evcc to communicate with the EVopt service for advanced optimization, forecasting, and control features.
-      Enter the full URL including protocol (e.g., http://localhost:7050).
+      Enter the full URL including protocol (e.g., for cloud https://evopt.evcc.io and local http://localhost:7050).
       Leave empty if not using EVopt features.
       Home Assistant Addon: https://github.com/thecem/hassio-evopt
