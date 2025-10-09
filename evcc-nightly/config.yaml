@@ -1,6 +1,6 @@
 ---
 name: evcc (nightly)
-version: nightly.20251009-6befca0
+version: nightly.20251009-63105ae
 slug: evcc-nightly
 description: Nightly version of EV Charge Controller!
 url: https://github.com/evcc-io/evcc
