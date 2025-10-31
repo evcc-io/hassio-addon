@@ -28,7 +28,6 @@ schema:
   config_file: str
   sqlite_file: str
   EVOPT_URI: url?
-  SEMP_BASE_URL: url?
 host_network: true
 map: 
   - type: addon_config
