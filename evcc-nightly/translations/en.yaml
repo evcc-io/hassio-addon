@@ -19,8 +19,3 @@ configuration:
       Enter the full URL including protocol (e.g., for cloud https://evopt.evcc.io and local http://localhost:7050).
       Leave empty if not using EVopt features.
       Home Assistant Addon: https://github.com/thecem/hassio-evopt
-  SEMP_BASE_URL:
-    name: "SHM discovery URL"
-    description: >
-      Enter the URL through which the SMA Home Manager can reach evcc, e.g. http://your_evcc_ip_address:7070. 
-      Leave empty if not using the SMA Home Manager as a meter.
