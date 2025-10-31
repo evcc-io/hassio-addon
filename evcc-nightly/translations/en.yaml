@@ -23,4 +23,4 @@ configuration:
     name: "SHM discovery URL"
     description: >
       Enter the URL through which the SMA Home Manager can reach evcc, e.g. http://your_sma_home_manager_address:7070.  
-Leave empty if not using the SMA Home Manager as a meter.
+      Leave empty if not using the SMA Home Manager as a meter.
