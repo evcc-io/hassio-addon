@@ -2,7 +2,7 @@ configuration:
   config_file:
     name: "Location of evcc.yaml (config_file)"
     description: >
-      The location of the evcc.yaml could be /homeassistant/* or /config/* or /data/*. 
+      (OPTIONAL) The location of the evcc.yaml could be /homeassistant/* or /config/* or /data/*. 
       Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. 
       To access /data/* within the evcc container follow https://docs.evcc.io/en/docs/installation/home-assistant.
   sqlite_file:
@@ -14,7 +14,7 @@ configuration:
   EVOPT_URI:
     name: "EVopt API Endpoint (EVOPT_URI)"
     description: >
-      The endpoint URL for the EVopt API integration. 
+      (OPTIONAL) The endpoint URL for the EVopt API integration. 
       This setting allows evcc to communicate with the EVopt service for advanced optimization, forecasting, and control features.
       Enter the full URL including protocol (e.g., for cloud https://evopt.evcc.io and local http://localhost:7050).
       Leave empty if not using EVopt features.
@@ -22,5 +22,5 @@ configuration:
   SEMP_BASE_URL:
     name: "SHM discovery URL (SEMP_BASE_URL)"
     description: >
-      Enter the URL through which the SMA Home Manager can reach evcc, e.g. http://your_evcc_ip_address:7070. 
+      (OPTIONAL) Enter the URL through which the SMA Home Manager can reach evcc, e.g. http://your_evcc_ip_address:7070. 
       Leave empty if not using the SMA Home Manager as a meter.
