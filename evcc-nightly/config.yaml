@@ -46,6 +46,7 @@ ports:
   7050/tcp: 7050
   7090/udp: 7090
   8887/tcp: 8887
+  8888/tcp: 8888
   8899/udp: 8899
   9522/udp: 9522
 ports_description:
@@ -56,5 +57,6 @@ ports_description:
   7050/tcp: "evopt API"
   7090/udp: "Keba"
   8887/tcp: "OCPP web socket"
+  8888/tcp: "Simple Energy Management Protocol"
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
