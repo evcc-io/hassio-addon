@@ -24,8 +24,8 @@ image: evcc/evcc
 options:
   sqlite_file: /data/evcc.db
 schema:
-  config_file: str?
   sqlite_file: str
+  config_file: str?
   EVOPT_URI: url?
   SEMP_BASE_URL: url?
 host_network: true
