@@ -2,7 +2,7 @@ configuration:
   config_file:
     name: "Location of evcc.yaml (config_file)"
     description: >
-      (OPTIONAL) The location of the evcc.yaml could be /homeassistant/* or /config/* or /data/*. 
+      (OPTIONAL after 0.209.7) The location of the evcc.yaml could be /homeassistant/* or /config/* or /data/*. 
       Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. 
       To access /data/* within the evcc container follow https://docs.evcc.io/en/docs/installation/home-assistant.
   sqlite_file:
