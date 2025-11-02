@@ -23,6 +23,7 @@ watchdog: http://[HOST]:[PORT:7070]/api/health
 image: evcc/evcc
 options: 
   sqlite_file: /data/evcc.db
+  config_file: /config/evcc.yaml
 schema:
   sqlite_file: str
   config_file: str?
