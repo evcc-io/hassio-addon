@@ -19,7 +19,7 @@ stage: experimental
 ingress: true
 ingress_port: 7070
 init: false
-watchdog: http://[HOST]:[PORT:7070]/api/health
+watchdog: http://[HOST]:[PORT:7070]
 image: evcc/evcc
 options:
   sqlite_file: /data/evcc.db
