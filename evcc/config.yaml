@@ -1,9 +1,9 @@
 ---
-name: evcc
+name: "evcc (JoeSann Fork)"
 version: 0.301.2
 slug: evcc
 description: EV Charge Controller!
-url: https://github.com/evcc-io/evcc
+url: https://github.com/JoeSann/evcc
 arch: 
   - armhf
   - armv7
