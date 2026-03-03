@@ -20,7 +20,7 @@ ingress: true
 ingress_port: 7070
 init: false
 watchdog: http://[HOST]:[PORT:7070]
-image: evcc/evcc
+image: ghcr.io/joesann/evcc:latest
 options: 
   sqlite_file: /data/evcc.db
   config_file: /config/evcc.yaml
