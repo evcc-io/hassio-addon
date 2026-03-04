@@ -59,3 +59,4 @@ ports_description:
   8888/tcp: "Simple Energy Management Protocol"
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
+homeassistant_api: true
