@@ -3,7 +3,7 @@ name: "evcc (JoeSann)"
 version: 0.301.2
 slug: evcc-joesann
 description: EV Charge Controller!
-url: https://github.com/JoeSann/hassio-addon
+url: https://github.com/JoeSann/evcc
 arch: 
   - armhf
   - armv7
