@@ -1,9 +1,9 @@
 ---
-name: evcc (nightly)
+name: evcc (nightly, JoeSann)
 version: nightly.20260304-f621551
-slug: evcc-nightly
+slug: evcc-nightly-joesann
 description: Nightly version of EV Charge Controller!
-url: https://github.com/evcc-io/evcc
+url: https://github.com/JoeSann/hassio-addon
 arch: 
   - armhf
   - armv7
