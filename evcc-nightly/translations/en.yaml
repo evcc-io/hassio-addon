@@ -11,11 +11,11 @@ configuration:
       The location of the evcc.db could be /homeassistant/* or /config/* or /data/*. 
       Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. 
       To access /data/* within the evcc container follow https://docs.evcc.io/en/docs/installation/home-assistant.
-  EVOPT_URI:
-    name: "EVopt API Endpoint (EVOPT_URI)"
+  OPTIMIZER_URI:
+    name: "Optimizer API Endpoint (OPTIMIZER_URI)"
     description: >
-      (OPTIONAL) The endpoint URL for the EVopt API integration. 
-      This setting allows evcc to communicate with the EVopt service for advanced optimization, forecasting, and control features.
+      (OPTIONAL) The endpoint URL for the Optimizer API integration. 
+      This setting allows evcc to communicate with the Optimizer service for advanced optimization, forecasting, and control features.
       Enter the full URL including protocol (e.g., for cloud https://evopt.evcc.io and local http://localhost:7050).
       Leave empty if not using EVopt features.
       Home Assistant Addon: https://github.com/thecem/hassio-evopt
