@@ -6,6 +6,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.303.1] - 2026-03-16
 
+## Changelog
+### Other Changes ☀️
+* 340f94087c289038f2dd738f3ce6d52891d2b907 Home Assistant: allow switch for enable/disable (#28260)
+* db1870021dbcf97886a925078fcd6c348e60f16f Nexblue: remove broken 1p3p
+* 26bf54b8abea82b5cf83d97fbc7bc2b1042354cb Optimizer: return infeasable error
+* cea2a8f4bf5823d8fa88ae440b7d31e843edda4c Revert: Safari: web socket bug redirect workaround (#28236)
+### Bug Fixes 🐞
+* 385296f63a4bc63bd47631e832e212b995c852ea HomeAssistant: fix changelog (#28257)
+* 706b637b18e59def590d13e8da17040d0abeb22f Optimizer: fix invalid battery capacity
+* d0a0dc52d14f4901b64713b06488497ee22090dd SGready: fix panic
+
 
 
 ## [0.303.0] - 2026-03-15
