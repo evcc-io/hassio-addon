@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: Add-on configuration
+    
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v4
+
+      - name: 🚀 Run evcc Add-on Lint
+        uses: frenck/action-addon-linter@v2
+        with:
+          path: "./evcc"
+
+      - name: 🚀 Run evcc-nightly Add-on Lint
+        uses: frenck/action-addon-linter@v2
+        with:
+          path: "./evcc-nightly"
