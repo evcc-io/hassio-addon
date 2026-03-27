@@ -1,0 +1,162 @@
+name: Bug report
+description: Create a report to help us improve
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Bug Report for the evcc Hass.io Addon
+
+        
+        > [!Important]
+        > This form is exclusively for reporting issues related to the evcc Hass.io Addon.
+        > For general issues or feature requests related to evcc itself, please use the main repository.
+        > 
+        > Before submitting an issue:
+        >
+        > ✅ Ensure to read our [manual][hah].
+        > ✅ Ensure you are using the latest version of the addon.
+        > ✅ Check the logs for error messages and attach them.
+        > ✅ Search existing [issues][issue] to see if your problem has already been reported.
+        > ✅ Search existing [discussion][df] to see if your problem has already been discussed, or ask a question.
+      
+        Thank you for your report! 🚀
+
+        > [!NOTE]  
+        > Due to amount of issues raised we will close incomplete issues 
+        > (unclear description what the issue actually is, missing log file, unsupported platform) 
+        > without further comments.
+        
+         [df]: https://github.com/evcc-io/evcc/discussions
+         [hah]: https://docs.evcc.io/docs/installation/home-assistant
+         [issue]: https://github.com/evcc-io/hassio-addon/issues?q=is%3Aissue
+         
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Describe the bug
+      description: >-
+        A clear and concise description of what the bug is.
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      value: |
+        1.
+        2.
+        3.
+        ...
+      label: Steps to reproduce
+      description: >-
+        Steps to reproduce the behavior.
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      value: |
+        config_file: /config/evcc.yaml
+        sqlite_file: /data/evcc.db
+        ...
+      label: Hassio-Addon config details
+      render: yaml
+      description: >-
+        Show hassio-addon configuration in home assistant addon configuration.
+          -> Go to evcc home assistant addon
+          -> Configuration
+          -> Click on three dots menu
+          -> Click edit in YAML
+          -> Copy & Paste the configuration details here
+        !Screenshots or any other relevant details are welcome!
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Configuration details
+      render: yaml
+      description: >
+        Show evcc configuration file <code>evcc.yaml</code>
+
+        Please make sure your report does NOT contain **passwords**, **sponsor token** or other **credentials**!
+
+        To quickly dump a redacted configuration without secrets, you can use the `evcc dump --cfg` command.
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Log details
+      render: text
+      description: >
+        Show evcc log output of the issue, see https://docs.evcc.io/en/docs/faq#how-do-i-create-a-log-file-for-error-analysis for instructions.
+        In case of issues with physical devices like chargers, meters or vehicles, make sure that the log file has level `trace` enabled for the device.
+
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: What type of operating system or environment does Home Assistant run on?
+      description: >
+        **NOTE** if you're using HomeAssistant or Docker we ask you to reproduce the problem on plain Linux or Windows first.
+      options:
+        - Yellow
+        - Green
+        - Raspberry
+        - ODROID
+        - Generic x86-64
+        - Linux
+        - Windows
+        - Docker container
+        - macOS
+
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: What type of installation method?
+      description: >
+        **NOTE** if you're using HomeAssistant or Docker we ask you to reproduce the problem on plain Linux or Windows first.
+        Home Assistant offers four different installation methods. We recommend using Home Assistant Operating System. 
+        Other methods are available for experienced users for their specific needs, for example, running Home Assistant in a virtualized
+        environment (e.g. Proxmox), or on top of an existing operating system (e.g. Windows, macOS, Linux): 
+      options:
+        - Home Assistant Operating System
+        - Home Assistant Container
+        - Home Assistant Core
+        - Home Assistant Supervised
+
+  - type: checkboxes
+    id: haaddonconfig
+    attributes:
+      label: Configuration details of evcc addon
+      description: Make sure the requiered configuration details of evcc addon are attached
+      options:
+        - label: I have made sure the configuration details are attached.
+          required: true
+      
+  - type: checkboxes
+    id: external
+    attributes:
+      label: External automation
+      description: Make sure the observed issue is caused by evcc and not by external automation
+      options:
+        - label: I have made sure that no external automation like HomeAssistant or Node-RED is active or accessing any of the mentioned devices when this issue occurs.
+          required: true
+
+  - type: checkboxes
+    id: nightly
+    attributes:
+      label: Nightly build
+      description: Check if the issue has not already been fixed in the latest nightly build
+      options:
+        - label: I have verified that the issue is reproducible with the latest nightly build
+          required: true
+
+  - type: input
+    attributes:
+      label: Version
+      description: >
+        Show output of <code>evcc -v</code>

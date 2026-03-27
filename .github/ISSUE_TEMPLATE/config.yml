@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: evcc Community Support
+    url: https://github.com/evcc-io/evcc/discussions
+    about: Please ask and answer questions here.
+  - name: hassio addon manual
+    url: https://docs.evcc.io/en/docs/installation/home-assistant
+    about: Please read the manual before startin a discussion or raising an issue.
+  - name: evcc Home Assistant Integration
+    url: https://docs.evcc.io/en/docs/integrations/home-assistant
+    about: Please read the manual before starting a discussion or raising an issue.
+  - name: evcc Home Assistant Integration "ha-evcc" Issue
+    url: https://github.com/marq24/ha-evcc
+    about: Please read the manual before starting a discussion or raising an issue.
