@@ -29,13 +29,13 @@ map:
   - type: homeassistant_config
     read_only: False
 uart: true
-webui: http://[HOST]:[PORT:7070]/
 ports:
   4712/tcp: 4712
   5200/tcp: 5200
   5201/tcp: 5201
   5353/udp: 5353
   7050/tcp: 7050
+  7070/tcp: 7070
   7090/udp: 7090
   8887/tcp: 8887
   8888/tcp: 8888
@@ -47,6 +47,7 @@ ports_description:
   5201/tcp: "Modbus Proxy (multi port)"
   5353/udp: "Multicast DNS (mDNS)"
   7050/tcp: "evopt API"
+  7070/tcp: "evcc UI & API"
   7090/udp: "Keba"
   8887/tcp: "OCPP web socket"
   8888/tcp: "Simple Energy Management Protocol"
