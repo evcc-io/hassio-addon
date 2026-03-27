@@ -5,21 +5,14 @@ slug: evcc-nightly
 description: Nightly version of EV Charge Controller!
 url: https://github.com/evcc-io/evcc
 arch: 
-  - armhf
-  - armv7
   - aarch64
   - amd64
-  - i386
-startup: application
 panel_icon: mdi:ev-station
 panel_admin: false
-boot: auto
-legacy: true
-stage: experimental
+legacy: truel
 ingress: true
 ingress_port: 7070
 init: false
-watchdog: http://[HOST]:[PORT:7070]
 image: evcc/evcc
 options:
   sqlite_file: /data/evcc.db
@@ -36,7 +29,6 @@ map:
   - type: homeassistant_config
     read_only: False
 uart: true
-webui: http://[HOST]:[PORT:7070]/
 ports:
   4712/tcp: 4712
   5200/tcp: 5200
