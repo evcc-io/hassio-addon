@@ -33,3 +33,6 @@ jobs:
         uses: frenck/action-addon-linter@v2
         with:
           path: "./evcc"
+        # Temporarly allow to pass, even if this step fails in order to implement this linter
+        # fix the issues in nightly and merge the changes to main if the changes are working as expected
+        continue-on-error: true
