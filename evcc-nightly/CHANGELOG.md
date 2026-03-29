@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: deprecate
+* Teslamate: add charged energy  (#28611)
 * Optimizer: publish results as single MQTT message (#28610)
 * Polestar: use oauth2 (#28604)
 * Docker: add healthcheck on port 7070 (#28606)
