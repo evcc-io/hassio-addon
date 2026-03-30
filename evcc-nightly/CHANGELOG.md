@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Safari: restore iOS 12 support (#28638)
+* chore: ensure markdown links instead of raw urls (#28629)
+* chore: ensure ascii quotes in templates (#28630)
 * chore: deprecate
 * Teslamate: add charged energy  (#28611)
 * Optimizer: publish results as single MQTT message (#28610)
