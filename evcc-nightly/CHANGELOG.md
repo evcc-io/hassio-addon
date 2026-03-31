@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Forecast UI: no savings-modal rerender, fixed safari scroll overlays (#28660)
+* chore: consistent URL patterns in template descriptions (#28628)
+* UI: fix bottom spacing (#28658)
+* AlphaESS: fix pv energy (#28640)
+* chore: npm dependencies (#28653)
+* Charts: ensure light/dark mode color updates (#28645)
+* Bender: handle invalid power meter reading (#28644)
+* Translations update from Hosted Weblate (#28066)
+* Teslamate: add gps position (#28626)
 * Safari: restore iOS 12 support (#28638)
 * chore: ensure markdown links instead of raw urls (#28629)
 * chore: ensure ascii quotes in templates (#28630)
