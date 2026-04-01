@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Revert "Teslamate: switch battery_level to usable_battery_level (#28665)"
+* Teslamate: switch battery_level to usable_battery_level (#28665)
+* EMS-ESP: make SG-Ready inputs and bitmask values configurable (#28681)
 * Forecast UI: no savings-modal rerender, fixed safari scroll overlays (#28660)
 * chore: consistent URL patterns in template descriptions (#28628)
 * UI: fix bottom spacing (#28658)
