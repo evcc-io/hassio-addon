@@ -2,6 +2,56 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.304.0] - 2026-04-02
 
+## Changelog
+### Breaking Changes 🚨
+* Goodwe Wifi: support for DT series via aa55 pseudo-modbus protocol (BC) (#28396)
+* Replace combinatorial decorators with capability registry (BC) (#28565)
+* Vaillant: support more countries (BC) (#28096)
+### New Features 💫
+* Add EcoFlow Stream (#28158)
+* Add Everhome Ecotracker (#28547)
+* DaheimLaden: Add debug log for phase switch in progress (#28694)
+* Docker: add healthcheck on port 7070 (#28606)
+* Ostrom: add SimplyDynamic_V2 contract type (#28726)
+* Teslamate: add charged energy  (#28611)
+* Teslamate: add climater (#28463)
+* Teslamate: add finishtime (#28405)
+* Teslamate: add gps position (#28626)
+* Tessie: add finishtime, position and charged energy (#28692)
+* Victron: add phase switching (#28408)
+### Experimental Features 🧪
+* Forecast: only adjust y-scale if experimental (#28548)
+### Other Changes ☀️
+* Battery Boost UI: disable button when battery on hold (#28489)
+* Bender: handle invalid power meter reading (#28644)
+* Charts: ensure light/dark mode color updates (#28645)
+* Config UI: consistent sorting oof loadpoint status values (#28701)
+* Config UI: ensure cleanup when template switch (#28552)
+* Config UI: network settings on fatal (#28501)
+* DaheimLaden Pro: update firmware requirements (#28499)
+* EMS-ESP: make SG-Ready inputs and bitmask values configurable (#28681)
+* Easee: disable phase switching on non TN grid installations (#28411)
+* Forecast UI: no savings-modal rerender, fixed safari scroll overlays (#28660)
+* OpenWB native: release GPIOs when closing (#28532)
+* Optimizer: publish results as single MQTT message (#28610)
+* Planner UI: remove step from time input (#28585)
+* Polestar: use oauth2 (#28604)
+* Revert "Teslamate: switch battery_level to usable_battery_level (#28665)"
+* Safari: restore iOS 12 support (#28638)
+* Teslamate: switch battery_level to usable_battery_level (#28665)
+* UI: New Navigation, Battery & Forecast Page (#27753)
+### Bug Fixes 🐞
+* AlphaESS: fix pv energy (#28640)
+* Fix EEBus UI config: save fails after successful validation (#28592)
+* Fix invalid data panic
+* Navigation: fix chrome blur (#28602)
+* Openevse: fix api (#28479)
+* Polestar: fix resume path and adjust regex (#28466)
+* Safari: fix scrollbar overlay issue (#28605)
+* Sessions: fix sticky table bottom
+* UI: fix bottom spacing (#28658)
+* fix: OCPP test race on logger and connector clock (#28460)
+
 
 
 ## [0.303.2] - 2026-03-21
