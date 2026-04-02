@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: minor
+* chore: minor
+* chore(deps): bump docker/build-push-action from 6 to 7 (#28706)
+* chore(deps): bump docker/login-action from 3 to 4 (#28705)
+* chore(deps): bump docker/setup-buildx-action from 3 to 4 (#28707)
+* chore(deps): bump githubnext/gh-aw from 0.51.2 to 0.65.2 (#28708)
+* chore(deps): bump actions/download-artifact from 8.0.0 to 8.0.1 (#28709)
+* Config UI: consistent sorting oof loadpoint status values (#28701)
+* Tessie: add finishtime, position and charged energy (#28692)
+* DaheimLaden: Add debug log for phase switch in progress (#28694)
 * Revert "Teslamate: switch battery_level to usable_battery_level (#28665)"
 * Teslamate: switch battery_level to usable_battery_level (#28665)
 * EMS-ESP: make SG-Ready inputs and bitmask values configurable (#28681)
