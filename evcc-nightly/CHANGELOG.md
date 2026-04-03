@@ -2,71 +2,67 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Goodwe: decode float32 (#28765)
+* Optimizer: enable by default (#28213)
 * chore: minor
+* Navigation: solid blur fallback (#28755)
+* Safari: revert websocket redirect workaround (#28753)
 * chore: minor
-* chore(deps): bump docker/build-push-action from 6 to 7 (#28706)
-* chore(deps): bump docker/login-action from 3 to 4 (#28705)
-* chore(deps): bump docker/setup-buildx-action from 3 to 4 (#28707)
-* chore(deps): bump githubnext/gh-aw from 0.51.2 to 0.65.2 (#28708)
-* chore(deps): bump actions/download-artifact from 8.0.0 to 8.0.1 (#28709)
-* Config UI: consistent sorting oof loadpoint status values (#28701)
-* Tessie: add finishtime, position and charged energy (#28692)
-* DaheimLaden: Add debug log for phase switch in progress (#28694)
-* Revert "Teslamate: switch battery_level to usable_battery_level (#28665)"
-* Teslamate: switch battery_level to usable_battery_level (#28665)
-* EMS-ESP: make SG-Ready inputs and bitmask values configurable (#28681)
-* Forecast UI: no savings-modal rerender, fixed safari scroll overlays (#28660)
-* chore: consistent URL patterns in template descriptions (#28628)
-* UI: fix bottom spacing (#28658)
-* AlphaESS: fix pv energy (#28640)
-* chore: npm dependencies (#28653)
-* Charts: ensure light/dark mode color updates (#28645)
-* Bender: handle invalid power meter reading (#28644)
-* Translations update from Hosted Weblate (#28066)
-* Teslamate: add gps position (#28626)
-* Safari: restore iOS 12 support (#28638)
-* chore: ensure markdown links instead of raw urls (#28629)
-* chore: ensure ascii quotes in templates (#28630)
-* chore: deprecate
-* Teslamate: add charged energy  (#28611)
-* Optimizer: publish results as single MQTT message (#28610)
-* Polestar: use oauth2 (#28604)
-* Docker: add healthcheck on port 7070 (#28606)
-* Safari: fix scrollbar overlay issue (#28605)
-* Navigation: fix chrome blur (#28602)
-* chore: create reusable CHANGELOG workflow and re-use it for nightlies (#28599)
-* Fix EEBus UI config: save fails after successful validation (#28592)
-* Battery Boost UI: disable button when battery on hold (#28489)
-* Sessions: fix sticky table bottom
-* Config UI: network settings on fatal (#28501)
-* chore(deps-dev): bump happy-dom from 20.8.4 to 20.8.8 (#28581)
-* Replace combinatorial decorators with capability registry (BC) (#28565)
-* Planner UI: remove step from time input (#28585)
-* chore(deps): bump yaml from 2.8.2 to 2.8.3 (#28562)
-* chore(deps): bump picomatch (#28558)
-* chore: playwright tz fix
-* chore: playwright tz fix
-* UI: New Navigation, Battery & Forecast Page (#27753)
-* Config UI: ensure cleanup when template switch (#28552)
-* Forecast: only adjust y-scale if experimental (#28548)
-* Add Everhome Ecotracker (#28547)
-* Polestar: fix resume path and adjust regex (#28466)
+* Raedian: fix enabled (#28696)
+
+## [0.304.0] - 2026-04-02
+
+## Changelog
+### Breaking Changes 🚨
 * Goodwe Wifi: support for DT series via aa55 pseudo-modbus protocol (BC) (#28396)
-* OpenWB native: release GPIOs when closing (#28532)
-* chore: improve config (#28505)
+* Replace combinatorial decorators with capability registry (BC) (#28565)
 * Vaillant: support more countries (BC) (#28096)
-* chore: update AI-gen guidelines
-* DaheimLaden Pro: update firmware requirements (#28499)
-* Fix invalid data panic
-* chore: fix api keys (#28497)
-* Openevse: fix api (#28479)
-* Teslamate: add climater (#28463)
-* fix: OCPP test race on logger and connector clock (#28460)
+### New Features 💫
 * Add EcoFlow Stream (#28158)
-* Victron: add phase switching (#28408)
-* chore(hassio): Update CHANGELOG.md to overwrite content (#28444)
+* Add Everhome Ecotracker (#28547)
+* DaheimLaden: Add debug log for phase switch in progress (#28694)
+* Docker: add healthcheck on port 7070 (#28606)
+* Ostrom: add SimplyDynamic_V2 contract type (#28726)
+* Teslamate: add charged energy  (#28611)
+* Teslamate: add climater (#28463)
 * Teslamate: add finishtime (#28405)
+* Teslamate: add gps position (#28626)
+* Tessie: add finishtime, position and charged energy (#28692)
+* Victron: add phase switching (#28408)
+### Experimental Features 🧪
+* Forecast: only adjust y-scale if experimental (#28548)
+### Other Changes ☀️
+* Battery Boost UI: disable button when battery on hold (#28489)
+* Bender: handle invalid power meter reading (#28644)
+* Charts: ensure light/dark mode color updates (#28645)
+* Config UI: consistent sorting oof loadpoint status values (#28701)
+* Config UI: ensure cleanup when template switch (#28552)
+* Config UI: network settings on fatal (#28501)
+* DaheimLaden Pro: update firmware requirements (#28499)
+* EMS-ESP: make SG-Ready inputs and bitmask values configurable (#28681)
 * Easee: disable phase switching on non TN grid installations (#28411)
+* Forecast UI: no savings-modal rerender, fixed safari scroll overlays (#28660)
+* OpenWB native: release GPIOs when closing (#28532)
+* Optimizer: publish results as single MQTT message (#28610)
+* Planner UI: remove step from time input (#28585)
+* Polestar: use oauth2 (#28604)
+* Revert "Teslamate: switch battery_level to usable_battery_level (#28665)"
+* Safari: restore iOS 12 support (#28638)
+* Teslamate: switch battery_level to usable_battery_level (#28665)
+* UI: New Navigation, Battery & Forecast Page (#27753)
+### Bug Fixes 🐞
+* AlphaESS: fix pv energy (#28640)
+* Fix EEBus UI config: save fails after successful validation (#28592)
+* Fix invalid data panic
+* Navigation: fix chrome blur (#28602)
+* Openevse: fix api (#28479)
+* Polestar: fix resume path and adjust regex (#28466)
+* Safari: fix scrollbar overlay issue (#28605)
+* Sessions: fix sticky table bottom
+* UI: fix bottom spacing (#28658)
+* fix: OCPP test race on logger and connector clock (#28460)
+
+
 
 ## [0.303.2] - 2026-03-21
 
