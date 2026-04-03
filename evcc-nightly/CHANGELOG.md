@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* EEBus: always send OPEV and OSCEV limits together (#28761)
+* chore(deps-dev): bump lodash from 4.17.23 to 4.18.1 (#28772)
+* Goodwe: use legacy wifi for ET series (#28791)
+* MG: add trace logging for decoded API responses (#28790)
+* Solarprognose.de: fix gaps and undeprecate (#28642)
+* Goodwe: restore wifi implementation (#28759)
+* Easee: remove incorrect ReasonDisconnectRequired for ModeCompleted (#28781)
 * Goodwe: decode float32 (#28765)
 * Optimizer: enable by default (#28213)
 * chore: minor
