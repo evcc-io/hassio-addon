@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* DaheimLaden: add firmware update handling (#28758)
+* Optimizer: fix timestamp generation (#28677)
 * EEBus: always send OPEV and OSCEV limits together (#28761)
 * chore(deps-dev): bump lodash from 4.17.23 to 4.18.1 (#28772)
 * Goodwe: use legacy wifi for ET series (#28791)
