@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Add GhostEEBus charger (#28573)
 * DaheimLaden: add firmware update handling (#28758)
 * Optimizer: fix timestamp generation (#28677)
 * EEBus: always send OPEV and OSCEV limits together (#28761)
