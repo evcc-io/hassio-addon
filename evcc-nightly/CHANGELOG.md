@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Add Lexus vehicle support (#28836)
+* chore: fix Toyota integration test compilation (#28834)
 * Add GhostEEBus charger (#28573)
 * DaheimLaden: add firmware update handling (#28758)
 * Optimizer: fix timestamp generation (#28677)
