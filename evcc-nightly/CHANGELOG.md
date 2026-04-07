@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* cli: add curtail/dim (#28877)
+* chore: upgrade modules
+* Session: add reference price and CO2 (#28712)
+* Deye-hybrid-3p: merge LV and HV templates (BC) (#28670)
+* HomeAssistant: add phase switching (#27896)
+* Fix auth handler race condition (#28864)
+* Add Marstek Venus A, D and fix Venus E, E Gen 2.0, Venus C and E Gen 3.0 (#28855)
+* Add switch devices (#28803)
+* 55aa: fix PDU slave id for ET series (#28828)
+* TWC3: allow fast charging when vehicle does not support current control (#28802)
+* Smartfox: fix id selector (#28371)
 * Add Lexus vehicle support (#28836)
 * chore: fix Toyota integration test compilation (#28834)
 * Add GhostEEBus charger (#28573)
