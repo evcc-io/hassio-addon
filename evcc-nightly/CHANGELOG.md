@@ -2,36 +2,53 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* cli: add curtail/dim (#28877)
-* chore: upgrade modules
-* Session: add reference price and CO2 (#28712)
+* Revert "Goodwe-wifi: deprecate (#28898)"
+* UI: prevent multiselect bottomnav overlap (#28901)
+* chore: add status.evcc.io badge
+* Log UI: progress indicator (#28914)
+* Goodwe-wifi: deprecate (#28898)
+* Ecoflow: add battery params (#28903)
+* chore: simplify
+* Add Lektrico charger (#28195)
+* Add OMIE day-ahead tariff for Portugal and Spain (#28768)
+* Templates: support IPv6 (#28872)
+* Add MTEC heat pump (#28880)
+* Config UI: add curtailed device info (#28889)
+
+## [0.304.1] - 2026-04-07
+
+## Changelog
+### Breaking Changes 🚨
 * Deye-hybrid-3p: merge LV and HV templates (BC) (#28670)
-* HomeAssistant: add phase switching (#27896)
-* Fix auth handler race condition (#28864)
-* Add Marstek Venus A, D and fix Venus E, E Gen 2.0, Venus C and E Gen 3.0 (#28855)
-* Add switch devices (#28803)
-* 55aa: fix PDU slave id for ET series (#28828)
-* TWC3: allow fast charging when vehicle does not support current control (#28802)
-* Smartfox: fix id selector (#28371)
-* Add Lexus vehicle support (#28836)
-* chore: fix Toyota integration test compilation (#28834)
+### New Features 💫
 * Add GhostEEBus charger (#28573)
+* Add Lexus vehicle support (#28836)
+* Add switch devices (#28803)
 * DaheimLaden: add firmware update handling (#28758)
-* Optimizer: fix timestamp generation (#28677)
-* EEBus: always send OPEV and OSCEV limits together (#28761)
-* chore(deps-dev): bump lodash from 4.17.23 to 4.18.1 (#28772)
-* Goodwe: use legacy wifi for ET series (#28791)
+* HomeAssistant: add phase switching (#27896)
 * MG: add trace logging for decoded API responses (#28790)
-* Solarprognose.de: fix gaps and undeprecate (#28642)
-* Goodwe: restore wifi implementation (#28759)
+* Session: add reference price and CO2 (#28712)
+* cli: add curtail/dim (#28877)
+### Other Changes ☀️
+* EEBus: always send OPEV and OSCEV limits together (#28761)
 * Easee: remove incorrect ReasonDisconnectRequired for ModeCompleted (#28781)
 * Goodwe: decode float32 (#28765)
-* Optimizer: enable by default (#28213)
-* chore: minor
+* Goodwe: restore wifi implementation (#28759)
+* Goodwe: use legacy wifi for ET series (#28791)
 * Navigation: solid blur fallback (#28755)
+* Optimizer: enable by default (#28213)
 * Safari: revert websocket redirect workaround (#28753)
-* chore: minor
+* TWC3: allow fast charging when vehicle does not support current control (#28802)
+### Bug Fixes 🐞
+* 55aa: fix PDU slave id for ET series (#28828)
+* Add Marstek Venus A, D and fix Venus E, E Gen 2.0, Venus C and E Gen 3.0 (#28855)
+* Fix auth handler race condition (#28864)
+* Optimizer: fix timestamp generation (#28677)
 * Raedian: fix enabled (#28696)
+* Smartfox: fix id selector (#28371)
+* Solarprognose.de: fix gaps and undeprecate (#28642)
+
+
 
 ## [0.304.0] - 2026-04-02
 
