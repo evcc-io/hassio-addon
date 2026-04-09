@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* ghosteebus: propagate context to REST API calls during init (#28951)
+* Config UI: fix default for required choice params (#28935)
+* chore: fix response body leak on 404 and hoist LoadLocation (#28612)
+* Optimizer: improve error message for solar forecast (#28934)
+* Add Askoma ASKOHEAT+ (#28827)
+* Mercedes: update application and SDK versions (#28938)
+* Fix: site soc calc was wrong if some batteries had no capacity (#28910)
+* Energyflow: forecast/battery navigation (#28918)
+* Forecast UI: compacter, small fixes (#28917)
+* Fix chargeMeter capability lookup for decorated chargers (#28920)
 * Revert "Goodwe-wifi: deprecate (#28898)"
 * UI: prevent multiselect bottomnav overlap (#28901)
 * chore: add status.evcc.io badge
