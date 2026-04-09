@@ -2,6 +2,31 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.304.2] - 2026-04-09
 
+## Changelog
+### New Features 💫
+* Add Askoma ASKOHEAT+ (#28827)
+* Add Lektrico charger (#28195)
+* Add MTEC heat pump (#28880)
+* Add OMIE day-ahead tariff for Portugal and Spain (#28768)
+* Config UI: add curtailed device info (#28889)
+* Ecoflow: add battery params (#28903)
+### Other Changes ☀️
+* Energyflow: forecast/battery navigation (#28918)
+* Forecast UI: compacter, small fixes (#28917)
+* Goodwe-wifi: deprecate (#28898)
+* Log UI: progress indicator (#28914)
+* Mercedes: update application and SDK versions (#28938)
+* Optimizer: improve error message for solar forecast (#28934)
+* Revert "Goodwe-wifi: deprecate (#28898)"
+* Templates: support IPv6 (#28872)
+* UI: prevent multiselect bottomnav overlap (#28901)
+* ghosteebus: propagate context to REST API calls during init (#28951)
+### Bug Fixes 🐞
+* Config UI: fix default for required choice params (#28935)
+* Fix chargeMeter capability lookup for decorated chargers (#28920)
+* Fix: site soc calc was wrong if some batteries had no capacity (#28910)
+* Homeassistant charger: fix phases
+
 
 
 ## [0.304.1] - 2026-04-07
