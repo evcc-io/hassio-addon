@@ -13,11 +13,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ### Other Changes ☀️
 * Energyflow: forecast/battery navigation (#28918)
 * Forecast UI: compacter, small fixes (#28917)
-* Goodwe-wifi: deprecate (#28898)
 * Log UI: progress indicator (#28914)
 * Mercedes: update application and SDK versions (#28938)
 * Optimizer: improve error message for solar forecast (#28934)
-* Revert "Goodwe-wifi: deprecate (#28898)"
 * Templates: support IPv6 (#28872)
 * UI: prevent multiselect bottomnav overlap (#28901)
 * ghosteebus: propagate context to REST API calls during init (#28951)
@@ -25,7 +23,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Config UI: fix default for required choice params (#28935)
 * Fix chargeMeter capability lookup for decorated chargers (#28920)
 * Fix: site soc calc was wrong if some batteries had no capacity (#28910)
-* Homeassistant charger: fix phases
+
 
 
 
