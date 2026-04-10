@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Fix docorating by promoting embedded type methods as capabilities (#28995)
+* chore: align naming
+* Pstryk: update api (#28983)
+* chore: upgrade modules
+* chore(deps): bump unhead and @unhead/vue (#28988)
+* chore(deps): bump axios from 1.14.0 to 1.15.0 (#28989)
 * Config UI: fix card min height (#28977)
 * Easee: restore noop signal from dispatcher send (#28972)
 * Add stromleser.one (#28976)
