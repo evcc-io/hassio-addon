@@ -2,28 +2,38 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* ghosteebus: propagate context to REST API calls during init (#28951)
-* Config UI: fix default for required choice params (#28935)
-* chore: fix response body leak on 404 and hoist LoadLocation (#28612)
-* Optimizer: improve error message for solar forecast (#28934)
+* Config UI: fix card min height (#28977)
+* Easee: restore noop signal from dispatcher send (#28972)
+* Add stromleser.one (#28976)
+* Tariffs: speed up combining forecasts
+* Homeassistant charger: fix phases (2nd attempt)
+
+## [0.304.2] - 2026-04-09
+
+## Changelog
+### New Features 💫
 * Add Askoma ASKOHEAT+ (#28827)
-* Mercedes: update application and SDK versions (#28938)
-* Fix: site soc calc was wrong if some batteries had no capacity (#28910)
+* Add Lektrico charger (#28195)
+* Add MTEC heat pump (#28880)
+* Add OMIE day-ahead tariff for Portugal and Spain (#28768)
+* Config UI: add curtailed device info (#28889)
+* Ecoflow: add battery params (#28903)
+### Other Changes ☀️
 * Energyflow: forecast/battery navigation (#28918)
 * Forecast UI: compacter, small fixes (#28917)
-* Fix chargeMeter capability lookup for decorated chargers (#28920)
-* Revert "Goodwe-wifi: deprecate (#28898)"
-* UI: prevent multiselect bottomnav overlap (#28901)
-* chore: add status.evcc.io badge
 * Log UI: progress indicator (#28914)
-* Goodwe-wifi: deprecate (#28898)
-* Ecoflow: add battery params (#28903)
-* chore: simplify
-* Add Lektrico charger (#28195)
-* Add OMIE day-ahead tariff for Portugal and Spain (#28768)
+* Mercedes: update application and SDK versions (#28938)
+* Optimizer: improve error message for solar forecast (#28934)
 * Templates: support IPv6 (#28872)
-* Add MTEC heat pump (#28880)
-* Config UI: add curtailed device info (#28889)
+* UI: prevent multiselect bottomnav overlap (#28901)
+* ghosteebus: propagate context to REST API calls during init (#28951)
+### Bug Fixes 🐞
+* Config UI: fix default for required choice params (#28935)
+* Fix chargeMeter capability lookup for decorated chargers (#28920)
+* Fix: site soc calc was wrong if some batteries had no capacity (#28910)
+
+
+
 
 ## [0.304.1] - 2026-04-07
 
