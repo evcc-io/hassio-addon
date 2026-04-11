@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.304.3] - 2026-04-11
 
+## Changelog
+### New Features 💫
+* Add stromleser.one (#28976)
+### Other Changes ☀️
+* Easee: restore noop signal from dispatcher send (#28972)
+* Pstryk: update api (#28983)
+* Tariffs: speed up combining forecasts
+### Bug Fixes 🐞
+* Config UI: fix card min height (#28977)
+* Fix docorating by promoting embedded type methods as capabilities (#28995)
+* Homeassistant charger: fix phases (2nd attempt)
+
 
 
 ## [0.304.2] - 2026-04-09
