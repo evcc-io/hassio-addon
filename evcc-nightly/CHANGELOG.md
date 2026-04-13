@@ -2,17 +2,36 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* Fix docorating by promoting embedded type methods as capabilities (#28995)
-* chore: align naming
-* Pstryk: update api (#28983)
+* Add Stegen Smart Evse (REST API) (#28966)
+* chore: allow ISC licensed dependencies
 * chore: upgrade modules
-* chore(deps): bump unhead and @unhead/vue (#28988)
-* chore(deps): bump axios from 1.14.0 to 1.15.0 (#28989)
-* Config UI: fix card min height (#28977)
-* Easee: restore noop signal from dispatcher send (#28972)
+* chore: ignore node_modules
+* chore: fix build tags
+* chore: add hems-pro platform (#25835)
+* Easee: align observation IDs with official developer docs (#29044)
+* Config UI: fix editing existing OAuth devices (#28012)
+* OCPP: proactively trigger BootNotification after WebSocket connect (#28540)
+* Config UI: vehicle priority (#29021)
+* Cupra: treat "NotReadyForCharging" aus connected (#29030)
+* SMA Hybrid: remove wrong solar energy register (#29034)
+* Issue UI: add residualpower to essential data (#29018)
+* iOS: fix modal+validation scrolling (#29023)
+
+## [0.304.3] - 2026-04-11
+
+## Changelog
+### New Features 💫
 * Add stromleser.one (#28976)
+### Other Changes ☀️
+* Easee: restore noop signal from dispatcher send (#28972)
+* Pstryk: update api (#28983)
 * Tariffs: speed up combining forecasts
+### Bug Fixes 🐞
+* Config UI: fix card min height (#28977)
+* Fix docorating by promoting embedded type methods as capabilities (#28995)
 * Homeassistant charger: fix phases (2nd attempt)
+
+
 
 ## [0.304.2] - 2026-04-09
 
