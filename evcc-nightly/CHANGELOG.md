@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Add remote access (#28688)
+* chore: fix incorrect regex variable (#29089)
+* Config UI: don't show "Logout" when started with --disable-auth (#29096)
+* PUN tariff: don't fail if next day data is not available (#29092)
+* Custom devices: add device title to logger name (#29075)
+* Improve config UI dump key ordering: type before config, template first in config (#29081)
+* chore: fix bottom menu
+* Config UI: don't show "Logout" when started with --disable-auth (#29074)
+* Kostal Pico MP: add grid (#29077)
+* Config UI: make circuits configurable (#27842)
+* chore: lessen bc
+* Docker: fix legacy browser assets (#29068)
 * Add Stegen Smart Evse (REST API) (#28966)
 * chore: allow ISC licensed dependencies
 * chore: upgrade modules
