@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* EEBus: fix deadlock on save after validate (#29119)
+* chore: remove duplicate serial_number (#29107)
+* Forecast UI: add feed-in, edge-to-edge layout, design improvements (#29090)
+* chore: fix naming (#29106)
+* EEBus: handle negative production limits (#29104)
+* Mqtt: reset full/empty times (#29050)
+* chore: fix connected
 * Add remote access (#28688)
 * chore: fix incorrect regex variable (#29089)
 * Config UI: don't show "Logout" when started with --disable-auth (#29096)
