@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Collect 15min energy metrics (#23185)
+* Enever: fix time parsing (#29129)
+* chore: allow the TAG_NAME and SHA Makefile variable to be overridden (#29123)
 * EEBus: fix deadlock on save after validate (#29119)
 * chore: remove duplicate serial_number (#29107)
 * Forecast UI: add feed-in, edge-to-edge layout, design improvements (#29090)
