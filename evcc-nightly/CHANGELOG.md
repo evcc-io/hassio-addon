@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: reduce interval to 15min (#29137)
+* Add Danfoss inverters using ComLynx RS485 (#29065)
+* Device Cards: bool value formatting (#29135)
 * Collect 15min energy metrics (#23185)
 * Enever: fix time parsing (#29129)
 * chore: allow the TAG_NAME and SHA Makefile variable to be overridden (#29123)
