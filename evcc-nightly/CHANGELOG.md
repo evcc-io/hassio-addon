@@ -2,45 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* Optimizer: reduce interval to 15min (#29137)
-* Add Danfoss inverters using ComLynx RS485 (#29065)
-* Device Cards: bool value formatting (#29135)
-* Collect 15min energy metrics (#23185)
-* Enever: fix time parsing (#29129)
-* chore: allow the TAG_NAME and SHA Makefile variable to be overridden (#29123)
-* EEBus: fix deadlock on save after validate (#29119)
-* chore: remove duplicate serial_number (#29107)
-* Forecast UI: add feed-in, edge-to-edge layout, design improvements (#29090)
-* chore: fix naming (#29106)
-* EEBus: handle negative production limits (#29104)
-* Mqtt: reset full/empty times (#29050)
-* chore: fix connected
-* Add remote access (#28688)
-* chore: fix incorrect regex variable (#29089)
-* Config UI: don't show "Logout" when started with --disable-auth (#29096)
-* PUN tariff: don't fail if next day data is not available (#29092)
-* Custom devices: add device title to logger name (#29075)
-* Improve config UI dump key ordering: type before config, template first in config (#29081)
-* chore: fix bottom menu
-* Config UI: don't show "Logout" when started with --disable-auth (#29074)
-* Kostal Pico MP: add grid (#29077)
-* Config UI: make circuits configurable (#27842)
-* chore: lessen bc
-* Docker: fix legacy browser assets (#29068)
-* Add Stegen Smart Evse (REST API) (#28966)
-* chore: allow ISC licensed dependencies
-* chore: upgrade modules
-* chore: ignore node_modules
-* chore: fix build tags
-* chore: add hems-pro platform (#25835)
-* Easee: align observation IDs with official developer docs (#29044)
-* Config UI: fix editing existing OAuth devices (#28012)
-* OCPP: proactively trigger BootNotification after WebSocket connect (#28540)
-* Config UI: vehicle priority (#29021)
-* Cupra: treat "NotReadyForCharging" aus connected (#29030)
-* SMA Hybrid: remove wrong solar energy register (#29034)
-* Issue UI: add residualpower to essential data (#29018)
-* iOS: fix modal+validation scrolling (#29023)
+* Optimizer: wording on debug view (#29179)
+* Reapply "Config UI: better explain optimizer (#29141)"
+* chore: open source
+* Revert "Config UI: better explain optimizer (#29141)"
+
+## [0.305.0] - 2026-04-17
+
+
 
 ## [0.304.3] - 2026-04-11
 
