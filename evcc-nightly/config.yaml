@@ -21,6 +21,7 @@ schema:
   config_file: str?
   OPTIMIZER_URI: url?
   SEMP_BASE_URL: url?
+  EVCC_REMOTE_ACCESS: url?
 host_network: true
 homeassistant_api: true
 map: 
