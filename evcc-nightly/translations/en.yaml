@@ -24,3 +24,7 @@ configuration:
     description: >
       (OPTIONAL) Enter the URL through which the SMA Home Manager can reach evcc, e.g. http://your_evcc_ip_address:7070. 
       Leave empty if not using the SMA Home Manager as a meter.
+ EVCC_REMOTE_ACCESS:
+    name: "Remote Access (EVCC_REMOTE_ACCESS)"
+    description: >
+      (OPTIONAL) Enter the URL of the Remote Access service (e.g. api.evcc.cloud).
