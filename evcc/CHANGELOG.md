@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.305.1] - 2026-04-19
 
+## Changelog
+### New Features 💫
+* Add Fritz smarthome REST API support (FritzOS 8.2+) (#29013)
+* Add domain knowledge docs for AI agents (#29228)
+### Other Changes ☀️
+* Forecast: temporarily remove adjustment (#29244)
+* Optimizer: don't send empty requests
+* Optimizer: wording on debug view (#29179)
+* Reapply "Config UI: better explain optimizer (#29141)"
+* Revert "Config UI: better explain optimizer (#29141)"
+* Solarprognose: deprecate forecast_days (#29249)
+### Bug Fixes 🐞
+* Fix metrics table migration (#29250)
+
 
 
 ## [0.305.0] - 2026-04-17
