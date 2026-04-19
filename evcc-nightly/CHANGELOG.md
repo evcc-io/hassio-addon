@@ -2,12 +2,49 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Translations update from Hosted Weblate (#28648)
+* Optimizer: don't send empty requests
 * Optimizer: wording on debug view (#29179)
 * Reapply "Config UI: better explain optimizer (#29141)"
 * chore: open source
 * Revert "Config UI: better explain optimizer (#29141)"
 
 ## [0.305.0] - 2026-04-17
+
+## Changelog
+### New Features 💫
+* Add Danfoss inverters using ComLynx RS485 (#29065)
+* Add Stegen Smart Evse (REST API) (#28966)
+* Add remote access (#28688)
+* Add support for Connected Cars API (used by Volkswagen Australia) (#28899)
+* Custom devices: add device title to logger name (#29075)
+* Forecast UI: add feed-in, edge-to-edge layout, design improvements (#29090)
+* Issue UI: add residualpower to essential data (#29018)
+* Kostal Pico MP: add grid (#29077)
+### Other Changes ☀️
+* Collect 15min energy metrics (#23185)
+* Config UI: better explain optimizer (#29141)
+* Config UI: don't show "Logout" when started with --disable-auth (#29074)
+* Config UI: don't show "Logout" when started with --disable-auth (#29096)
+* Config UI: make circuits configurable (#27842)
+* Config UI: vehicle priority (#29021)
+* Cupra: treat "NotReadyForCharging" aus connected (#29030)
+* Device Cards: bool value formatting (#29135)
+* EEBus: handle negative production limits (#29104)
+* Easee: align observation IDs with official developer docs (#29044)
+* Improve config UI dump key ordering: type before config, template first in config (#29081)
+* Mqtt: reset full/empty times (#29050)
+* OCPP: proactively trigger BootNotification after WebSocket connect (#28540)
+* Optimizer: reduce interval to 15min (#29137)
+* PUN tariff: don't fail if next day data is not available (#29092)
+* SMA Hybrid: remove wrong solar energy register (#29034)
+* optimizer: skip disabled loadpoints
+### Bug Fixes 🐞
+* Config UI: fix editing existing OAuth devices (#28012)
+* Docker: fix legacy browser assets (#29068)
+* EEBus: fix deadlock on save after validate (#29119)
+* Enever: fix time parsing (#29129)
+* iOS: fix modal+validation scrolling (#29023)
 
 
 
