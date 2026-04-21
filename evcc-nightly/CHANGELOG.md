@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* myPV AC Thor: support extra heater on relay (#29266)
+* Sungrow iHomeManager: fix voltage and per-phase active power decoding (#27985)
+* Forecast: temporarily remove adjustment (2) (#29260)
 * Remove YAML-specific device template input hints (#29259)
 
 ## [0.305.1] - 2026-04-19
