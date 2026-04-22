@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Heating: add (limit)temp to custom charger (#29270)
+* chore: fix url selection
+* chore: make horizon depend on instance
+* chore: fix horizon
+* History UI: group data (#29303)
+* fix: reload website when version changes (#29299)
+* Loadpoint UI: finer energy select (#29298)
+* History UI: small fixes (#29138)
+* Nibe S-series: update docs (#29293)
+* Log UI: sort the log area multiselect naturally (#29289)
 * myPV AC Thor: support extra heater on relay (#29266)
 * Sungrow iHomeManager: fix voltage and per-phase active power decoding (#27985)
 * Forecast: temporarily remove adjustment (2) (#29260)
