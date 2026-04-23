@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Tariff: add stroomprijsprognose.nl grid and co2 (#29320)
+* Optimizer: fix panic in prorate
+* Navigation: add version update indicator (#29343)
+* Add Fingrid Co2 tariff (#29329)
+* chore: fix links (#29326)
 * Heating: add (limit)temp to custom charger (#29270)
 * chore: fix url selection
 * chore: make horizon depend on instance
