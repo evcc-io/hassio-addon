@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Huawei: use correct maximum power (#29354)
+* Config UI: allow custom device type override (#29340)
+* Navigation UI: make bottom nav standard (#29357)
 * Tariff: add stroomprijsprognose.nl grid and co2 (#29320)
 * Optimizer: fix panic in prorate
 * Navigation: add version update indicator (#29343)
