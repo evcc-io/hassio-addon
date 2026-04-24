@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Templates: add duration funcs (#29368)
+* chore: reorder params
+* Huawei: allow battery charge from PV in hold mode (BC) (#25024)
 * Huawei: use correct maximum power (#29354)
 * Config UI: allow custom device type override (#29340)
 * Navigation UI: make bottom nav standard (#29357)
