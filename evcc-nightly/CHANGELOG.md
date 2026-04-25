@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Revert "Cupra: treat "NotReadyForCharging" aus connected (#29030)"
 * Templates: add duration funcs (#29368)
 * chore: reorder params
 * Huawei: allow battery charge from PV in hold mode (BC) (#25024)
