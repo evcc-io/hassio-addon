@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: update 'scale' parameter and relay usage description (#29382)
 * Revert "Cupra: treat "NotReadyForCharging" aus connected (#29030)"
 * Templates: add duration funcs (#29368)
 * chore: reorder params
