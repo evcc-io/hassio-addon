@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Remote Access: 1y default expiry (#29404)
+* Update HemsModal.vue with correct link to external control documentation (#29410)
+* Add EVSE Master (Besen, Telestar, Morec, Sync chargers) (#28359)
 * chore: update 'scale' parameter and relay usage description (#29382)
 * Revert "Cupra: treat "NotReadyForCharging" aus connected (#29030)"
 * Templates: add duration funcs (#29368)
