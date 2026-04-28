@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Config UI: fix editing custom device with type override (#29379)
+* Translations update from Hosted Weblate (#29218)
+* Stegen Smart EVSE: make charge mode configurable, fix status & keep-alive (#29290)
+* Add Afore hybrid inverter (#29197)
+* Em2go: improve connection robustness (#29351)
+* Easee: reconcile session energy from charger meter at disconnect (#29350)
+* Solax: fix grid energy scale (#29439)
 * Remote Access: 1y default expiry (#29404)
 * Update HemsModal.vue with correct link to external control documentation (#29410)
 * Add EVSE Master (Besen, Telestar, Morec, Sync chargers) (#28359)
