@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Altherma 4: switch template (BC)
+* chore: update npm deps (#29459)
+* Easee: fix charging stop on scale down (#29464)
 * Config UI: fix editing custom device with type override (#29379)
 * Translations update from Hosted Weblate (#29218)
 * Stegen Smart EVSE: make charge mode configurable, fix status & keep-alive (#29290)
