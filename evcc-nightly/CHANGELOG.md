@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Tessie: add coarse current (#29442)
+* Sponsor: prepare for GitHub alternative (#29043)
+* refactor: use single modal instances for loadpoint (#29109)
+* chore(deps): bump follow-redirects from 1.15.11 to 1.16.0 (#29139)
+* chore: switch metrics timestamp to int (#29301)
+* Sessions UI: Add odometer (mileage) column in table view (#29263)
 * Altherma 4: switch template (BC)
 * chore: update npm deps (#29459)
 * Easee: fix charging stop on scale down (#29464)
