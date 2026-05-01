@@ -2,6 +2,54 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.306.0] - 2026-05-01
 
+## Changelog
+### Breaking Changes 🚨
+* Altherma 4: switch template (BC)
+* Huawei: allow battery charge from PV in hold mode (BC) (#25024)
+### New Features 💫
+* Add Afore hybrid inverter (#29197)
+* Add EVSE Master (Besen, Telestar, Morec, Sync chargers) (#28359)
+* Add Fingrid Co2 tariff (#29329)
+* Heating: add (limit)temp to custom charger (#29270)
+* Navigation: add version update indicator (#29343)
+* Sessions UI: Add odometer (mileage) column in table view (#29263)
+* Tariff: add stroomprijsprognose.nl grid and co2 (#29320)
+* Templates: add duration funcs (#29368)
+* Tessie: add coarse current (#29442)
+* vzlogger: add energy uuid (#29492)
+### Other Changes ☀️
+* Config UI: allow custom device type override (#29340)
+* Easee: reconcile session energy from charger meter at disconnect (#29350)
+* Ecoflow: use evcc HTTP client for logging (#29530)
+* Em2go: improve connection robustness (#29351)
+* Forecast: temporarily remove adjustment (2) (#29260)
+* Fritz: provide AIN dropdown (#29529)
+* History UI: group data (#29303)
+* History UI: small fixes (#29138)
+* Huawei: use correct maximum power (#29354)
+* Indicate cache hits in HTTP trace log (#29533)
+* Loadpoint UI: finer energy select (#29298)
+* Log UI: sort the log area multiselect naturally (#29289)
+* Navigation UI: make bottom nav standard (#29357)
+* Nibe S-series: update docs (#29293)
+* OCPP: handle firmware management events (#29507)
+* Remote Access: 1y default expiry (#29404)
+* Remove YAML-specific device template input hints (#29259)
+* Revert "Cupra: treat "NotReadyForCharging" aus connected (#29030)"
+* Sponsor: prepare for GitHub alternative (#29043)
+* Update HemsModal.vue with correct link to external control documentation (#29410)
+* epex-predictor: update regions (#29497)
+* myPV AC Thor: support extra heater on relay (#29266)
+* refactor: use single modal instances for loadpoint (#29109)
+### Bug Fixes 🐞
+* Config UI: fix editing custom device with type override (#29379)
+* Easee: fix charging stop on scale down (#29464)
+* Optimizer: fix panic in prorate
+* Solax: fix grid energy scale (#29439)
+* Stegen Smart EVSE: make charge mode configurable, fix status & keep-alive (#29290)
+* Sungrow iHomeManager: fix voltage and per-phase active power decoding (#27985)
+* fix: reload website when version changes (#29299)
+
 
 
 ## [0.305.1] - 2026-04-19
