@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: replace sqlite fork (#29493)
+* OCPP: handle firmware management events (#29507)
+* vzlogger: add energy uuid (#29492)
+* epex-predictor: update regions (#29497)
 * Tessie: add coarse current (#29442)
 * Sponsor: prepare for GitHub alternative (#29043)
 * refactor: use single modal instances for loadpoint (#29109)
