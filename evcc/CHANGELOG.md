@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.306.1] - 2026-05-02
 
+## Changelog
+### Other Changes ☀️
+* Drop unused eebus and mqtt requirement values (#29537)
+* PSA: update base url
+### Bug Fixes 🐞
+* Sponsor: fix machine id panic on startup with plant config (#29542)
+* fix: add testid for app menu button  (#29539)
+
 
 
 ## [0.306.0] - 2026-05-01
