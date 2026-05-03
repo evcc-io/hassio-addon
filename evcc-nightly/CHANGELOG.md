@@ -2,13 +2,25 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* fix: add testid for app menu button  (#29539)
-* Sponsor: fix machine id panic on startup with plant config (#29542)
-* chore: modernize
-* chore: modernize
-* chore: modernize
-* PSA: update base url
+* Fritz!: refactor session caching (#29574)
+* Revert "PSA: update base url"
+* sma-hybrid: separate max charge/discharge power (BC) (#29551)
+* OpenWB 2.0: manually configure rfid (BC) (#29352)
+* Add Solinteg meter (#29543)
+* Solis Hybrid S: fix power decoding (#29547)
+* Add Anker SOLIX X1 (#29548)
+
+## [0.306.1] - 2026-05-02
+
+## Changelog
+### Other Changes ☀️
 * Drop unused eebus and mqtt requirement values (#29537)
+* PSA: update base url
+### Bug Fixes 🐞
+* Sponsor: fix machine id panic on startup with plant config (#29542)
+* fix: add testid for app menu button  (#29539)
+
+
 
 ## [0.306.0] - 2026-05-01
 
