@@ -1,4 +1,6 @@
-# EVCC (Proxy) — Documentation
+# evcc (Proxy) — Documentation
+
+**evcc-proxy is a reverse proxy home assistant app (add-on) for externally hosted evcc instances (it does not run evcc itself).**
 
 ## Prerequisites
 
