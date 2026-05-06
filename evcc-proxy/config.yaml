@@ -1,0 +1,25 @@
+---
+name: EVCC (Proxy)
+version: 0.1.1
+slug: evcc_proxy
+description: Proxy to an externally running evcc instance
+url: https://github.com/evcc-io/evcc
+arch:
+  - armv7
+  - aarch64
+  - amd64
+startup: application
+panel_icon: mdi:ev-station
+panel_admin: false
+boot: auto
+stage: experimental
+ingress: true
+ingress_stream: true
+ingress_port: 8099
+init: true
+timeout: 30
+watchdog: http://[HOST]:[PORT:8099]
+options:
+  evcc-url: http://evcc.local:7070
+schema:
+  evcc-url: str
