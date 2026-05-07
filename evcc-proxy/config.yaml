@@ -1,8 +1,8 @@
 ---
-name: evcc (Proxy)
+name: EVCC (Proxy)
 version: 0.1.1
 slug: evcc_proxy
-description: evcc-proxy is a reverse proxy home assistant app (add-on) for externally hosted evcc instances (it does not run evcc itself)
+description: Proxy to an externally running evcc instance
 url: https://github.com/evcc-io/evcc
 arch:
   - armv7
