@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* History UI: visualization and export (#29846)
+* Ext/Aux meters: track energy metrics (#29836)
+* tariff/epexprijzen-nl: add powerpeers provider (#29829)
+* OAuth: expose full upstream error (#29875)
+* Loadpoint: fix charge meter method decoration (#29912)
 * Xtherma: fix registers and add dimmer (#29854)
 * Metrics: rename import/export to energy/returnEnergy (#29907)
 * chore: remove dockerimg pin for node
