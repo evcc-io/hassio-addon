@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Xtherma: fix registers and add dimmer (#29854)
+* Metrics: rename import/export to energy/returnEnergy (#29907)
+* chore: remove dockerimg pin for node
+* Optimizer: expose forecasted highest/lowest battery SOC (#29564)
+* Database: use backup and restore apis (#29511)
 * chore: upgrade go
 * Translations update from Hosted Weblate (#29717)
 * PV: track energy metrics and apply forecast scaling to optimizer (#29784)
