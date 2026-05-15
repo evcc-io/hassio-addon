@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: upgrade go
+* Translations update from Hosted Weblate (#29717)
+* PV: track energy metrics and apply forecast scaling to optimizer (#29784)
+* Evbox Elvi (OCPP): fix "charger out of sync" (#29809)
+* Add TRY (Turkish lira) to currency list (#29897)
+* Localization fix for german string (#29891)
+* Vaillant: add brand support for Saunier Duval, Bulex, Glow-worm, DemirDöküm (#29874)
+* chore: require Go 1.26.3
+* OCPP: clean up charge point lifecycle between subtests (#29873)
+* Add DSMR API v2 support (Ethernet P1 Dongle Pro+) (#29871)
+* Easee: add cmd for (de)activating local ocpp (#29868)
 * chore: add custom dimmer/curtailer (#29857)
 * chore: add dimmer implementation (#29855)
 * Fritz Smart Energy 250: add pv
