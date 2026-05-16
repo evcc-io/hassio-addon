@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* History UI: improve tooltips, labels, stacks, units (#29917)
 * History UI: visualization and export (#29846)
 * Ext/Aux meters: track energy metrics (#29836)
 * tariff/epexprijzen-nl: add powerpeers provider (#29829)
