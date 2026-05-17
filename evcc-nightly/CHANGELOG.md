@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* History UI: optimize production chart (#29946)
+* DADAPOWER: add voltages (#29923)
+* Sessions/History UI: add left/right swipe gesture (#29944)
+* OCPP: fix flaky TestOcpp (restore wait() timeout) + speed up (#29941)
+* Tariff: add time-based grid fees (#29766)
+* Huawei EMMA: fix phase currents (#29845)
+* Optimizer UI: fix line charts (#29936)
+* Add Alpine vehicles (#29927)
+* chore: convert capabilities to enumer-generated type (#29932)
+* chore: copyright
+* Energyflow UI: use names instead of placeholders (#29918)
+* chore: copyright
+* Add DSMR API v2 support (Ethernet P1 Dongle Pro+) (#29892)
+* Add compleo pro (#29925)
 * History UI: improve tooltips, labels, stacks, units (#29917)
 * History UI: visualization and export (#29846)
 * Ext/Aux meters: track energy metrics (#29836)
