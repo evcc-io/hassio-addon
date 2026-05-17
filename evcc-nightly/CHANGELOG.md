@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle: accept lat/lon parkingposition keys for VW weconnect (#29981)
+* VW/Audi/Seat/Skoda: recover from marketing consent prompt (#29980)
+* Metrics: do not persist a partial first slot (#29977)
+* Loadpoint: tolerate api.ErrNotAvailable on phase switch (#29975)
+* Add Azimut Energy battery (#29890)
+* meter/hybrid: fix pv energy readings in SunSpec hybrid inverter templates (#29955)
+* Add MYR (Malaysian Ringgit) to currency list (#29956)
 * History UI: optimize production chart (#29946)
 * DADAPOWER: add voltages (#29923)
 * Sessions/History UI: add left/right swipe gesture (#29944)
