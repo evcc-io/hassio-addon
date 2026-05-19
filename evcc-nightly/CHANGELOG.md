@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Config: enforce required fields when forcing save past a failed test (#29982)
+* chore: better first-time user experience (#30001)
+* Plugins: add ifelse plugin (#29988)
+* Plugins: add bool2int conversion (#29995)
 * Vehicle: accept lat/lon parkingposition keys for VW weconnect (#29981)
 * VW/Audi/Seat/Skoda: recover from marketing consent prompt (#29980)
 * Metrics: do not persist a partial first slot (#29977)
