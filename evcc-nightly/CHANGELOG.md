@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* History: fix scale for stack batteries (#30044)
+* chore: improve fix
 * chore: fix ci
 * Charts: color picker for loadpoints and consumers (#30021)
 * History: fix axis, scale and units (#30042)
