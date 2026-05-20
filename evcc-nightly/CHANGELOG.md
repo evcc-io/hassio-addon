@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Renault: update api keys (#30031)
 * Huawei SUN2000: add curtail (#28549)
 * docs: vehicle brand consistency (#30018)
 * Ostrom: add sandbox support (#29751)
