@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: fix ci
 * Charts: color picker for loadpoints and consumers (#30021)
 * History: fix axis, scale and units (#30042)
 * Huawei SUN2000: add curtail (#30039)
