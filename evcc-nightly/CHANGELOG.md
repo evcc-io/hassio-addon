@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Huawei SUN2000: add curtail (#28549)
+* docs: vehicle brand consistency (#30018)
+* Ostrom: add sandbox support (#29751)
+* Add dim/curtail features (#29905)
+* Translations update from Hosted Weblate (#29908)
+* Config UI: replace custom vehicle modal with generic flow (#29575)
+* Battery: fix stale grid charge limit reset (#30013)
+* Revert "Battery Grid Charge: allow limit remove"
+* Battery Grid Charge: allow limit remove
 * Config: enforce required fields when forcing save past a failed test (#29982)
 * chore: better first-time user experience (#30001)
 * Plugins: add ifelse plugin (#29988)
