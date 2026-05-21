@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Revert "Huawei SUN2000: add curtail (#30039)"
+* Cupra: fix vehicle list (#30047)
 * Cupra: fix connected status (#30046)
 * History: fix scale for stack batteries (#30044)
 * chore: improve fix
