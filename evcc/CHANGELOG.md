@@ -2,6 +2,83 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.307.0] - 2026-05-21
 
+## Changelog
+### Breaking Changes 🚨
+* Fritz: make unit 1-based (BC) (#29741)
+### New Features 💫
+* Add Alpine vehicles (#29927)
+* Add Azimut Energy battery (#29890)
+* Add DSMR API v2 support (Ethernet P1 Dongle Pro+) (#29871)
+* Add DSMR API v2 support (Ethernet P1 Dongle Pro+) (#29892)
+* Add MYR (Malaysian Ringgit) to currency list (#29956)
+* Add Siemens 7KT1666 (#29801)
+* Add TRY (Turkish lira) to currency list (#29897)
+* Add compleo pro (#29925)
+* Add dim/curtail features (#29905)
+* DADAPOWER: add voltages (#29923)
+* Easee: add cmd for (de)activating local ocpp (#29868)
+* Enphase: add voltages (#29795)
+* Fritz Smart Energy 250: add pv
+* Huawei SUN2000: add curtail (#28549)
+* Huawei SUN2000: add curtail (#30039)
+* Ostrom: add sandbox support (#29751)
+* Plugins: add bool2int conversion (#29995)
+* Plugins: add ifelse plugin (#29988)
+* Revert "Huawei SUN2000: add curtail (#28549)"
+* Revert "Huawei SUN2000: add curtail (#30039)"
+* Sessions/History UI: add left/right swipe gesture (#29944)
+* Solinteg: add phase powers and currents (#29749)
+* Tariff: add time-based grid fees (#29766)
+* Vaillant: add brand support for Saunier Duval, Bulex, Glow-worm, DemirDöküm (#29874)
+* tariff/epexprijzen-nl: add powerpeers provider (#29829)
+### Other Changes ☀️
+* Batteries: track energy metrics (#29780)
+* Battery Grid Charge: allow limit remove
+* Chart: sorted color picker (#30073)
+* Charts: color picker for loadpoints and consumers (#30021)
+* Config UI: replace custom vehicle modal with generic flow (#29575)
+* Config: enforce required fields when forcing save past a failed test (#29982)
+* Database: use backup and restore apis (#29511)
+* Energyflow UI: use names instead of placeholders (#29918)
+* Ext/Aux meters: track energy metrics (#29836)
+* History UI: improve tooltips, labels, stacks, units (#29917)
+* History UI: optimize production chart (#29946)
+* History UI: visualization and export (#29846)
+* Loadpoint: suppress PV disable timer while climater is active (#29837)
+* Loadpoint: tolerate api.ErrNotAvailable on phase switch (#29975)
+* Metrics: do not persist a partial first slot (#29977)
+* Metrics: rename import/export to energy/returnEnergy (#29907)
+* OAuth: expose full upstream error (#29875)
+* OCPP: clean up charge point lifecycle between subtests (#29873)
+* OCPP: dispatch RemoteStartTransaction asynchronously to avoid WebSocket deadlock (#29838)
+* Ocpp: fall back to confirmed profile limit for GetMaxCurrent (#29783)
+* Optimizer: expose forecasted highest/lowest battery SOC (#29564)
+* PV: track energy metrics and apply forecast scaling to optimizer (#29784)
+* Renault: update api keys (#30031)
+* Revert "Battery Grid Charge: allow limit remove"
+* Revert "api: split MeterEnergy into MeterImport and MeterExport (#29788)"
+* Siemens 7KT1665: remove timeouts (#29800)
+* VW/Audi/Seat/Skoda: recover from marketing consent prompt (#29980)
+* Vehicle: accept lat/lon parkingposition keys for VW weconnect (#29981)
+* api: split MeterEnergy into MeterImport and MeterExport (#29788)
+### Bug Fixes 🐞
+* Battery: fix stale grid charge limit reset (#30013)
+* Cupra: fix connected status (#30046)
+* Cupra: fix vehicle list (#30047)
+* Evbox Elvi (OCPP): fix "charger out of sync" (#29809)
+* Grid charge: fix 0 cost limit (#29817)
+* History UI: fix timezone handling (#29819)
+* History: fix axis, scale and units (#30042)
+* History: fix scale for stack batteries (#30044)
+* Huawei EMMA: fix phase currents (#29845)
+* Loadpoint: fix charge meter method decoration (#29912)
+* Localization fix for german string (#29891)
+* OCPP: fix flaky TestOcpp (restore wait() timeout) + speed up (#29941)
+* Optimizer UI: fix line charts (#29936)
+* Xtherma: fix registers and add dimmer (#29854)
+* fix: drag & drop stability (#29730)
+* meter/hybrid: fix pv energy readings in SunSpec hybrid inverter templates (#29955)
+
 
 
 ## [0.306.3] - 2026-05-08
