@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Cupra: fix connected status (#30046)
 * History: fix scale for stack batteries (#30044)
 * chore: improve fix
 * chore: fix ci
