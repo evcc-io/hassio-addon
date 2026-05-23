@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: fix missing requirement
+* Add GoodWe Wallbox (Gen2) charger (#29822)
+* Templates: render template-specific modbus defaults in instance mode (#29852)
+* IAMMETER: split templates, support all devices (#29505)
+* Atmoce: fix battery energy (#30120)
+* Enphase: rename IQ Envoy to IQ Gateway (#30122)
+* chore: remove stray debug println in struct publisher (#30117)
+* Cupra: add missing OLA API request headers (#30105)
+* Revert "OCPP: fix flaky test deadlock between trigger handler and WS … (#30110)
+* cli: add metrics command (#30099)
+* chore(deps-dev): bump js-cookie from 3.0.5 to 3.0.7 (#30080)
 * Translations update from Hosted Weblate (#30026)
 
 ## [0.307.0] - 2026-05-21
