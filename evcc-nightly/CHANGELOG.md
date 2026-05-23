@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* OCPP: coalesce BootNotification channel to fix reboot-loop hang (#30137)
+* chore: upgrade gosunspec (#30149)
 * Add Indevolt inverter (#30128)
 * Polestar: add gRPC vehicle implementation (#30119)
 * HEMS: redesign dim and curtail api as tristate (#30116)
