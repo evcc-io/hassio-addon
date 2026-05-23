@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Add Indevolt inverter (#30128)
+* Polestar: add gRPC vehicle implementation (#30119)
+* HEMS: redesign dim and curtail api as tristate (#30116)
+* MQTT: lower parallelInflightLimit from 128 to 32 (#30141)
+* Cupra: keep plugged "NotReadyForCharging" as connected status (#30140)
+* MQTT: cancel in-flight publishes on disconnect (#30142)
+* MQTT: serialize resubscribe after reconnect (#30138)
+* MQTT: cleanup deletes at QoS 0, synchronously (#30139)
 * chore: fix missing requirement
 * Add GoodWe Wallbox (Gen2) charger (#29822)
 * Templates: render template-specific modbus defaults in instance mode (#29852)
