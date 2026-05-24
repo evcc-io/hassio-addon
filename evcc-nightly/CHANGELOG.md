@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* OCPP: survive mid-setup disconnect on buggy chargers (#30113) (#30165)
+* Enphase: modbus interface (SunSpec 700) (#30121)
+* Atmoce: remove rs485 (#30163)
 * Add Genesis Europe Bluelink (#30158)
 * OCPP: coalesce BootNotification channel to fix reboot-loop hang (#30137)
 * chore: upgrade gosunspec (#30149)
