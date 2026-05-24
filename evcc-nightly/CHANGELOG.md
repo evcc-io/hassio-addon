@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Add Genesis Europe Bluelink (#30158)
 * OCPP: coalesce BootNotification channel to fix reboot-loop hang (#30137)
 * chore: upgrade gosunspec (#30149)
 * Add Indevolt inverter (#30128)
