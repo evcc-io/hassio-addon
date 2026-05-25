@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Loadpoint: keep mode on integrated device disconnect (#30189)
+* Revert "OCPP: survive mid-setup disconnect on buggy chargers (#30113)" (#30178)
+* Hyundai Bluelink (US): expose required PIN (#30054)
+* Metrics: tolerate NULL energy buckets in importProfile (#30169)
+* fix: device color MQTT encoding (#30168)
+* chore(deps-dev): bump qs from 6.15.0 to 6.15.2 (#30151)
 * OCPP: survive mid-setup disconnect on buggy chargers (#30113) (#30165)
 * Enphase: modbus interface (SunSpec 700) (#30121)
 * Atmoce: remove rs485 (#30163)
