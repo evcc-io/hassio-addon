@@ -2,38 +2,45 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* Loadpoint: keep mode on integrated device disconnect (#30189)
-* Revert "OCPP: survive mid-setup disconnect on buggy chargers (#30113)" (#30178)
-* Hyundai Bluelink (US): expose required PIN (#30054)
-* Metrics: tolerate NULL energy buckets in importProfile (#30169)
-* fix: device color MQTT encoding (#30168)
-* chore(deps-dev): bump qs from 6.15.0 to 6.15.2 (#30151)
-* OCPP: survive mid-setup disconnect on buggy chargers (#30113) (#30165)
-* Enphase: modbus interface (SunSpec 700) (#30121)
-* Atmoce: remove rs485 (#30163)
+* Meter (HomeWizard): expose per-phase power for signed grid currents (#30218)
+* OCPP: add option to skip ChangeAvailability on initialization (#30217)
+* logstash: track ring length in O(1) instead of ring.Len() per write (#30201)
+
+## [0.307.1] - 2026-05-25
+
+## Changelog
+### New Features 💫
 * Add Genesis Europe Bluelink (#30158)
-* OCPP: coalesce BootNotification channel to fix reboot-loop hang (#30137)
-* chore: upgrade gosunspec (#30149)
-* Add Indevolt inverter (#30128)
-* Polestar: add gRPC vehicle implementation (#30119)
-* HEMS: redesign dim and curtail api as tristate (#30116)
-* MQTT: lower parallelInflightLimit from 128 to 32 (#30141)
-* Cupra: keep plugged "NotReadyForCharging" as connected status (#30140)
-* MQTT: cancel in-flight publishes on disconnect (#30142)
-* MQTT: serialize resubscribe after reconnect (#30138)
-* MQTT: cleanup deletes at QoS 0, synchronously (#30139)
-* chore: fix missing requirement
 * Add GoodWe Wallbox (Gen2) charger (#29822)
-* Templates: render template-specific modbus defaults in instance mode (#29852)
-* IAMMETER: split templates, support all devices (#29505)
-* Atmoce: fix battery energy (#30120)
-* Enphase: rename IQ Envoy to IQ Gateway (#30122)
-* chore: remove stray debug println in struct publisher (#30117)
+* Add Indevolt inverter (#30128)
 * Cupra: add missing OLA API request headers (#30105)
-* Revert "OCPP: fix flaky test deadlock between trigger handler and WS … (#30110)
+* Polestar: add gRPC vehicle implementation (#30119)
 * cli: add metrics command (#30099)
-* chore(deps-dev): bump js-cookie from 3.0.5 to 3.0.7 (#30080)
-* Translations update from Hosted Weblate (#30026)
+### Other Changes ☀️
+* Atmoce: remove rs485 (#30163)
+* Cupra: keep plugged "NotReadyForCharging" as connected status (#30140)
+* Enphase: modbus interface (SunSpec 700) (#30121)
+* Enphase: rename IQ Envoy to IQ Gateway (#30122)
+* HEMS: redesign dim and curtail api as tristate (#30116)
+* Hyundai Bluelink (US): expose required PIN (#30054)
+* IAMMETER: split templates, support all devices (#29505)
+* Loadpoint: keep mode on integrated device disconnect (#30189)
+* MQTT: cancel in-flight publishes on disconnect (#30142)
+* MQTT: cleanup deletes at QoS 0, synchronously (#30139)
+* MQTT: lower parallelInflightLimit from 128 to 32 (#30141)
+* MQTT: serialize resubscribe after reconnect (#30138)
+* Meter (Home Assistant): grid charging via switch entities (#30191)
+* Metrics: tolerate NULL energy buckets in importProfile (#30169)
+* OCPP: survive mid-setup disconnect on buggy chargers (#30113) (#30165)
+* Revert "OCPP: survive mid-setup disconnect on buggy chargers (#30113)" (#30178)
+* Templates: render template-specific modbus defaults in instance mode (#29852)
+### Bug Fixes 🐞
+* Atmoce: fix battery energy (#30120)
+* OCPP: coalesce BootNotification channel to fix reboot-loop hang (#30137)
+* Revert "OCPP: fix flaky test deadlock between trigger handler and WS … (#30110)
+* fix: device color MQTT encoding (#30168)
+
+
 
 ## [0.307.0] - 2026-05-21
 
