@@ -2,6 +2,24 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.307.2] - 2026-05-27
 
+## Changelog
+### New Features 💫
+* Color Picker: add neutral colors (#30233)
+* OCPP: add option to skip ChangeAvailability on initialization (#30217)
+### Other Changes ☀️
+* Config UI: use km/milage user setting in vehicle card
+* E3DC: reconnect on RSCP error (#30257)
+* Energyflow UI: standardize battery forecast wording (#30197)
+* Meter (HomeWizard): expose per-phase power for signed grid currents (#30218)
+* OCPP: remove unused struct fields (#30228)
+* Prioritizer: no flexibility for switch devices in MinPV (#30194)
+* VW/Audi: migrate token endpoint to /auth/v1/idk/oidc/token (#30260)
+* Vehicle: suppress climater error log when vehicle is asleep (#30239)
+* feat(app): emit structured download event for CSV exports (#30175)
+* logstash: track ring length in O(1) instead of ring.Len() per write (#30201)
+### Bug Fixes 🐞
+* UI: fix failed api calls after restart (#30234)
+
 
 
 ## [0.307.1] - 2026-05-25
