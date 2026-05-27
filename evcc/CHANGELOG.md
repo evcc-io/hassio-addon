@@ -25,8 +25,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * MQTT: serialize resubscribe after reconnect (#30138)
 * Meter (Home Assistant): grid charging via switch entities (#30191)
 * Metrics: tolerate NULL energy buckets in importProfile (#30169)
-* OCPP: survive mid-setup disconnect on buggy chargers (#30113) (#30165)
-* Revert "OCPP: survive mid-setup disconnect on buggy chargers (#30113)" (#30178)
 * Templates: render template-specific modbus defaults in instance mode (#29852)
 ### Bug Fixes 🐞
 * Atmoce: fix battery energy (#30120)
@@ -55,13 +53,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Easee: add cmd for (de)activating local ocpp (#29868)
 * Enphase: add voltages (#29795)
 * Fritz Smart Energy 250: add pv
-* Huawei SUN2000: add curtail (#28549)
-* Huawei SUN2000: add curtail (#30039)
 * Ostrom: add sandbox support (#29751)
 * Plugins: add bool2int conversion (#29995)
 * Plugins: add ifelse plugin (#29988)
-* Revert "Huawei SUN2000: add curtail (#28549)"
-* Revert "Huawei SUN2000: add curtail (#30039)"
 * Sessions/History UI: add left/right swipe gesture (#29944)
 * Solinteg: add phase powers and currents (#29749)
 * Tariff: add time-based grid fees (#29766)
@@ -69,7 +63,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * tariff/epexprijzen-nl: add powerpeers provider (#29829)
 ### Other Changes ☀️
 * Batteries: track energy metrics (#29780)
-* Battery Grid Charge: allow limit remove
 * Chart: sorted color picker (#30073)
 * Charts: color picker for loadpoints and consumers (#30021)
 * Config UI: replace custom vehicle modal with generic flow (#29575)
@@ -91,12 +84,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Optimizer: expose forecasted highest/lowest battery SOC (#29564)
 * PV: track energy metrics and apply forecast scaling to optimizer (#29784)
 * Renault: update api keys (#30031)
-* Revert "Battery Grid Charge: allow limit remove"
-* Revert "api: split MeterEnergy into MeterImport and MeterExport (#29788)"
 * Siemens 7KT1665: remove timeouts (#29800)
 * VW/Audi/Seat/Skoda: recover from marketing consent prompt (#29980)
 * Vehicle: accept lat/lon parkingposition keys for VW weconnect (#29981)
-* api: split MeterEnergy into MeterImport and MeterExport (#29788)
 ### Bug Fixes 🐞
 * Battery: fix stale grid charge limit reset (#30013)
 * Cupra: fix connected status (#30046)
@@ -257,8 +247,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Forecast: temporarily remove adjustment (#29244)
 * Optimizer: don't send empty requests
 * Optimizer: wording on debug view (#29179)
-* Reapply "Config UI: better explain optimizer (#29141)"
-* Revert "Config UI: better explain optimizer (#29141)"
 * Solarprognose: deprecate forecast_days (#29249)
 ### Bug Fixes 🐞
 * Fix metrics table migration (#29250)
