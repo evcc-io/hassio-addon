@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle: suppress climater error log when vehicle is asleep (#30239)
+* feat(app): emit structured download event for CSV exports (#30175)
+* Prioritizer: no flexibility for switch devices in MinPV (#30194)
+* OCPP: remove unused struct fields (#30228)
+* UI: fix failed api calls after restart (#30234)
+* Color Picker: add neutral colors (#30233)
+* Config UI: use km/milage user setting in vehicle card
+* Energyflow UI: standardize battery forecast wording (#30197)
 * Meter (HomeWizard): expose per-phase power for signed grid currents (#30218)
 * OCPP: add option to skip ChangeAvailability on initialization (#30217)
 * logstash: track ring length in O(1) instead of ring.Len() per write (#30201)
