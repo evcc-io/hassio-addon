@@ -406,9 +406,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Optimizer: publish results as single MQTT message (#28610)
 * Planner UI: remove step from time input (#28585)
 * Polestar: use oauth2 (#28604)
-* Revert "Teslamate: switch battery_level to usable_battery_level (#28665)"
 * Safari: restore iOS 12 support (#28638)
-* Teslamate: switch battery_level to usable_battery_level (#28665)
 * UI: New Navigation, Battery & Forecast Page (#27753)
 ### Bug Fixes 🐞
 * AlphaESS: fix pv energy (#28640)
@@ -517,8 +515,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ## Changelog
 ### New Features 💫
 * Add Sessy P1 meter and battery (#27956)
-* OVMS: add climater (#28011)
-* Revert "OVMS: add climater (#28011)"
 ### Other Changes ☀️
 * E.G.O. Smart Heater: update docs (#27987)
 * Easee: warn on rogue CommandResponse not triggered by evcc (#27916)
@@ -546,9 +542,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ### Other Changes ☀️
 * Fiat: improve charge scheduling and refresh logic (#27654)
 * Loadpoint UI: waiting for auth status text (#27869)
-* Revert "Safari: ensure ws reconnect on reopen" (#27946)
 * Safari: ensure ws reconnect on reopen (#27849)
-* Safari: ensure ws reconnect on reopen (#27867)
 * Safari: ws cache busting (#27945)
 * Toyota: trigger soc refresh when charging (#27697)
 ### Bug Fixes 🐞
@@ -672,10 +666,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Onboarding: improve password flow (#27246)
 * Optimizer: report error details (#27144)
 * Planner: allow skipping single expensive slot (#27298)
-* Revert "Stecker: deprecate"
 * SAIC: simplify (#27130)
 * SHM: use friendly name (#27456)
-* Stecker: deprecate
 * Tariff: pvnode - change default to 24h interval (#27452)
 * Toyota: support range units (#27371)
 * Uncached UI reload after update (#27194)
