@@ -1,18 +1,26 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
-## [unreleased]
+## [0.307.2] - 2026-05-27
 
-* Vehicle: suppress climater error log when vehicle is asleep (#30239)
-* feat(app): emit structured download event for CSV exports (#30175)
-* Prioritizer: no flexibility for switch devices in MinPV (#30194)
-* OCPP: remove unused struct fields (#30228)
-* UI: fix failed api calls after restart (#30234)
+## Changelog
+### New Features 💫
 * Color Picker: add neutral colors (#30233)
+* OCPP: add option to skip ChangeAvailability on initialization (#30217)
+### Other Changes ☀️
 * Config UI: use km/milage user setting in vehicle card
+* E3DC: reconnect on RSCP error (#30257)
 * Energyflow UI: standardize battery forecast wording (#30197)
 * Meter (HomeWizard): expose per-phase power for signed grid currents (#30218)
-* OCPP: add option to skip ChangeAvailability on initialization (#30217)
+* OCPP: remove unused struct fields (#30228)
+* Prioritizer: no flexibility for switch devices in MinPV (#30194)
+* VW/Audi: migrate token endpoint to /auth/v1/idk/oidc/token (#30260)
+* Vehicle: suppress climater error log when vehicle is asleep (#30239)
+* feat(app): emit structured download event for CSV exports (#30175)
 * logstash: track ring length in O(1) instead of ring.Len() per write (#30201)
+### Bug Fixes 🐞
+* UI: fix failed api calls after restart (#30234)
+
+
 
 ## [0.307.1] - 2026-05-25
 
@@ -39,8 +47,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * MQTT: serialize resubscribe after reconnect (#30138)
 * Meter (Home Assistant): grid charging via switch entities (#30191)
 * Metrics: tolerate NULL energy buckets in importProfile (#30169)
-* OCPP: survive mid-setup disconnect on buggy chargers (#30113) (#30165)
-* Revert "OCPP: survive mid-setup disconnect on buggy chargers (#30113)" (#30178)
 * Templates: render template-specific modbus defaults in instance mode (#29852)
 ### Bug Fixes 🐞
 * Atmoce: fix battery energy (#30120)
@@ -69,13 +75,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Easee: add cmd for (de)activating local ocpp (#29868)
 * Enphase: add voltages (#29795)
 * Fritz Smart Energy 250: add pv
-* Huawei SUN2000: add curtail (#28549)
-* Huawei SUN2000: add curtail (#30039)
 * Ostrom: add sandbox support (#29751)
 * Plugins: add bool2int conversion (#29995)
 * Plugins: add ifelse plugin (#29988)
-* Revert "Huawei SUN2000: add curtail (#28549)"
-* Revert "Huawei SUN2000: add curtail (#30039)"
 * Sessions/History UI: add left/right swipe gesture (#29944)
 * Solinteg: add phase powers and currents (#29749)
 * Tariff: add time-based grid fees (#29766)
@@ -83,7 +85,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * tariff/epexprijzen-nl: add powerpeers provider (#29829)
 ### Other Changes ☀️
 * Batteries: track energy metrics (#29780)
-* Battery Grid Charge: allow limit remove
 * Chart: sorted color picker (#30073)
 * Charts: color picker for loadpoints and consumers (#30021)
 * Config UI: replace custom vehicle modal with generic flow (#29575)
@@ -105,12 +106,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Optimizer: expose forecasted highest/lowest battery SOC (#29564)
 * PV: track energy metrics and apply forecast scaling to optimizer (#29784)
 * Renault: update api keys (#30031)
-* Revert "Battery Grid Charge: allow limit remove"
-* Revert "api: split MeterEnergy into MeterImport and MeterExport (#29788)"
 * Siemens 7KT1665: remove timeouts (#29800)
 * VW/Audi/Seat/Skoda: recover from marketing consent prompt (#29980)
 * Vehicle: accept lat/lon parkingposition keys for VW weconnect (#29981)
-* api: split MeterEnergy into MeterImport and MeterExport (#29788)
 ### Bug Fixes 🐞
 * Battery: fix stale grid charge limit reset (#30013)
 * Cupra: fix connected status (#30046)
@@ -271,8 +269,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Forecast: temporarily remove adjustment (#29244)
 * Optimizer: don't send empty requests
 * Optimizer: wording on debug view (#29179)
-* Reapply "Config UI: better explain optimizer (#29141)"
-* Revert "Config UI: better explain optimizer (#29141)"
 * Solarprognose: deprecate forecast_days (#29249)
 ### Bug Fixes 🐞
 * Fix metrics table migration (#29250)
@@ -432,9 +428,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Optimizer: publish results as single MQTT message (#28610)
 * Planner UI: remove step from time input (#28585)
 * Polestar: use oauth2 (#28604)
-* Revert "Teslamate: switch battery_level to usable_battery_level (#28665)"
 * Safari: restore iOS 12 support (#28638)
-* Teslamate: switch battery_level to usable_battery_level (#28665)
 * UI: New Navigation, Battery & Forecast Page (#27753)
 ### Bug Fixes 🐞
 * AlphaESS: fix pv energy (#28640)
@@ -543,8 +537,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ## Changelog
 ### New Features 💫
 * Add Sessy P1 meter and battery (#27956)
-* OVMS: add climater (#28011)
-* Revert "OVMS: add climater (#28011)"
 ### Other Changes ☀️
 * E.G.O. Smart Heater: update docs (#27987)
 * Easee: warn on rogue CommandResponse not triggered by evcc (#27916)
@@ -572,9 +564,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ### Other Changes ☀️
 * Fiat: improve charge scheduling and refresh logic (#27654)
 * Loadpoint UI: waiting for auth status text (#27869)
-* Revert "Safari: ensure ws reconnect on reopen" (#27946)
 * Safari: ensure ws reconnect on reopen (#27849)
-* Safari: ensure ws reconnect on reopen (#27867)
 * Safari: ws cache busting (#27945)
 * Toyota: trigger soc refresh when charging (#27697)
 ### Bug Fixes 🐞
@@ -698,10 +688,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Onboarding: improve password flow (#27246)
 * Optimizer: report error details (#27144)
 * Planner: allow skipping single expensive slot (#27298)
-* Revert "Stecker: deprecate"
 * SAIC: simplify (#27130)
 * SHM: use friendly name (#27456)
-* Stecker: deprecate
 * Tariff: pvnode - change default to 24h interval (#27452)
 * Toyota: support range units (#27371)
 * Uncached UI reload after update (#27194)
