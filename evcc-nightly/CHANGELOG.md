@@ -1,5 +1,12 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
+## [unreleased]
+
+* Audi: rotate qmauth and add assertion headers for IDK token exchange (#30292)
+* Hems/FNN: add curtail and dim for TAB26 Steuerbox relay standard (#29886)
+* Vehicle (Nissan Ariya/Micra): expose expiry as advanced parameter (#30269)
+* VW: migrate WeConnect auth to OIDC token exchange (#30277)
+
 ## [0.307.2] - 2026-05-27
 
 ## Changelog
