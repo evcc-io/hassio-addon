@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle: refresh drivesomethinggreater on portal schedule (#30368)
+* Meter: allow battery dimming (#30365)
+* Vehicle: route VW/Audi through drivesomethinggreater (BC) (#30364)
+* Metrics: distinguish missing meter energy from zero reading (#30297)
+* Loadpoint: scale down to 1p for feed-in priority in min+pv mode (#30327)
 * Loadpoint: update odometer on disconnect (#30361)
 * Add Kaco Blueplanet (#30293)
 * Vehicle: add drivesomethinggreater (VW group EU Data Act) (#30362)
