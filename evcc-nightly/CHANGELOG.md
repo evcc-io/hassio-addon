@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Loadpoint: update odometer on disconnect (#30361)
+* Add Kaco Blueplanet (#30293)
+* Vehicle: add drivesomethinggreater (VW group EU Data Act) (#30362)
+* Huawei SUN2000: fix energy yield (#30353)
+* Toyota: fall back to `evRange` when `evRangeWithAc` is unusable (#30347)
+* chore(deps): bump axios from 1.15.2 to 1.16.1 (#30334)
+* Charger (OpenEVSE): scale CurrentPower by loadpoint phases (#30330)
+* Cupra: map ChargePurposeReachedAndNotConservationCharging to StatusB (#30343)
 * Zaptec Go2: use ThreeToOnePhaseSwitchCurrent for switching (#29587)
 * chore: upgrade endpoint
 * Audi: rotate qmauth and add assertion headers for IDK token exchange (#30292)
