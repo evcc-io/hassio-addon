@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Huawei EMMA: fix energy yield (#30352)
+* Tapo: drop IP-address handling, use host string throughout (#29914)
+* Meter (Solis Hybrid): drop coarse pv and battery energy registers (#30411)
+* Solax: fix enabled (#29483)
+* OCPP: wait for listener to bind before returning from Instance (#30408)
+* OCPP: clear stale transaction state on Available status (#30247)
+* unflake
+* unflake
+* Session UI: small improvements (#30389)
+* chore: simplify drivesomethinggreater (#30391)
+* docs: drivesomethinggreater wording (#30399)
+* chore: upgrade playwright (#30402)
+* Meter (Growatt TL-XH): write battery-first time slot atomically (#30403)
+* chore: fix status caching (#30386)
 * Vehicle: refresh drivesomethinggreater on portal schedule (#30368)
 * Meter: allow battery dimming (#30365)
 * Vehicle: route VW/Audi through drivesomethinggreater (BC) (#30364)
