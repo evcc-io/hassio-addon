@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Atmoce: add returnEnergy (#30471)
+* Meter: add EcoFlow PowerOcean Modbus (#30472)
+* Epexprijzen: add 'quatt-energy' and 'vattenfall' (#30473)
+* Huawei: add dim for battery (#30319)
+* Huawei: re-add curtail (#30145)
+* Loadpoint: fix min soc energy fallback (#30461)
+* Add EU Data Act subscription not configured error
+* fix: device card return energy formatting (#30459)
 * Huawei SUN2000: add returnEnergy for grid and battery (#29790)
 * Config: add deviceValue.returnEnergy translation (#30440)
 * Translations update from Hosted Weblate (#30106)
