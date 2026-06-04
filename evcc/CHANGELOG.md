@@ -57,8 +57,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Zaptec Go2: use ThreeToOnePhaseSwitchCurrent for switching (#29587)
 * aa55 udp: support block reads (#29095)
 * tariffs: rebrand stroomprijsprognose.nl -> energypriceforecast.eu (#30436)
-* unflake
-* unflake
 ### Bug Fixes 🐞
 * Deye LV: fix energy scaling (#30482)
 * DriveSomethingGreater: fix hybrid range
