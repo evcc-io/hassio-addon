@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: simplify
+* Tibber: add vehicle via Data API (#30487)
+* aa55 udp: support block reads (#29095)
+* fix: readd demo grid price and co2
+* chore: fix build
+* chore: fix time format
+* DriveSomethingGreater: add more soc points
+* chore: upgrade modules
+* DriveSomethingGreater: fix hybrid range
+* Add Enovates charger (#30477)
+* chore: declare static capabilities as methods (#30483)
+* Deye LV: fix energy scaling (#30482)
 * Atmoce: add returnEnergy (#30471)
 * Meter: add EcoFlow PowerOcean Modbus (#30472)
 * Epexprijzen: add 'quatt-energy' and 'vattenfall' (#30473)
