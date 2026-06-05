@@ -2,78 +2,80 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* chore: simplify
-* Tibber: add vehicle via Data API (#30487)
-* aa55 udp: support block reads (#29095)
-* fix: readd demo grid price and co2
-* chore: fix build
-* chore: fix time format
-* DriveSomethingGreater: add more soc points
-* chore: upgrade modules
-* DriveSomethingGreater: fix hybrid range
+* SunSpec: add returnEnergy support (#30515)
+* MBMD: add returnEnergy support (#30514)
+* DriveSomethingGreater: guard against empty vin or value (#30516)
+* Huawei: fix dimmed (#30507)
+
+## [0.308.0] - 2026-06-04
+
+## Changelog
+### Breaking Changes 🚨
+* Vehicle: route VW/Audi through drivesomethinggreater (BC) (#30364)
+### New Features 💫
+* Add EU Data Act subscription not configured error
 * Add Enovates charger (#30477)
-* chore: declare static capabilities as methods (#30483)
-* Deye LV: fix energy scaling (#30482)
+* Add Hoymiles HMT/HMS DTU PRO S Modbus TCP (#29281)
+* Add Kaco Blueplanet (#30293)
+* Add MeterReturnEnergy (#29805)
 * Atmoce: add returnEnergy (#30471)
-* Meter: add EcoFlow PowerOcean Modbus (#30472)
+* Audi: rotate qmauth and add assertion headers for IDK token exchange (#30292)
+* Config: add deviceValue.returnEnergy translation (#30440)
+* DSMR: add Websocket connection (#30465)
+* DriveSomethingGreater: add more soc points
 * Epexprijzen: add 'quatt-energy' and 'vattenfall' (#30473)
+* HardyBarth: add phase voltages (#30490)
+* Hems/FNN: add curtail and dim for TAB26 Steuerbox relay standard (#29886)
+* Huawei SUN2000: add returnEnergy for grid and battery (#29790)
 * Huawei: add dim for battery (#30319)
 * Huawei: re-add curtail (#30145)
-* Loadpoint: fix min soc energy fallback (#30461)
-* Add EU Data Act subscription not configured error
-* fix: device card return energy formatting (#30459)
-* Huawei SUN2000: add returnEnergy for grid and battery (#29790)
-* Config: add deviceValue.returnEnergy translation (#30440)
-* Translations update from Hosted Weblate (#30106)
-* IAMMETER: add returnEnergy (#30434)
-* tariffs: rebrand stroomprijsprognose.nl -> energypriceforecast.eu (#30436)
-* Sessions UI: make odometer editable (#30437)
-* Add MeterReturnEnergy (#29805)
-* Loadpoint UI: assign to real circuits only (#30429)
-* DriveSomethingGreater: single store per account (#30430)
-* Session: store vehicle SoC at start and end (#30050)
-* Forecast: re-enable solar adjustment (#30395)
-* Add Hoymiles HMT/HMS DTU PRO S Modbus TCP (#29281)
-* chore(deps): bump peaceiris/actions-gh-pages from 4.0.0 to 4.1.0 (#30422)
-* chore(deps): bump goreleaser/goreleaser-action from 7.2.1 to 7.2.2 (#30425)
-* chore(deps): bump docker/build-push-action from 7.1.0 to 7.2.0 (#30423)
-* chore(deps): bump docker/metadata-action from 6.0.0 to 6.1.0 (#30421)
-* chore(deps): bump docker/setup-buildx-action from 4.0.0 to 4.1.0 (#30424)
-* chore(deps): bump node from 24-alpine to 26-alpine (#30426)
 * Hyundai Bluelink: add Australia and New Zealand regions (#30037)
-* Huawei EMMA: fix energy yield (#30352)
-* Tapo: drop IP-address handling, use host string throughout (#29914)
-* Meter (Solis Hybrid): drop coarse pv and battery energy registers (#30411)
-* Solax: fix enabled (#29483)
-* OCPP: wait for listener to bind before returning from Instance (#30408)
-* OCPP: clear stale transaction state on Available status (#30247)
-* unflake
-* unflake
-* Session UI: small improvements (#30389)
-* chore: simplify drivesomethinggreater (#30391)
-* docs: drivesomethinggreater wording (#30399)
-* chore: upgrade playwright (#30402)
-* Meter (Growatt TL-XH): write battery-first time slot atomically (#30403)
-* chore: fix status caching (#30386)
-* Vehicle: refresh drivesomethinggreater on portal schedule (#30368)
-* Meter: allow battery dimming (#30365)
-* Vehicle: route VW/Audi through drivesomethinggreater (BC) (#30364)
-* Metrics: distinguish missing meter energy from zero reading (#30297)
-* Loadpoint: scale down to 1p for feed-in priority in min+pv mode (#30327)
-* Loadpoint: update odometer on disconnect (#30361)
-* Add Kaco Blueplanet (#30293)
+* IAMMETER: add returnEnergy (#30434)
+* Meter: add EcoFlow PowerOcean Modbus (#30472)
+* Sessions: add start/end soc test (#30441)
+* Tibber: add vehicle via Data API (#30487)
 * Vehicle: add drivesomethinggreater (VW group EU Data Act) (#30362)
-* Huawei SUN2000: fix energy yield (#30353)
-* Toyota: fall back to `evRange` when `evRangeWithAc` is unusable (#30347)
-* chore(deps): bump axios from 1.15.2 to 1.16.1 (#30334)
+### Other Changes ☀️
 * Charger (OpenEVSE): scale CurrentPower by loadpoint phases (#30330)
 * Cupra: map ChargePurposeReachedAndNotConservationCharging to StatusB (#30343)
-* Zaptec Go2: use ThreeToOnePhaseSwitchCurrent for switching (#29587)
-* chore: upgrade endpoint
-* Audi: rotate qmauth and add assertion headers for IDK token exchange (#30292)
-* Hems/FNN: add curtail and dim for TAB26 Steuerbox relay standard (#29886)
-* Vehicle (Nissan Ariya/Micra): expose expiry as advanced parameter (#30269)
+* DriveSomethingGreater: single store per account (#30430)
+* Forecast: re-enable solar adjustment (#30395)
+* History UI: tooltip refresh (#30501)
+* Loadpoint UI: assign to real circuits only (#30429)
+* Loadpoint: scale down to 1p for feed-in priority in min+pv mode (#30327)
+* Loadpoint: update odometer on disconnect (#30361)
+* Meter (Growatt TL-XH): write battery-first time slot atomically (#30403)
+* Meter (Solis Hybrid): drop coarse pv and battery energy registers (#30411)
+* Meter: allow battery dimming (#30365)
+* Metrics: distinguish missing meter energy from zero reading (#30297)
+* OCPP: clear stale transaction state on Available status (#30247)
+* OCPP: wait for listener to bind before returning from Instance (#30408)
+* Readme: update screenshot (#30498)
+* Session UI: small improvements (#30389)
+* Session: store vehicle SoC at start and end (#30050)
+* Sessions UI: make odometer editable (#30437)
+* Speed up Playwright CI by skipping install-deps on cache hit (#30503)
+* Stabilize flaky limitSoc disconnect-reset e2e test (#30504)
+* Tapo: drop IP-address handling, use host string throughout (#29914)
+* Toyota: fall back to `evRange` when `evRangeWithAc` is unusable (#30347)
 * VW: migrate WeConnect auth to OIDC token exchange (#30277)
+* Vehicle (Nissan Ariya/Micra): expose expiry as advanced parameter (#30269)
+* Vehicle: refresh drivesomethinggreater on portal schedule (#30368)
+* Zaptec Go2: use ThreeToOnePhaseSwitchCurrent for switching (#29587)
+* aa55 udp: support block reads (#29095)
+* tariffs: rebrand stroomprijsprognose.nl -> energypriceforecast.eu (#30436)
+### Bug Fixes 🐞
+* Deye LV: fix energy scaling (#30482)
+* DriveSomethingGreater: fix hybrid range
+* DriveSomethingGreater: fix timestamp error
+* Huawei EMMA: fix energy yield (#30352)
+* Huawei SUN2000: fix energy yield (#30353)
+* Loadpoint: fix min soc energy fallback (#30461)
+* Solax: fix enabled (#29483)
+* fix: device card return energy formatting (#30459)
+* fix: readd demo grid price and co2
+
+
 
 ## [0.307.2] - 2026-05-27
 
