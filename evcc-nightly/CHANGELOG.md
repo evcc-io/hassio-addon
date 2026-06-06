@@ -2,10 +2,27 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* SunSpec: add returnEnergy support (#30515)
+* Custom Device: add return energy example (#30544)
+* chore: remove examples
+
+## [0.308.1] - 2026-06-05
+
+## Changelog
+### New Features 💫
 * MBMD: add returnEnergy support (#30514)
+* SunSpec: add returnEnergy support (#30515)
+### Other Changes ☀️
+* Battery UI: drop orphan grid charge headline on fresh installs (#30530)
+* Device Card: improve truncation (#30533)
 * DriveSomethingGreater: guard against empty vin or value (#30516)
+* DriveSomethingGreater: guard against losing data on error
+* DriveSomethingGreater: log unzipped data
+* Meter (SlimmeLezer V2): use ESPHome entity-name sensor URLs (#30466)
+### Bug Fixes 🐞
 * Huawei: fix dimmed (#30507)
+* fix: double custom element registration (#30542)
+
+
 
 ## [0.308.0] - 2026-06-04
 
