@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* AlphaESS: add returnEnergy support (#30568)
+* chore: fix flaky pv meter and soc range tests (#30570)
+* chore: fix flaky sponsor and ext meter order tests (#30567)
+* Add long-lived api key (BC) (#29431)
+* Charger (Plugchoice): trim whitespace before parsing values (#30559)
+* Remote Access: now experimental (#30551)
 * Custom Device: add return energy example (#30544)
 * chore: remove examples
 
