@@ -2,6 +2,26 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: route climaterdisabled through vehicle-features include (#30615)
+* Vehicle: add climaterdisabled feature (#30610)
+* Warp: fix phase switching for WARP2+Energy Manager and WARP3 (#30460)
+* SolarEdge Hybrid: add battery energy metering support (#30608)
+* Add HoldCharge battery mode (#27906)
+* chore: move to generic
+* Meter (Kostal Plenticore): read DC PV energy from register 1056 (#30607)
+* Vehicle (SAIC/MG): fix missing SoC for idle vehicles (#30603)
+* Loadpoint: prefer exact status match for vehicle identification (#29591)
+* Optimizer ignore uninitialized loadpoints (#30600)
+* Revert "meter/hybrid: fix pv energy readings in SunSpec hybrid inverter templates (#29955)"
+* Tariff: stop background routine when startup update fails (#30594)
+* chore: rename metrics import/export to energy/returnEnergy throughout collector and accumulator (#30303)
+* Refactor dim/curtail handling- split hems and circuit (BC) (#30284)
+* Add OCPP forwarder (#29154)
+* Metrics: store entity title on lazy-create (#30196)
+* OCPP UI: remove wss assumption (#28996)
+* chore: fix flaky OCPP test bind on fixed port 8887 (#30590)
+* Cardata: support "New Class" vehicles (#29709)
+* aa55 udp: dedupe concurrent block reads with single flight (#30589)
 * AlphaESS: add returnEnergy support (#30568)
 * chore: fix flaky pv meter and soc range tests (#30570)
 * chore: fix flaky sponsor and ext meter order tests (#30567)
