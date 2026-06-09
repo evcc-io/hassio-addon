@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Cupra: migrate to EU Data Act portal
+* Optimizer: send zero solar forecast when current forecast is empty (#30637)
+* Shelly: drop grid energy and returnEnergy for 3-phase EM (#30534)
+* chore: fix PM topic filter dropping events on single-WS setup (WARP3) (#30617)
+* Vehicle (flobz/PSA): fix climater detection when air conditioning is null (#30621)
 * chore: route climaterdisabled through vehicle-features include (#30615)
 * Vehicle: add climaterdisabled feature (#30610)
 * Warp: fix phase switching for WARP2+Energy Manager and WARP3 (#30460)
