@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Metrics: fix entity titles for db loadpoints (#30634)
+* chore: better error
+* chore: return zero energy for a window entirely before the first solar forecast slot (#30463)
+* GoodWe: fix wallbox RFID register and phase-type detection (#30667)
+* Battery Hold Charge: ui state; api docs (#30628)
+* OCPP: report zero charge power while idle (#30655)
 * Cupra: migrate to EU Data Act portal
 * Optimizer: send zero solar forecast when current forecast is empty (#30637)
 * Shelly: drop grid energy and returnEnergy for 3-phase EM (#30534)
