@@ -2,6 +2,46 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.309.0] - 2026-06-10
 
+## Changelog
+### Breaking Changes 🚨
+* Add long-lived api key (BC) (#29431)
+* Refactor dim/curtail handling- split hems and circuit (BC) (#30284)
+### New Features 💫
+* Add HoldCharge battery mode (#27906)
+* Add OCPP forwarder (#29154)
+* AlphaESS: add returnEnergy support (#30568)
+* Custom Device: add return energy example (#30544)
+* SolarEdge Hybrid: add battery energy metering support (#30608)
+* TasmotaSML: add returnEnergy (#30599)
+* Vehicle: add climaterdisabled feature (#30610)
+### Experimental Features 🧪
+* Remote Access: now experimental (#30551)
+### Other Changes ☀️
+* Battery Hold Charge: ui state; api docs (#30628)
+* Cardata: support "New Class" vehicles (#29709)
+* Charger (Plugchoice): trim whitespace before parsing values (#30559)
+* Cupra: migrate to EU Data Act portal
+* Loadpoint: prefer exact status match for vehicle identification (#29591)
+* Meter (Kostal Plenticore): read DC PV energy from register 1056 (#30607)
+* Metrics: store entity title on lazy-create (#30196)
+* OCPP UI: remove wss assumption (#28996)
+* OCPP: report zero charge power while idle (#30655)
+* Optimizer ignore uninitialized loadpoints (#30600)
+* Optimizer: send zero solar forecast when current forecast is empty (#30637)
+* Shelly: drop grid energy and returnEnergy for 3-phase EM (#30534)
+* Tariff: stop background routine when startup update fails (#30594)
+* aa55 udp: dedupe concurrent block reads with single flight (#30589)
+* sqlite: restore busy_timeout pragma (#30696)
+### Bug Fixes 🐞
+* Deye: fix energy and power, add returnenergy and voltages (#30691)
+* GoodWe: fix wallbox RFID register and phase-type detection (#30667)
+* History UI: fix consumption with no ext/aux meters (#30697)
+* Metrics: fix entity titles for db loadpoints (#30634)
+* Revert "meter/hybrid: fix pv energy readings in SunSpec hybrid inverter templates (#29955)"
+* Vehicle (SAIC/MG): fix missing SoC for idle vehicles (#30603)
+* Vehicle (flobz/PSA): fix climater detection when air conditioning is null (#30621)
+* Warp: fix phase switching for WARP2+Energy Manager and WARP3 (#30460)
+
 
 
 ## [0.308.1] - 2026-06-05
