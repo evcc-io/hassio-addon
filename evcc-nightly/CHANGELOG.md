@@ -2,45 +2,59 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* Metrics: fix entity titles for db loadpoints (#30634)
-* chore: better error
-* chore: return zero energy for a window entirely before the first solar forecast slot (#30463)
-* GoodWe: fix wallbox RFID register and phase-type detection (#30667)
-* Battery Hold Charge: ui state; api docs (#30628)
-* OCPP: report zero charge power while idle (#30655)
-* Cupra: migrate to EU Data Act portal
-* Optimizer: send zero solar forecast when current forecast is empty (#30637)
-* Shelly: drop grid energy and returnEnergy for 3-phase EM (#30534)
-* chore: fix PM topic filter dropping events on single-WS setup (WARP3) (#30617)
-* Vehicle (flobz/PSA): fix climater detection when air conditioning is null (#30621)
-* chore: route climaterdisabled through vehicle-features include (#30615)
-* Vehicle: add climaterdisabled feature (#30610)
-* Warp: fix phase switching for WARP2+Energy Manager and WARP3 (#30460)
-* SolarEdge Hybrid: add battery energy metering support (#30608)
-* Add HoldCharge battery mode (#27906)
-* chore: move to generic
-* Meter (Kostal Plenticore): read DC PV energy from register 1056 (#30607)
-* Vehicle (SAIC/MG): fix missing SoC for idle vehicles (#30603)
-* Loadpoint: prefer exact status match for vehicle identification (#29591)
-* Optimizer ignore uninitialized loadpoints (#30600)
-* Revert "meter/hybrid: fix pv energy readings in SunSpec hybrid inverter templates (#29955)"
-* Tariff: stop background routine when startup update fails (#30594)
-* chore: rename metrics import/export to energy/returnEnergy throughout collector and accumulator (#30303)
+* SMA Speedwire: support hybrid inverters (#30084)
+* SolarEdge Hybrid: fix battery energy counter word order (#30704)
+* Smart-hello: persist token and device ID across restarts (#30581)
+* chore: release device context on failed creation (#30714)
+* HEMS: make Dimmed/Curtailed tri-state (once more) (#30712)
+* Add ioBroker meter and charger (#30162)
+* Retry Curtailed/Dimmed on error (#30701)
+* Cardata: update container (#30706)
+* vzlogger: add returnEnergy (#30700)
+
+## [0.309.0] - 2026-06-10
+
+## Changelog
+### Breaking Changes 🚨
+* Add long-lived api key (BC) (#29431)
 * Refactor dim/curtail handling- split hems and circuit (BC) (#30284)
+### New Features 💫
+* Add HoldCharge battery mode (#27906)
 * Add OCPP forwarder (#29154)
+* AlphaESS: add returnEnergy support (#30568)
+* Custom Device: add return energy example (#30544)
+* SolarEdge Hybrid: add battery energy metering support (#30608)
+* TasmotaSML: add returnEnergy (#30599)
+* Vehicle: add climaterdisabled feature (#30610)
+### Experimental Features 🧪
+* Remote Access: now experimental (#30551)
+### Other Changes ☀️
+* Battery Hold Charge: ui state; api docs (#30628)
+* Cardata: support "New Class" vehicles (#29709)
+* Charger (Plugchoice): trim whitespace before parsing values (#30559)
+* Cupra: migrate to EU Data Act portal
+* Loadpoint: prefer exact status match for vehicle identification (#29591)
+* Meter (Kostal Plenticore): read DC PV energy from register 1056 (#30607)
 * Metrics: store entity title on lazy-create (#30196)
 * OCPP UI: remove wss assumption (#28996)
-* chore: fix flaky OCPP test bind on fixed port 8887 (#30590)
-* Cardata: support "New Class" vehicles (#29709)
+* OCPP: report zero charge power while idle (#30655)
+* Optimizer ignore uninitialized loadpoints (#30600)
+* Optimizer: send zero solar forecast when current forecast is empty (#30637)
+* Shelly: drop grid energy and returnEnergy for 3-phase EM (#30534)
+* Tariff: stop background routine when startup update fails (#30594)
 * aa55 udp: dedupe concurrent block reads with single flight (#30589)
-* AlphaESS: add returnEnergy support (#30568)
-* chore: fix flaky pv meter and soc range tests (#30570)
-* chore: fix flaky sponsor and ext meter order tests (#30567)
-* Add long-lived api key (BC) (#29431)
-* Charger (Plugchoice): trim whitespace before parsing values (#30559)
-* Remote Access: now experimental (#30551)
-* Custom Device: add return energy example (#30544)
-* chore: remove examples
+* sqlite: restore busy_timeout pragma (#30696)
+### Bug Fixes 🐞
+* Deye: fix energy and power, add returnenergy and voltages (#30691)
+* GoodWe: fix wallbox RFID register and phase-type detection (#30667)
+* History UI: fix consumption with no ext/aux meters (#30697)
+* Metrics: fix entity titles for db loadpoints (#30634)
+* Revert "meter/hybrid: fix pv energy readings in SunSpec hybrid inverter templates (#29955)"
+* Vehicle (SAIC/MG): fix missing SoC for idle vehicles (#30603)
+* Vehicle (flobz/PSA): fix climater detection when air conditioning is null (#30621)
+* Warp: fix phase switching for WARP2+Energy Manager and WARP3 (#30460)
+
+
 
 ## [0.308.1] - 2026-06-05
 
