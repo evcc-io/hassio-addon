@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* History: scale chart axis to include forecast overlay (#30766)
+* Password: fail loudly when settings cannot be saved (#30767)
+* chore: upgrade modules
+* Auth: coexist with reverse proxy Authorization header (#30757)
+* Translations update from Hosted Weblate (#30531)
+* chore: refactor
 * SMA Speedwire: support hybrid inverters (#30084)
 * SolarEdge Hybrid: fix battery energy counter word order (#30704)
 * Smart-hello: persist token and device ID across restarts (#30581)
