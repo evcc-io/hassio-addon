@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Templates: add caveats field for known device issues (#30641)
+* Optimizer: derive per-device action suggestions from result (#30783)
+* Huawei: clamp battery charge/discharge power to inverter maximum (#30776)
+* GoodWe: remove non-functional wallbox phase switching (#30790)
+* Metrics: don't double-count energy after a failed meter read (#30605)
+* Add OVUM MIRA heat pump support (#30715)
+* Loadpoint: defer connect notification until vehicle detection settles (#30775)
+* DriveSomethingGreater: more data points (#30762)
 * History: scale chart axis to include forecast overlay (#30766)
 * Password: fail loudly when settings cannot be saved (#30767)
 * chore: upgrade modules
