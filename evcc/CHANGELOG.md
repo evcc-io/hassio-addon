@@ -2,6 +2,35 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.309.1] - 2026-06-14
 
+## Changelog
+### New Features 💫
+* Add OVUM MIRA heat pump support (#30715)
+* Add ioBroker meter and charger (#30162)
+* Templates: add caveats field for known device issues (#30641)
+* vzlogger: add returnEnergy (#30700)
+### Other Changes ☀️
+* Auth: coexist with reverse proxy Authorization header (#30757)
+* Bump githubnext/gh-aw from 0.71.1 to 0.79.9 (#30809)
+* Cardata: update container (#30706)
+* Dependabot: disable gomod and npm version updates (#30830)
+* DriveSomethingGreater: more data points (#30762)
+* GoodWe: remove non-functional wallbox phase switching (#30790)
+* HEMS: make Dimmed/Curtailed tri-state (once more) (#30712)
+* History: scale chart axis to include forecast overlay (#30766)
+* Huawei: clamp battery charge/discharge power to inverter maximum (#30776)
+* Loadpoint: defer connect notification until vehicle detection settles (#30775)
+* Metrics: don't double-count energy after a failed meter read (#30605)
+* Optimizer: derive per-device action suggestions from result (#30783)
+* Password: fail loudly when settings cannot be saved (#30767)
+* Retry Curtailed/Dimmed on error (#30701)
+* Revert "Optimizer: derive per-device action suggestions from result" (#30833)
+* SMA Speedwire: support hybrid inverters (#30084)
+* Smart-hello: persist token and device ID across restarts (#30581)
+* Vehicle (EU Data Act): merge datasets in delivery order (#30805)
+### Bug Fixes 🐞
+* SolarEdge Hybrid: fix battery energy counter word order (#30704)
+* Yaml: remove empty-stream workaround in favor of go-yaml fix (#30789)
+
 
 
 ## [0.309.0] - 2026-06-10
