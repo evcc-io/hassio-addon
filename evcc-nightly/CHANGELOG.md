@@ -2,29 +2,45 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* Templates: add caveats field for known device issues (#30641)
-* Optimizer: derive per-device action suggestions from result (#30783)
-* Huawei: clamp battery charge/discharge power to inverter maximum (#30776)
-* GoodWe: remove non-functional wallbox phase switching (#30790)
-* Metrics: don't double-count energy after a failed meter read (#30605)
+* Config UI: replace Monaco editor with bundled CodeMirror 6 (#30855)
+* Lambda Zewotherm: use register 1012 for power (FW >= 1.1.3) (#30780)
+* Modbus: reuse modbus decoder in aa55 (#30848)
+* Modbus: add shared block reading (#30846)
+* chore: update npm dependencies (#30850)
+* aa55 udp: add delay option to space inverter sends (#30832)
+* docs: add manual visual testing hint
+* chore: add agent guidance for symbol navigation and SDK docs (#30791)
+* Energyflow: keep small consumption segments visible (#30781)
+
+## [0.309.1] - 2026-06-14
+
+## Changelog
+### New Features 💫
 * Add OVUM MIRA heat pump support (#30715)
-* Loadpoint: defer connect notification until vehicle detection settles (#30775)
-* DriveSomethingGreater: more data points (#30762)
-* History: scale chart axis to include forecast overlay (#30766)
-* Password: fail loudly when settings cannot be saved (#30767)
-* chore: upgrade modules
-* Auth: coexist with reverse proxy Authorization header (#30757)
-* Translations update from Hosted Weblate (#30531)
-* chore: refactor
-* SMA Speedwire: support hybrid inverters (#30084)
-* SolarEdge Hybrid: fix battery energy counter word order (#30704)
-* Smart-hello: persist token and device ID across restarts (#30581)
-* chore: release device context on failed creation (#30714)
-* HEMS: make Dimmed/Curtailed tri-state (once more) (#30712)
 * Add ioBroker meter and charger (#30162)
-* Retry Curtailed/Dimmed on error (#30701)
-* Cardata: update container (#30706)
+* Templates: add caveats field for known device issues (#30641)
 * vzlogger: add returnEnergy (#30700)
+### Other Changes ☀️
+* Auth: coexist with reverse proxy Authorization header (#30757)
+* Cardata: update container (#30706)
+* Dependabot: disable gomod and npm version updates (#30830)
+* DriveSomethingGreater: more data points (#30762)
+* GoodWe: remove non-functional wallbox phase switching (#30790)
+* HEMS: make Dimmed/Curtailed tri-state (once more) (#30712)
+* History: scale chart axis to include forecast overlay (#30766)
+* Huawei: clamp battery charge/discharge power to inverter maximum (#30776)
+* Loadpoint: defer connect notification until vehicle detection settles (#30775)
+* Metrics: don't double-count energy after a failed meter read (#30605)
+* Password: fail loudly when settings cannot be saved (#30767)
+* Retry Curtailed/Dimmed on error (#30701)
+* SMA Speedwire: support hybrid inverters (#30084)
+* Smart-hello: persist token and device ID across restarts (#30581)
+* Vehicle (EU Data Act): merge datasets in delivery order (#30805)
+### Bug Fixes 🐞
+* SolarEdge Hybrid: fix battery energy counter word order (#30704)
+* Yaml: remove empty-stream workaround in favor of go-yaml fix (#30789)
+
+
 
 ## [0.309.0] - 2026-06-10
 
