@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* GoodWe Wifi ET: correct grid power sign (#30896)
+* Site: publish meter returnEnergy and use in history (#30881)
+* chore: don't log ErrNotAvailable
+* Sessions: relabel solar/total toggle buttons (#30883)
+* EEBus: treat unavailable measurement data as not available (#30874)
+* EEBus: update eebus-go, ship-go and spine-go to dev (#30633)
+* EU Data Act: identify ID.3 cruising range by data point key (#30851)
+* Kostal Plenticore: add holdcharge battery mode (#30853)
+* enphase: fix battery_type parameter (BC) (#30860)
+* Kostal Plenticore: fix pv energy encoding (#30862)
 * Config UI: replace Monaco editor with bundled CodeMirror 6 (#30855)
 * Lambda Zewotherm: use register 1012 for power (FW >= 1.1.3) (#30780)
 * Modbus: reuse modbus decoder in aa55 (#30848)
