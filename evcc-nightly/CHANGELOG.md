@@ -2,6 +2,23 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: add coderabbit.yaml
+* chore: surface Claude Code Review result as a PR commit status (#30932)
+* evnotify: add v3 api support (#30927)
+* chore: review fork PRs via workflow_run two-stage flow (#30930)
+* chore: wait for apiReady before e2e assertions (#30928)
+* Bump js-yaml from 4.1.1 to 4.2.0 (#30917)
+* GoodWe: treat nightly 0xFFFF register sentinel as invalid (#30924)
+* chore: allow Dependabot PRs in Claude Code Review (#30925)
+* Optimizer: make grid charging strategy configurable (#30782)
+* EEBus: expose SHIP installation QR code (#30840)
+* chore: add Claude Code GitHub workflow (#30907)
+* Charger (go-e): add missing product variants (#30915)
+* Fix minimum marker for zero forecast values (#30892)
+* Vehicle (EU Data Act): prefer most recently delivered value per field (#30916)
+* Templates: consolidate shared param properties with defaults.yaml (#30908)
+* Sponsor: set gRPC client idle timeout (#30913)
+* Energyflow: apply forecast adjustment to remaining solar energy (#30906)
 * GoodWe Wifi ET: correct grid power sign (#30896)
 * Site: publish meter returnEnergy and use in history (#30881)
 * chore: don't log ErrNotAvailable
