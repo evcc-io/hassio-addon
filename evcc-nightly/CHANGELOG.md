@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle: add autodetectdisabled feature (#30941)
+* GoodWe: deprecate wifi template (#30966)
+* Huawei: optimized force-charging (#30975)
+* Zaptec Go 2: warn on unequal installation phase current (#30964)
+* chore: remove stray trace dump of raw dataset bytes (#30961)
+* RCT: add maxacpower (#30936)
+* EU Data Act: skip optional marketing consent page after login (#30956)
 * chore: add coderabbit.yaml
 * chore: surface Claude Code Review result as a PR commit status (#30932)
 * evnotify: add v3 api support (#30927)
