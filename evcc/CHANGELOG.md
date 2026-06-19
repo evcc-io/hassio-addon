@@ -2,6 +2,58 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.309.2] - 2026-06-19
 
+## Changelog
+### Breaking Changes 🚨
+* enphase: fix battery_type parameter (BC) (#30860)
+### New Features 💫
+* Charger (go-e): add missing product variants (#30915)
+* Kostal Plenticore: add holdcharge battery mode (#30853)
+* Modbus: add shared block reading (#30846)
+* RCT: add maxacpower (#30936)
+* Smart-hello: add Smart #5 support (#31024)
+* Vehicle: add autodetectdisabled feature (#30941)
+* aa55 udp: add delay option to space inverter sends (#30832)
+* evnotify: add v3 api support (#30927)
+* i18n: add Latvian to language selector (#30988)
+### Other Changes ☀️
+* Bump esbuild and storybook (#31016)
+* Bump js-yaml from 4.1.1 to 4.2.0 (#30917)
+* Config UI: replace Monaco editor with bundled CodeMirror 6 (#30855)
+* Config UI: separate consumers from additional meters (#30243)
+* EEBus: expose SHIP installation QR code (#30840)
+* EEBus: treat unavailable measurement data as not available (#30874)
+* EEBus: update eebus-go, ship-go and spine-go to dev (#30633)
+* EU Data Act: identify ID.3 cruising range by data point key (#30851)
+* EU Data Act: skip optional marketing consent page after login (#30956)
+* Energyflow: apply forecast adjustment to remaining solar energy (#30906)
+* Energyflow: keep small consumption segments visible (#30781)
+* GoodWe Wifi ET: correct grid power sign (#30896)
+* GoodWe: deprecate wifi template (#30966)
+* GoodWe: treat nightly 0xFFFF register sentinel as invalid (#30924)
+* History: reload data after backend restart (#30985)
+* Home Assistant: Enable insecure option for self-signed certificates in oauth2 flow (#30648)
+* Huawei: move warnings to caveats (#30658)
+* Huawei: optimized force-charging (#30975)
+* Lambda Zewotherm: use register 1012 for power (FW >= 1.1.3) (#30780)
+* Meter: treat zero lifetime energy reading as not available (#31019)
+* Metrics: join energy series by entity name (#30991)
+* Modbus: reuse modbus decoder in aa55 (#30848)
+* Optimizer: make grid charging strategy configurable (#30782)
+* Sessions: relabel solar/total toggle buttons (#30883)
+* Sessions: show more columns per breakpoint (#30933)
+* Site: publish meter returnEnergy and use in history (#30881)
+* Smart-hello: reject unsupported vehicle platform (#31022)
+* Sponsor: set gRPC client idle timeout (#30913)
+* Templates: consolidate shared param properties with defaults.yaml (#30908)
+* Vehicle (EU Data Act): prefer most recently delivered value per field (#30916)
+* Zaptec Go 2: warn on unequal installation phase current (#30964)
+* http plugin: honor cache when upstream sends no-store/max-age=0 (#31028)
+### Bug Fixes 🐞
+* Energyflow: fix invisible expand icon in dark mode (#31026)
+* Fix minimum marker for zero forecast values (#30892)
+* Kostal Plenticore: fix pv energy encoding (#30862)
+* YamlEditor: fix dark-mode cursor visibility and selection contrast (#30978)
+
 
 
 ## [0.309.1] - 2026-06-14
