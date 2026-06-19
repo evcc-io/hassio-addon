@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Home Assistant: Enable insecure option for self-signed certificates in oauth2 flow (#30648)
+* Huawei: move warnings to caveats (#30658)
+* chore: fix error return
+* History: reload data after backend restart (#30985)
+* Metrics: join energy series by entity name (#30991)
+* i18n: add Latvian to language selector (#30988)
+* Translations update from Hosted Weblate (#30972)
+* Sessions: show more columns per breakpoint (#30933)
+* chore: add maxacpower (#30981)
+* YamlEditor: fix dark-mode cursor visibility and selection contrast (#30978)
 * Vehicle: add autodetectdisabled feature (#30941)
 * GoodWe: deprecate wifi template (#30966)
 * Huawei: optimized force-charging (#30975)
