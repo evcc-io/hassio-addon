@@ -5,6 +5,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ## Changelog
 ### Breaking Changes 🚨
 * enphase: fix battery_type parameter (BC) (#30860)
+* Config UI: separate consumers from additional meters (#30243)
 ### New Features 💫
 * Charger (go-e): add missing product variants (#30915)
 * Kostal Plenticore: add holdcharge battery mode (#30853)
@@ -19,7 +20,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Bump esbuild and storybook (#31016)
 * Bump js-yaml from 4.1.1 to 4.2.0 (#30917)
 * Config UI: replace Monaco editor with bundled CodeMirror 6 (#30855)
-* Config UI: separate consumers from additional meters (#30243)
 * EEBus: expose SHIP installation QR code (#30840)
 * EEBus: treat unavailable measurement data as not available (#30874)
 * EEBus: update eebus-go, ship-go and spine-go to dev (#30633)
