@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* GoodWe: add battery mode control over WiFi (AA55/UDP) (#30965)
+* Revert "GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)"
+* GoodWe Hybrid: remove battery mode watchdog (#31087)
+* EU Data Act: prefer valid battery_level_HV.value for SoC (#31092)
+* chore: remove unused code (#31088)
+* Volvo Connected: verify vehicle identity against account (#31089)
+* GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)
+* chore: remove deprecated VW, Audi, Cupra and Seat vehicle implementations (#30549)
+* chore: ignore graphify
+* Smart-hello: add SocLimiter support (#31080)
+* History: darken stacked bar shades, dim non-hovered slots, tooltip formatting (#31029)
 * Green Grid Compass: Allow timestamp with +00:00 (#31057)
 * EEBus meter: fix nil entity panic on device removal (#31042)
 * Watchdog: don't re-assert stale value after reset (#31039)
