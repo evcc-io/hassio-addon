@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* goodwe-hybrid: introduce shared modbus block reading (#31133)
+* DriveSomethingGreater: fix charge status for conservation charging and plugged-in detection (#30879)
+* site statistics: update every 15min instead of hourly (#31091)
+* Config: probe device check capabilities in parallel (#31118)
+* Issue report: sort template key first in config dump (#31079)
+* IAMMETER: single-/split-phase support for all multi-phase meters (#31095)
+* MQTT: make Monitor first-read cancellable via context (#31116)
+* Deye-hybrid-3p: use block reads (#31096)
+* Config: bound device check value probing with context (#31115)
+* chore: fix climater
+* Huawei: read grid phase voltages and powers (#31098)
+* Vehicle: add Octopus Energy Germany (#31105)
+* Vehicles: make autodetectdisabled available to all online vehicles (#31046)
+* Anker SOLIX X1: fix battery SOC/power register mapping and word order (#31107)
 * GoodWe: add battery mode control over WiFi (AA55/UDP) (#30965)
 * Revert "GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)"
 * GoodWe Hybrid: remove battery mode watchdog (#31087)
