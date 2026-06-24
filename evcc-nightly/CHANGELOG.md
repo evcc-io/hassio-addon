@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* EEBus: add controlbox test (#28908)
+* chore: decode soc with json.Number (#31147)
+* Revert "GoodWe: remove non-functional wallbox phase switching (#30790)"
+* chore: upgrade modules
+* Add Zendure 3CT meter (#31141)
+* Config UI: manually convert additional meter to consumer (#31130)
+* config UI: rename meter usage option from "Consumer / Charger" to "Charger" (#31145)
+* Optimizer: fix grid price chart unit scaling (#31126)
 * goodwe-hybrid: introduce shared modbus block reading (#31133)
 * DriveSomethingGreater: fix charge status for conservation charging and plugged-in detection (#30879)
 * site statistics: update every 15min instead of hourly (#31091)
