@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Add Eltako DSZ15DZMOD/DSZ16 meters (#31197)
+* Hoymiles OpenDTU: fix energy on inverter restart (#31170)
+* Goodwe-Hybrid: add grid voltages (#31189)
+* Sigenergy: fix grid meter (#31188)
+* Translations update from Hosted Weblate (#30987)
+* Add Hager witty series (OCPP) (#31179)
+* Merge commit from fork
+* chore: minor
+* DriveSomethingGreater: gracefully handle empty vehicles
+* OCPP Forwarder: reconnect upstream with backoff and replay BootNotification (#30765)
 * EEBus: add controlbox test (#28908)
 * chore: decode soc with json.Number (#31147)
 * Revert "GoodWe: remove non-functional wallbox phase switching (#30790)"
