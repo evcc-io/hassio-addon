@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* eudataact: simplify data point storage (#31204)
+* EEBus: log rejected EVSE load control writes (#31218)
+* Merge commit from fork
+* OCPP/EEBus: lazy-start servers so the CLI works against a running evcc (#30839)
+* Site: retain last battery soc when all reads fail (#31211)
+* UI: fix rs485-only modbus templates (#31201)
+* DriveSomethingGreater: log data point id before name (#31202)
+* easee: clamp DCC to 7A before ChargeStart and remove overshoot protection (#30774)
+* History: improve additional meters, tooltip formatting (#31175)
 * Add Eltako DSZ15DZMOD/DSZ16 meters (#31197)
 * Hoymiles OpenDTU: fix energy on inverter restart (#31170)
 * Goodwe-Hybrid: add grid voltages (#31189)
