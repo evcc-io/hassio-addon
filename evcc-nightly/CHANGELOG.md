@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: update
+* Tariff (Groupe E): cache rates to survive restart (#31248)
+* App: allow native deep links from iOS widget (#31242)
+* UI: configure settings via URL params (#31244)
+* Tibber/ Octopus vehicles: add welcomecharge (#31235)
+* teslamate: use usable_battery_level instead of battery_level (#31234)
 * eudataact: simplify data point storage (#31204)
 * EEBus: log rejected EVSE load control writes (#31218)
 * Merge commit from fork
