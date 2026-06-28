@@ -1,5 +1,17 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
+## [0.310.1] - 2026-06-28
+
+## Changelog
+### New Features 💫
+* Metrics: add soc and temp (#30926)
+### Other Changes ☀️
+* vehicle: mark climaterdisabled parameter as deprecated in iso15118 and offline templates (#31297)
+### Bug Fixes 🐞
+* Meter: fix spurious energy spikes (grid nonZeroEnergy + SolarEdge uint64snans) (#31295)
+
+
+
 ## [0.310.0] - 2026-06-28
 
 ## Changelog
