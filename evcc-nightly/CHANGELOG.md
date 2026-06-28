@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Mercedes: fix NORAM 418 (#31272)
+* chore: minor
+* Kostal Plenticore: replace older plenticore template (BC) (#30854)
+* HEMS: add templates (#25832)
+* EU Data Act: fix soc (#31259)
+* Tariff: make Electricity Maps, Energy Price Forecast CO₂ cacheable (#31251)
 * chore: update
 * Tariff (Groupe E): cache rates to survive restart (#31248)
 * App: allow native deep links from iOS widget (#31242)
