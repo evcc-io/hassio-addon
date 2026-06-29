@@ -1,80 +1,90 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
-## [unreleased]
+## [0.310.1] - 2026-06-28
 
-* Mercedes: fix NORAM 418 (#31272)
-* chore: minor
-* Kostal Plenticore: replace older plenticore template (BC) (#30854)
-* HEMS: add templates (#25832)
-* EU Data Act: fix soc (#31259)
-* Tariff: make Electricity Maps, Energy Price Forecast CO₂ cacheable (#31251)
-* chore: update
-* Tariff (Groupe E): cache rates to survive restart (#31248)
-* App: allow native deep links from iOS widget (#31242)
-* UI: configure settings via URL params (#31244)
-* Tibber/ Octopus vehicles: add welcomecharge (#31235)
-* teslamate: use usable_battery_level instead of battery_level (#31234)
-* eudataact: simplify data point storage (#31204)
-* EEBus: log rejected EVSE load control writes (#31218)
-* Merge commit from fork
-* OCPP/EEBus: lazy-start servers so the CLI works against a running evcc (#30839)
-* Site: retain last battery soc when all reads fail (#31211)
-* UI: fix rs485-only modbus templates (#31201)
-* DriveSomethingGreater: log data point id before name (#31202)
-* easee: clamp DCC to 7A before ChargeStart and remove overshoot protection (#30774)
-* History: improve additional meters, tooltip formatting (#31175)
-* Add Eltako DSZ15DZMOD/DSZ16 meters (#31197)
-* Hoymiles OpenDTU: fix energy on inverter restart (#31170)
-* Goodwe-Hybrid: add grid voltages (#31189)
-* Sigenergy: fix grid meter (#31188)
-* Translations update from Hosted Weblate (#30987)
-* Add Hager witty series (OCPP) (#31179)
-* Merge commit from fork
-* chore: minor
-* DriveSomethingGreater: gracefully handle empty vehicles
-* OCPP Forwarder: reconnect upstream with backoff and replay BootNotification (#30765)
-* EEBus: add controlbox test (#28908)
-* chore: decode soc with json.Number (#31147)
-* Revert "GoodWe: remove non-functional wallbox phase switching (#30790)"
-* chore: upgrade modules
-* Add Zendure 3CT meter (#31141)
-* Config UI: manually convert additional meter to consumer (#31130)
-* config UI: rename meter usage option from "Consumer / Charger" to "Charger" (#31145)
-* Optimizer: fix grid price chart unit scaling (#31126)
-* goodwe-hybrid: introduce shared modbus block reading (#31133)
-* DriveSomethingGreater: fix charge status for conservation charging and plugged-in detection (#30879)
-* site statistics: update every 15min instead of hourly (#31091)
-* Config: probe device check capabilities in parallel (#31118)
-* Issue report: sort template key first in config dump (#31079)
-* IAMMETER: single-/split-phase support for all multi-phase meters (#31095)
-* MQTT: make Monitor first-read cancellable via context (#31116)
-* Deye-hybrid-3p: use block reads (#31096)
-* Config: bound device check value probing with context (#31115)
-* chore: fix climater
-* Huawei: read grid phase voltages and powers (#31098)
-* Vehicle: add Octopus Energy Germany (#31105)
-* Vehicles: make autodetectdisabled available to all online vehicles (#31046)
-* Anker SOLIX X1: fix battery SOC/power register mapping and word order (#31107)
-* GoodWe: add battery mode control over WiFi (AA55/UDP) (#30965)
-* Revert "GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)"
-* GoodWe Hybrid: remove battery mode watchdog (#31087)
-* EU Data Act: prefer valid battery_level_HV.value for SoC (#31092)
-* chore: remove unused code (#31088)
-* Volvo Connected: verify vehicle identity against account (#31089)
+## Changelog
+### New Features 💫
+* Metrics: add soc and temp (#30926)
+### Other Changes ☀️
+* vehicle: mark climaterdisabled parameter as deprecated in iso15118 and offline templates (#31297)
+### Bug Fixes 🐞
+* Meter: fix spurious energy spikes (grid nonZeroEnergy + SolarEdge uint64snans) (#31295)
+
+
+
+## [0.310.0] - 2026-06-28
+
+## Changelog
+### Breaking Changes 🚨
 * GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)
-* chore: remove deprecated VW, Audi, Cupra and Seat vehicle implementations (#30549)
-* chore: ignore graphify
-* Smart-hello: add SocLimiter support (#31080)
-* History: darken stacked bar shades, dim non-hovered slots, tooltip formatting (#31029)
-* Green Grid Compass: Allow timestamp with +00:00 (#31057)
-* EEBus meter: fix nil entity panic on device removal (#31042)
-* Watchdog: don't re-assert stale value after reset (#31039)
-* RCT: add holdcharge battery mode  (#31041)
-* Auth: fix OAuth online-status send deadlocking the control loop (#31036)
-* RCT: fix battery energy, add returnenergy (#31037)
-* Config: 404 for status of deleted device (#31031)
-* Loadpoint: adapt UI for integrated and switch devices (#30909)
+* Kostal Plenticore: replace older plenticore template (BC) (#30854)
+* Revert "GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)"
+### New Features 💫
+* Add Eltako DSZ15DZMOD/DSZ16 meters (#31197)
+* Add Hager witty series (OCPP) (#31179)
+* Add Zendure 3CT meter (#31141)
+* EEBus: add controlbox test (#28908)
+* GoodWe: add battery mode control over WiFi (AA55/UDP) (#30965)
+* Goodwe-Hybrid: add grid voltages (#31189)
+* HEMS: add templates (#25832)
 * Heating: add temperature range, add heating colors (#30995)
+* RCT: add holdcharge battery mode  (#31041)
+* Smart-hello: add SocLimiter support (#31080)
+* Tibber/ Octopus vehicles: add welcomecharge (#31235)
+* Vehicle: add Octopus Energy Germany (#31105)
+### Other Changes ☀️
+* App: allow native deep links from iOS widget (#31242)
+* Config UI: manually convert additional meter to consumer (#31130)
+* Config: 404 for status of deleted device (#31031)
+* Config: bound device check value probing with context (#31115)
+* Config: probe device check capabilities in parallel (#31118)
+* Deye-hybrid-3p: use block reads (#31096)
+* DriveSomethingGreater: gracefully handle empty vehicles
+* DriveSomethingGreater: log data point id before name (#31202)
+* EEBus: log rejected EVSE load control writes (#31218)
+* EU Data Act: prefer valid battery_level_HV.value for SoC (#31092)
+* GoodWe Hybrid: remove battery mode watchdog (#31087)
+* Green Grid Compass: Allow timestamp with +00:00 (#31057)
+* History: darken stacked bar shades, dim non-hovered slots, tooltip formatting (#31029)
+* History: improve additional meters, tooltip formatting (#31175)
+* Huawei: read grid phase voltages and powers (#31098)
+* IAMMETER: single-/split-phase support for all multi-phase meters (#31095)
+* Issue report: sort template key first in config dump (#31079)
+* Loadpoint: adapt UI for integrated and switch devices (#30909)
+* MQTT: make Monitor first-read cancellable via context (#31116)
+* Merge commit from fork
+* Merge commit from fork
+* OCPP Forwarder: reconnect upstream with backoff and replay BootNotification (#30765)
+* OCPP/EEBus: lazy-start servers so the CLI works against a running evcc (#30839)
+* Revert "GoodWe: remove non-functional wallbox phase switching (#30790)"
+* Site: retain last battery soc when all reads fail (#31211)
+* Tariff (Groupe E): cache rates to survive restart (#31248)
+* Tariff: make Electricity Maps, Energy Price Forecast CO₂ cacheable (#31251)
+* UI: configure settings via URL params (#31244)
+* Vehicles: make autodetectdisabled available to all online vehicles (#31046)
+* Volvo Connected: verify vehicle identity against account (#31089)
+* Watchdog: don't re-assert stale value after reset (#31039)
+* config UI: rename meter usage option from "Consumer / Charger" to "Charger" (#31145)
+* core: retry optimizer when battery measurements are not yet ready (#31276)
+* easee: clamp DCC to 7A before ChargeStart and remove overshoot protection (#30774)
+* eudataact: simplify data point storage (#31204)
+* goodwe-hybrid: introduce shared modbus block reading (#31133)
+* site statistics: update every 15min instead of hourly (#31091)
+* teslamate: use usable_battery_level instead of battery_level (#31234)
+### Bug Fixes 🐞
+* Anker SOLIX X1: fix battery SOC/power register mapping and word order (#31107)
+* Auth: fix OAuth online-status send deadlocking the control loop (#31036)
+* DriveSomethingGreater: fix charge status for conservation charging and plugged-in detection (#30879)
+* EEBus meter: fix nil entity panic on device removal (#31042)
+* EU Data Act: fix soc (#31259)
+* Hoymiles OpenDTU: fix energy on inverter restart (#31170)
+* Mercedes: fix NORAM 418 (#31272)
+* Optimizer: fix grid price chart unit scaling (#31126)
+* RCT: fix battery energy, add returnenergy (#31037)
+* Sigenergy: fix grid meter (#31188)
+* UI: fix rs485-only modbus templates (#31201)
+
+
 
 ## [0.309.2] - 2026-06-19
 
