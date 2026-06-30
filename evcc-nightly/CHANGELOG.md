@@ -1,5 +1,12 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
+## [unreleased]
+
+* Meter (DSMR): accept binary WebSocket frames (#31324)
+* EEBus: add OHPCF heat pump compressor flexibility (#30636)
+* Vehicle: test feature param consistency for shared include (#31321)
+* Remote Access: improve back off behavior and error messages (#31267)
+
 ## [0.310.1] - 2026-06-28
 
 ## Changelog
