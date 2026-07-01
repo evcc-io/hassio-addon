@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Versicharge: fix power reading (#31359) (#31363)
+* dsg: add soc via battery_state_report.soc key (#31340)
+* Add AMTRON Professional Twincharge with infotext for modbus port 502/503 (#31361)
+* EEBus: await control-write results across all use cases (#31350)
+* Tariff (Nordpool): add average by hour option (#31351)
+* EEBus: add heating brands (BC) (#31344)
 * Meter (DSMR): accept binary WebSocket frames (#31324)
 * EEBus: add OHPCF heat pump compressor flexibility (#30636)
 * Vehicle: test feature param consistency for shared include (#31321)
