@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Battery UI: soc history and future, new layout (#31383)
+* GreenGridCompass: fix uri (#31389)
+* EEBus: release §14a/LPC limit when it expires (#31393)
+* PUN: add zone parameter (#31388)
+* HEMS: run FNN and relay control loops immediately on start (#31392)
+* Fix details height on reload with expanded loadpoints (#31369)
+* Bump goreleaser/goreleaser-action from 7.2.2 to 7.2.3 (#31374)
+* Bump actions/upload-artifact from 4 to 7 (#31372)
+* Bump actions/checkout from 4 to 7 (#31373)
+* Bump actions/cache from 5 to 6 (#31371)
+* Bump golangci/golangci-lint-action from 9.2.0 to 9.3.0 (#31370)
 * Versicharge: fix power reading (#31359) (#31363)
 * dsg: add soc via battery_state_report.soc key (#31340)
 * Add AMTRON Professional Twincharge with infotext for modbus port 502/503 (#31361)
