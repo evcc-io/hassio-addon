@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: document required AC Thor firmware version for setups <9kW to official build (#31420)
+* Cloud: preserve brand for EU Data Act vehicles (#31429)
+* Curtailment: distribute limits to all devices by percent (#31390)
+* Add IBC Solar HomeOne hybrid inverter (#31425)
+* chore: fix range
+* SAIC: return a stored status only once (#31411)
+* chore(vaillant): warn that DHW off disables native legionella protection (#31421)
+* EEBus OHPCF: use either power estimate or envelope (#31380)
+* EntsoE: fix dropped price series and UTC request offset (#31396)
+* fix: swap charging/discharging label on battery status card (#31405)
+* fix: derive MCP doc example values from schema example/default/enum (#31394)
 * Battery UI: soc history and future, new layout (#31383)
 * GreenGridCompass: fix uri (#31389)
 * EEBus: release §14a/LPC limit when it expires (#31393)
