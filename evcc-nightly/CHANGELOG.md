@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* EEBus: better error message on legacy SKI mismatch (#31391)
 * chore: document required AC Thor firmware version for setups <9kW to official build (#31420)
 * Cloud: preserve brand for EU Data Act vehicles (#31429)
 * Curtailment: distribute limits to all devices by percent (#31390)
