@@ -2,6 +2,30 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* UI: dodge overlapping soc badges in battery history chart (#31512)
+* UI: reuse shared header on main page for consistent spacing (#31511)
+* chore: simplify
+* Revert "DSG: match any charging status"
+* DSG: match any charging status
+* Fix flaky TestShipPairing: patched ship-go fork for double-connection race (#31493)
+* chore: upgrade modules
+* SunSpec: add curtail to generic hybrid/inverter templates (#31492)
+* OHPCF: make it a heat pump (#31466)
+* Enphase (Modbus): add curtail and maxacpower (#31460)
+* EEBus: error on missing productionNominalMax (BC) (#31483)
+* sunspec: add bool getter (#31482)
+* chore: bump spine-go to latest dev (#31479)
+* Solcast: request 96h forecast horizon (#31475)
+* Add BKW feed-in tariff (#31424)
+* chore: remove dead code and unused abstractions (#31437)
+* Sungrow iHM: add returnEnergy and feed-in curtailment (#31415)
+* chore: don't fake-deprecate wakeupdisabled on templates that never had it
+* Vehicle: add wakeupdisabled feature to suppress wake-up calls (#31461)
+* EEBus: enable SHIP Pairing Service (#30842)
+* chore: require node 26 (#31457)
+* chore: fix vitest localStorage breakage on Node 26 (#31442)
+* Vaillant: make hysteresis and reboost interval configurable (#31379)
+* Sessy: fix sensor scaling (#31436)
 * EEBus: better error message on legacy SKI mismatch (#31391)
 * chore: document required AC Thor firmware version for setups <9kW to official build (#31420)
 * Cloud: preserve brand for EU Data Act vehicles (#31429)
