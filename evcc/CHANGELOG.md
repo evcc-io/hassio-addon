@@ -28,7 +28,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Bump goreleaser/goreleaser-action from 7.2.2 to 7.2.3 (#31374)
 * Cloud: preserve brand for EU Data Act vehicles (#31429)
 * Curtailment: distribute limits to all devices by percent (#31390)
-* DSG: match any charging status
 * EEBus OHPCF: use either power estimate or envelope (#31380)
 * EEBus: await control-write results across all use cases (#31350)
 * EEBus: better error message on legacy SKI mismatch (#31391)
@@ -38,7 +37,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Meter (DSMR): accept binary WebSocket frames (#31324)
 * OHPCF: make it a heat pump (#31466)
 * Remote Access: improve back off behavior and error messages (#31267)
-* Revert "DSG: match any charging status"
 * SAIC: return a stored status only once (#31411)
 * Solarmax MAX.STORAGE: implement grid charging (#31485)
 * Solcast: request 96h forecast horizon (#31475)
