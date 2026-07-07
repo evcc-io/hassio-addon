@@ -2,63 +2,65 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* UI: dodge overlapping soc badges in battery history chart (#31512)
-* UI: reuse shared header on main page for consistent spacing (#31511)
-* chore: simplify
-* Revert "DSG: match any charging status"
-* DSG: match any charging status
-* Fix flaky TestShipPairing: patched ship-go fork for double-connection race (#31493)
-* chore: upgrade modules
-* SunSpec: add curtail to generic hybrid/inverter templates (#31492)
-* OHPCF: make it a heat pump (#31466)
-* Enphase (Modbus): add curtail and maxacpower (#31460)
+* Sunspec: let curtail fall back to model 123 (#31539)
+
+## [0.311.0] - 2026-07-06
+
+## Changelog
+### Breaking Changes 🚨
+* EEBus: add heating brands (BC) (#31344)
 * EEBus: error on missing productionNominalMax (BC) (#31483)
-* sunspec: add bool getter (#31482)
-* chore: bump spine-go to latest dev (#31479)
-* Solcast: request 96h forecast horizon (#31475)
+### New Features 💫
+* Add AMTRON Professional Twincharge with infotext for modbus port 502/503 (#31361)
 * Add BKW feed-in tariff (#31424)
-* chore: remove dead code and unused abstractions (#31437)
+* Add IBC Solar HomeOne hybrid inverter (#31425)
+* EEBus: add OHPCF heat pump compressor flexibility (#30636)
+* Enphase (Modbus): add curtail and maxacpower (#31460)
+* PUN: add zone parameter (#31388)
+* SunSpec: add curtail to generic hybrid/inverter templates (#31492)
 * Sungrow iHM: add returnEnergy and feed-in curtailment (#31415)
-* chore: don't fake-deprecate wakeupdisabled on templates that never had it
+* Tariff (Nordpool): add average by hour option (#31351)
 * Vehicle: add wakeupdisabled feature to suppress wake-up calls (#31461)
-* EEBus: enable SHIP Pairing Service (#30842)
-* chore: require node 26 (#31457)
-* chore: fix vitest localStorage breakage on Node 26 (#31442)
-* Vaillant: make hysteresis and reboost interval configurable (#31379)
-* Sessy: fix sensor scaling (#31436)
-* EEBus: better error message on legacy SKI mismatch (#31391)
-* chore: document required AC Thor firmware version for setups <9kW to official build (#31420)
+* dsg: add soc via battery_state_report.soc key (#31340)
+* sunspec: add bool getter (#31482)
+### Other Changes ☀️
+* Battery UI: soc history and future, new layout (#31383)
+* Bump actions/cache from 5 to 6 (#31371)
+* Bump actions/checkout from 4 to 7 (#31373)
+* Bump actions/upload-artifact from 4 to 7 (#31372)
+* Bump golangci/golangci-lint-action from 9.2.0 to 9.3.0 (#31370)
+* Bump goreleaser/goreleaser-action from 7.2.2 to 7.2.3 (#31374)
 * Cloud: preserve brand for EU Data Act vehicles (#31429)
 * Curtailment: distribute limits to all devices by percent (#31390)
-* Add IBC Solar HomeOne hybrid inverter (#31425)
-* chore: fix range
-* SAIC: return a stored status only once (#31411)
-* chore(vaillant): warn that DHW off disables native legionella protection (#31421)
+* DSG: match any charging status
 * EEBus OHPCF: use either power estimate or envelope (#31380)
-* EntsoE: fix dropped price series and UTC request offset (#31396)
-* fix: swap charging/discharging label on battery status card (#31405)
-* fix: derive MCP doc example values from schema example/default/enum (#31394)
-* Battery UI: soc history and future, new layout (#31383)
-* GreenGridCompass: fix uri (#31389)
-* EEBus: release §14a/LPC limit when it expires (#31393)
-* PUN: add zone parameter (#31388)
-* HEMS: run FNN and relay control loops immediately on start (#31392)
-* Fix details height on reload with expanded loadpoints (#31369)
-* Bump goreleaser/goreleaser-action from 7.2.2 to 7.2.3 (#31374)
-* Bump actions/upload-artifact from 4 to 7 (#31372)
-* Bump actions/checkout from 4 to 7 (#31373)
-* Bump actions/cache from 5 to 6 (#31371)
-* Bump golangci/golangci-lint-action from 9.2.0 to 9.3.0 (#31370)
-* Versicharge: fix power reading (#31359) (#31363)
-* dsg: add soc via battery_state_report.soc key (#31340)
-* Add AMTRON Professional Twincharge with infotext for modbus port 502/503 (#31361)
 * EEBus: await control-write results across all use cases (#31350)
-* Tariff (Nordpool): add average by hour option (#31351)
-* EEBus: add heating brands (BC) (#31344)
+* EEBus: better error message on legacy SKI mismatch (#31391)
+* EEBus: enable SHIP Pairing Service (#30842)
+* EEBus: release §14a/LPC limit when it expires (#31393)
+* HEMS: run FNN and relay control loops immediately on start (#31392)
 * Meter (DSMR): accept binary WebSocket frames (#31324)
-* EEBus: add OHPCF heat pump compressor flexibility (#30636)
-* Vehicle: test feature param consistency for shared include (#31321)
+* OHPCF: make it a heat pump (#31466)
 * Remote Access: improve back off behavior and error messages (#31267)
+* Revert "DSG: match any charging status"
+* SAIC: return a stored status only once (#31411)
+* Solarmax MAX.STORAGE: implement grid charging (#31485)
+* Solcast: request 96h forecast horizon (#31475)
+* UI: dodge overlapping soc badges in battery history chart (#31512)
+* UI: reuse shared header on main page for consistent spacing (#31511)
+* Vaillant: make hysteresis and reboost interval configurable (#31379)
+* Vehicle: test feature param consistency for shared include (#31321)
+### Bug Fixes 🐞
+* EntsoE: fix dropped price series and UTC request offset (#31396)
+* Fix details height on reload with expanded loadpoints (#31369)
+* Fix flaky TestShipPairing: patched ship-go fork for double-connection race (#31493)
+* GreenGridCompass: fix uri (#31389)
+* Sessy: fix sensor scaling (#31436)
+* Versicharge: fix power reading (#31359) (#31363)
+* fix: derive MCP doc example values from schema example/default/enum (#31394)
+* fix: swap charging/discharging label on battery status card (#31405)
+
+
 
 ## [0.310.1] - 2026-06-28
 
