@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Energy Flow UI: Chrome (Skia Graphite) rendering bug workaround (#31571)
+* UI: darker dark mode, card layout, battery card polish (#31515)
+* EEBus: fix GridGuard entity type removed from LPC/LPP (#31568)
+* EEBus: fix paired device not routed to consumer (flaky TestShipPairing) (#31560)
+* Kostal Plenticore: add feed-in curtailment (SunSpec model 123) (#31487)
+* V2C Trydan: add 1p/3p charge mode switching (#31526)
+* Add Octopus Energy Italy tariff (#31505)
+* Solis Hybrid S: clear Allow Grid Charge bit in normal mode (#31554)
+* EEBus OHPCF: react to consumption state events instead of polling (#31553)
+* EEBus: update eebus-go/ship-go, drop ship-go fork (#31550)
+* Config UI: fix product name mixup for multi-product templates (#31548)
+* RCT: fix batteryhold grid-charging and BatteryNormal nil pointer panic (#31294)
+* Tariff (energy-charts): document EUR-only pricing for non-EUR bidding zones (#31544)
+* deye-hybrid-3p: fix energy scaling for LV with firmware1098 (#31543)
 * Sunspec: let curtail fall back to model 123 (#31539)
 
 ## [0.311.0] - 2026-07-06
@@ -32,7 +46,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Bump goreleaser/goreleaser-action from 7.2.2 to 7.2.3 (#31374)
 * Cloud: preserve brand for EU Data Act vehicles (#31429)
 * Curtailment: distribute limits to all devices by percent (#31390)
-* DSG: match any charging status
 * EEBus OHPCF: use either power estimate or envelope (#31380)
 * EEBus: await control-write results across all use cases (#31350)
 * EEBus: better error message on legacy SKI mismatch (#31391)
@@ -42,7 +55,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Meter (DSMR): accept binary WebSocket frames (#31324)
 * OHPCF: make it a heat pump (#31466)
 * Remote Access: improve back off behavior and error messages (#31267)
-* Revert "DSG: match any charging status"
 * SAIC: return a stored status only once (#31411)
 * Solarmax MAX.STORAGE: implement grid charging (#31485)
 * Solcast: request 96h forecast horizon (#31475)
