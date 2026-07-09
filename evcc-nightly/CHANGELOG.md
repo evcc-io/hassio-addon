@@ -2,21 +2,36 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* Energy Flow UI: Chrome (Skia Graphite) rendering bug workaround (#31571)
-* UI: darker dark mode, card layout, battery card polish (#31515)
-* EEBus: fix GridGuard entity type removed from LPC/LPP (#31568)
-* EEBus: fix paired device not routed to consumer (flaky TestShipPairing) (#31560)
+* UI: darker dark mode, card layout, battery card polish (2) (#31593)
+* IBC HomeOne: fix battery SoC scale and grid meter word order (#31591)
+* Solarmax MAX.STORAGE: remove grid charging (#31589)
+
+## [0.311.1] - 2026-07-08
+
+## Changelog
+### Breaking Changes 🚨
+* Site: consumer meter config key singular (BC) (#31573)
+### New Features 💫
+* Add Octopus Energy Italy tariff (#31505)
 * Kostal Plenticore: add feed-in curtailment (SunSpec model 123) (#31487)
 * V2C Trydan: add 1p/3p charge mode switching (#31526)
-* Add Octopus Energy Italy tariff (#31505)
-* Solis Hybrid S: clear Allow Grid Charge bit in normal mode (#31554)
+### Other Changes ☀️
 * EEBus OHPCF: react to consumption state events instead of polling (#31553)
 * EEBus: update eebus-go/ship-go, drop ship-go fork (#31550)
-* Config UI: fix product name mixup for multi-product templates (#31548)
-* RCT: fix batteryhold grid-charging and BatteryNormal nil pointer panic (#31294)
-* Tariff (energy-charts): document EUR-only pricing for non-EUR bidding zones (#31544)
-* deye-hybrid-3p: fix energy scaling for LV with firmware1098 (#31543)
+* Energy Flow UI: Chrome (Skia Graphite) rendering bug workaround (#31571)
+* Solis Hybrid S: clear Allow Grid Charge bit in normal mode (#31554)
 * Sunspec: let curtail fall back to model 123 (#31539)
+* Tariff (energy-charts): document EUR-only pricing for non-EUR bidding zones (#31544)
+* UI: darker dark mode, card layout, battery card polish (#31515)
+### Bug Fixes 🐞
+* Config UI: fix product name mixup for multi-product templates (#31548)
+* EEBus: fix GridGuard entity type removed from LPC/LPP (#31568)
+* EEBus: fix paired device not routed to consumer (flaky TestShipPairing) (#31560)
+* RCT: fix batteryhold grid-charging and BatteryNormal nil pointer panic (#31294)
+* Solarmax MAX.STORAGE: fix max power default
+* deye-hybrid-3p: fix energy scaling for LV with firmware1098 (#31543)
+
+
 
 ## [0.311.0] - 2026-07-06
 
