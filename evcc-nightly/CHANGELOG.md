@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* OCPP: clear failed charge point registration on init error (#31652)
+* Battery UI: history chart polish, axis consistency  (#31661)
+* Optimizer: derive per-device action suggestions from result (#30834)
+* Fix vehicle mode reset on RFID re-identification of already-active vehicle (#31654)
+* Add Ambibox ambiCHARGE Home (#31464)
+* sqlite: serialize access on a single connection (#30902)
 * Vehicle: add charge mode in arrival tab (#31330)
 * Tinkerforge WARP: add WARP4 support with vehicle SoC via ISO 15118 (#31446)
 * UI: update docs links to new notifications and external limit pages (#31628)
