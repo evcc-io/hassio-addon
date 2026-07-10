@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle: add charge mode in arrival tab (#31330)
+* Tinkerforge WARP: add WARP4 support with vehicle SoC via ISO 15118 (#31446)
+* UI: update docs links to new notifications and external limit pages (#31628)
+* SunSpec: make curtail (model 123/704) optional (BC) (#31607)
+* Revert "Energy Flow UI: Chrome (Skia Graphite) rendering bug workaround" (#31623)
+* Energyflow: remove battery SoC forecast (#31611)
+* Planner: log the rate window and fallback triggers used for planning (#31621)
+* Config: fix loadpoint modal reusing previous charger on repeated add (#31614)
+* open-meteo: use icon_seamless model (#31570)
+* EEBus: fix test cleanup regression breaking TestShipPairing (#31617)
+* Tinkerforge WARP: correct capabilities per generation and variant (#31590)
+* Templates: add capabilities on product level (#31588)
+* Site: base solar forecast scale on produced energy (#31612)
+* SunSpec: curtailed false when limit is 100% (#31610)
 * UI: darker dark mode, card layout, battery card polish (2) (#31593)
 * IBC HomeOne: fix battery SoC scale and grid meter word order (#31591)
 * Solarmax MAX.STORAGE: remove grid charging (#31589)
