@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* fixes #31671 esphome dlms/slimmelezer-luxembourg: address sensors by name on firmware 2026.1+ (#31676)
+* plugin: cache http responses from devices that omit the Date header (#31675)
+* chore: allow Claude issue agent to run on external issues (#31672)
+* Remote Access: user agent and status display fixes (#31667)
+* chore: Claude issue agent workflow (#31665)
+* Battery UI: show fully visible day as history window title (#31663)
+* plugin: watchdog must assume a reset write may have just happened after restart using defer (#31635)
 * OCPP: clear failed charge point registration on init error (#31652)
 * Battery UI: history chart polish, axis consistency  (#31661)
 * Optimizer: derive per-device action suggestions from result (#30834)
