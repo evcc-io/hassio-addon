@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* CI: issue agent never creates new labels
+* optimizer: flag suggestions actionable only when they change the current mode (#31693)
+* CI: issue agent investigates inline, stricter bug labeling
+* EEBus: skip flaky TestShipPairing in CI
+* feat: add xlsx export wherever csv export exists (#31690)
+* Add Anker SOLIX Solarbank Max AC (#31696)
+* Epexprijzen-nl: remove atoom alliantie (BC) (#31700)
+* Epexprijzen-nl: added 'essent' and 'samenom' (#31699)
 * IDM: remove thermal energy register (#31701)
 * Huawei SUN2000: fix curtailed false-positive at 100% feed-in limit (#31695)
 * Add pvnode Solar Forecast API V2 (#31178)
