@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* IDM: remove thermal energy register (#31701)
+* Huawei SUN2000: fix curtailed false-positive at 100% feed-in limit (#31695)
+* Add pvnode Solar Forecast API V2 (#31178)
+* Config UI: streamline loadpoint creation and unify wording (#31658)
+* Loadpoint: fix coarse power-limited chargers never enable on fractional current (#31685)
+* chore: fix flaky TestCacheGetNoDate race (#31687)
+* askoheat: add aux meter template (#31683)
+* chore: surface Claude issue agent errors via show_full_output (#31682)
 * fixes #31671 esphome dlms/slimmelezer-luxembourg: address sensors by name on firmware 2026.1+ (#31676)
 * plugin: cache http responses from devices that omit the Date header (#31675)
 * chore: allow Claude issue agent to run on external issues (#31672)
