@@ -2,6 +2,26 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Metrics: fixed grid entity title, merge series of swapped grid meters (#31739)
+* server: fix TestSessionHandlerTimezoneFilter on UTC CI runners (#31688)
+* EEBus: ignore IEC61851 default current limits, honor loadpoint minCurrent (#31737)
+* EM24: drop kWh(-) export register, not available on all devices (#31736)
+* CI: mark /build and /nightly command comment resolved when done (#31734)
+* CI: exclude CI and Bump commits from release notes (#31735)
+* Daheimladen: check stationid
+* Add Solplanet AI-Dongle LAN (local HTTP API) (#31732)
+* Daheimladen: restore safe current limit after charger reset (#31729)
+* CI: extract shared build toolchain into composite action (#31726)
+* CI: claude code review only comments when issues found (#31727)
+* octopus-it: drop unused ItAgreement.ID (GraphQL ID scalar is a string)
+* Drivesomethinggreater: update description (#31723)
+* CI: move /nightly to its own workflow, build from master (#31718)
+* pv: reserve surplus for higher-priority loadpoints starting up (#31194) (#31684)
+* octopus-it: fix account query for Italy's Kraken schema (#31656)
+* CI: claude code review posts results via --comment (#31717)
+* CI: add /build and /nightly commands to build PR binaries and docker image (#31714)
+* CI: claude issue agent also labels newly opened PRs (#31716)
+* optimizer: only suggest actions for controllable batteries (#31715)
 * CI: issue agent never creates new labels
 * optimizer: flag suggestions actionable only when they change the current mode (#31693)
 * CI: issue agent investigates inline, stricter bug labeling
