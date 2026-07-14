@@ -2,6 +2,21 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* meter/anker-solix-x1: fix wrong Total PV Generation register address (#31771)
+* tariff: deprecate solarprognose tariff (service shut down) (#31770)
+* CI: fix /analyze command startup failure (#31762)
+* chore: round evopt-batteries forecast timestamps to seconds (#31763)
+* chore: test remote tunnel connection retry (#31760)
+* Loadpoint: release priority PV reservation when car reached charge goal (#31759)
+* CI: add /analyze comment command for on-demand issue/PR analysis (#31756)
+* CI: compress /build binary artifacts (#31757)
+* Indevolt: add battery control (#31741)
+* Battery: optimizer suggestion state icons (#31748)
+* Loadpoint: add min temperature for heating devices (#31749)
+* Config: persist settings immediately on device delete (#31755)
+* Config: persist settings immediately on site update (#31754)
+* Circuit: apply HEMS consumption limit even without configured maxPower (#31751)
+* Config (Remote): add title to app deep-link QR code (#31746)
 * Metrics: fixed grid entity title, merge series of swapped grid meters (#31739)
 * server: fix TestSessionHandlerTimezoneFilter on UTC CI runners (#31688)
 * EEBus: ignore IEC61851 default current limits, honor loadpoint minCurrent (#31737)
