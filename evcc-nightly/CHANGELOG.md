@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Bender: extract Spelsberg Smart Pro (#30493)
+* EEBus: add MGCP, MPC, LPC and LPP conformance tests (#31384)
+* optimizer: fix pause suggestion for idle-but-enabled loadpoints (#31792)
+* Fix instantiating meters referenced only by circuits (#31788)
 * meter/anker-solix-x1: fix wrong Total PV Generation register address (#31771)
 * tariff: deprecate solarprognose tariff (service shut down) (#31770)
 * CI: fix /analyze command startup failure (#31762)
