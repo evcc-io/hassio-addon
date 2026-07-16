@@ -2,6 +2,21 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Atmoce: add curtail and dimming, add holdcharge and rework normal/hold/charge (#31632)
+* Sponsor: remove Creem license key activation (#31824)
+* Zaptec: detect cable swap between vehicles via session identifier
+* fix: prevent infeasible optimizer result from battery soc outside configured limits (#31821)
+* CI: add eyes reaction to all command-invokable agents; fix claude.yml write perms (#31820)
+* Loadpoint: fix minSoc config error on restart (#31819)
+* CI: grant Edit/Write tools to /fix and triage's optional fix step (#31816)
+* CI: fix broken command workflows: trim() isn't a valid Actions expression (#31814)
+* CI: add /fix command agent for maintainer-triggered fix PRs (#31812)
+* chore: minor (#31811)
+* Add Mennekes PnC variants (#31806)
+* chore: minor (#31808)
+* chore: minor (#31809)
+* Zaptec: propagate Enable errors other than 528 (#31803)
+* Fix DoJSON error on empty-body 2xx response (#31801)
 * Bender: extract Spelsberg Smart Pro (#30493)
 * EEBus: add MGCP, MPC, LPC and LPP conformance tests (#31384)
 * optimizer: fix pause suggestion for idle-but-enabled loadpoints (#31792)
