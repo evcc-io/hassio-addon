@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* docs: skip repo prettier config in CLI docs workflow
+* docs: stub dist assets for CLI docs generation
+* Add Voltcast tariff (#31848)
+* docs: auto-update evcc CLI reference on release (#31846)
+* Sponsor: trim pasted token in UI (#31841)
 * Atmoce: add curtail and dimming, add holdcharge and rework normal/hold/charge (#31632)
 * Sponsor: remove Creem license key activation (#31824)
 * Zaptec: detect cable swap between vehicles via session identifier
