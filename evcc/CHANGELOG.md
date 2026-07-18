@@ -193,9 +193,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## Changelog
 ### Breaking Changes 🚨
-* GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)
 * Kostal Plenticore: replace older plenticore template (BC) (#30854)
-* Revert "GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)"
 ### New Features 💫
 * Add Eltako DSZ15DZMOD/DSZ16 meters (#31197)
 * Add Hager witty series (OCPP) (#31179)
@@ -260,6 +258,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * RCT: fix battery energy, add returnenergy (#31037)
 * Sigenergy: fix grid meter (#31188)
 * UI: fix rs485-only modbus templates (#31201)
+
 
 
 
