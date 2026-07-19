@@ -2,6 +2,23 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Home Assistant: add plugin source, support temp for heating switch devices (BC) (#31915)
+* Battery (experimental): batteryicon: visualize actual percentages (#31917)
+* HEMS: add per-hems tests for nil statements when unconfigured or not connected (#31430)
+* Metrics: recover downtime energy via persisted meter readings (#31795)
+* SMA hybrid: add battery mode 4 (holdcharge) (#31911)
+* Site: don't apply battery priority to loadpoints with battery boost active (#31790)
+* Meter: make battery parameters dynamic (#31668)
+* Sessions: show export dropdown above bottom tab bar (#31898)
+* Heating: add time-based energy statistics (today, 24h, 7d) to loadpoint tile (#31781)
+* Planner: use summed slot duration for rate coverage check (#30469)
+* gpio: share line requests across read/write instances on the same pin (#31508)
+* Anker Solarbank Max AC: add battery control (#31869)
+* CI Issue agent: be reluctant to label bugs, push for missing info (#31901)
+* Battery (experimental): restore priority/buffer soc constraint (#31900)
+* Simplify HEMS api (#31428)
+* Vehicle: deprecate default charge mode in config (#31893)
+* Tariff (pvnode V2 API): make forecast poll interval configurable (#31897)
 * Home Assistant: warn when deprecated 'token' parameter is used (#31876)
 
 ## [0.312.0] - 2026-07-17
@@ -197,9 +214,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## Changelog
 ### Breaking Changes 🚨
-* GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)
 * Kostal Plenticore: replace older plenticore template (BC) (#30854)
-* Revert "GoodWe Hybrid: read battery max charge/discharge power from device (BC) (#31086)"
 ### New Features 💫
 * Add Eltako DSZ15DZMOD/DSZ16 meters (#31197)
 * Add Hager witty series (OCPP) (#31179)
@@ -264,6 +279,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * RCT: fix battery energy, add returnenergy (#31037)
 * Sigenergy: fix grid meter (#31188)
 * UI: fix rs485-only modbus templates (#31201)
+
 
 
 
