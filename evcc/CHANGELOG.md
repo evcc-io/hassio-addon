@@ -2,6 +2,48 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.312.1] - 2026-07-20
 
+## Changelog
+### Breaking Changes 🚨
+* Home Assistant: add plugin source, support temp for heating switch devices (BC) (#31915)
+### New Features 💫
+* Add Growatt MIN 3000TL-XE (non-hybrid) (#31135)
+* Anker Solarbank Max AC: add battery control (#31869)
+* HEMS: add per-hems tests for nil statements when unconfigured or not connected (#31430)
+* Heating: add time-based energy statistics (today, 24h, 7d) to loadpoint tile (#31781)
+* Huawei: add HoldCharge (#30598)
+* SMA hybrid: add battery mode 4 (holdcharge) (#31911)
+* drivesomethinggreater: add instructions (#31047)
+### Experimental Features 🧪
+* Battery (experimental): batteryicon: visualize actual percentages (#31917)
+* Battery (experimental): restore priority/buffer soc constraint (#31900)
+### Other Changes ☀️
+* Battery boost: hold at soc limit instead of disabling (#31922)
+* CI Issue agent: be reluctant to label bugs, push for missing info (#31901)
+* Cardata: status detection for "New Class" vehicles (#30938)
+* HTTP plugin: warn on uncached repeated GET requests (#31932)
+* Home Assistant: warn when deprecated 'token' parameter is used (#31876)
+* Loadpoint: keep vehicle soc when re-assigning same vehicle (#31945)
+* Meter: make battery parameters dynamic (#31668)
+* Metrics: recover downtime energy via persisted meter readings (#31795)
+* Modbus: handle NaN values (#31011)
+* Mqtt: limit trace log payload length like http logging (#31944)
+* OCPP: use loadpoint phases for watts-based charging power (#31946)
+* Optimizer: pass grid feed-in curtailment limit when active (#31949)
+* Planner: use summed slot duration for rate coverage check (#30469)
+* Revert "Modbus: handle NaN values" (#31968)
+* Sessions: show export dropdown above bottom tab bar (#31898)
+* Simplify HEMS api (#31428)
+* Site: don't apply battery priority to loadpoints with battery boost active (#31790)
+* Tariff (pvnode V2 API): make forecast poll interval configurable (#31897)
+* UI: move vehicle settings from charging plan modal to own modal (#31775)
+* Vehicle: deprecate default charge mode in config (#31893)
+* Vehicle: restore streaming param on EU Data Act templates (#31970)
+* gpio: share line requests across read/write instances on the same pin (#31508)
+* open-meteo-temperature: increase forecast to 5 days (#31960)
+### Bug Fixes 🐞
+* Daheimladen: fix misleading sponsorship error on station id read (#31956)
+* Revert "loadpoint: fix phase detection for low current" (#31931)
+
 
 
 ## [0.312.0] - 2026-07-17
