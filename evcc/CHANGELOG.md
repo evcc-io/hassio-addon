@@ -5,6 +5,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ## Changelog
 ### Breaking Changes 🚨
 * Home Assistant: add plugin source, support temp for heating switch devices (BC) (#31915)
+* FNN/Relay HEMS validates plugins on startup (BC) (#31428)
 ### New Features 💫
 * Add Growatt MIN 3000TL-XE (non-hybrid) (#31135)
 * Anker Solarbank Max AC: add battery control (#31869)
