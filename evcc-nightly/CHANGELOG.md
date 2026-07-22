@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Mqtt: wait for retained message after subscribe before first read (#32031)
+* Afore hybrid: add grid and pv usage (#32027)
+* CI: pin claude-code-action to last working version (#32026)
+* Chore: remove unused @claude mention workflow (#32024)
+* Site: only re-evaluate HEMS dim and curtail state on change (#32011)
+* Curtailment: report curtailed percent instead of bool (#32010)
+* Revert "Add Shelly EM1 (#31992)"
 * docs(openapi): remove stale result envelope from response schemas (#31989)
 * Add Shelly EM1 (#31992)
 * chore: quote openapi responses (#31984)
@@ -16,6 +23,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ## Changelog
 ### Breaking Changes 🚨
 * Home Assistant: add plugin source, support temp for heating switch devices (BC) (#31915)
+* FNN/Relay HEMS validates plugins on startup (BC) (#31428)
 ### New Features 💫
 * Add Growatt MIN 3000TL-XE (non-hybrid) (#31135)
 * Anker Solarbank Max AC: add battery control (#31869)
