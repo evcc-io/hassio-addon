@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle (VW/EU Data Act): add Skoda Enyaq soc key (#32060)
+* Optimizer: publish result before status check (#32055)
+* UI: use consistent vehicle wording in messaging events (#31938) (#32048)
+* Revert "Daheimladen: fix misleading sponsorship error on station id read (#31956)"
+* Optimizer: notify on advisory suggestion changes (#31905)
+* Optimizer: evaluate suggestion actionable flag on publish (#32045)
+* Planner: fix continuous plan selecting the current slot (#32041)
+* Trydan: remove Locked, pause DPC, add currents/voltages (firmware >=2.5.0) (#32013)
+* Fix startup deadlock with existing metrics database (#32043)
+* chore: upgrade modules
 * Mqtt: wait for retained message after subscribe before first read (#32031)
 * Afore hybrid: add grid and pv usage (#32027)
 * CI: pin claude-code-action to last working version (#32026)
@@ -24,6 +34,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 ### Breaking Changes 🚨
 * Home Assistant: add plugin source, support temp for heating switch devices (BC) (#31915)
 * FNN/Relay HEMS validates plugins on startup (BC) (#31428)
+* Merge Marstek Venus E Gen 3.0 template (BC) (#31865)
 ### New Features 💫
 * Add Growatt MIN 3000TL-XE (non-hybrid) (#31135)
 * Anker Solarbank Max AC: add battery control (#31869)
