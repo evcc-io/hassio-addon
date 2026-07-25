@@ -2,6 +2,26 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: hide battery forecast when already full or empty (#32121)
+* Optimizer: don't show outdated battery forecast (#32119)
+* chore: exclude local artifacts from docker build context (#32111)
+* Optimizer: split grid peak shaping into demand, feed-in and combined strategies (#32108)
+* Revert "API: generate /api/state documentation from UI types" (#32109)
+* Add Sigenergy EVDC charger (#32023)
+* Tariff (Combined): sort rates before partitioning by start time (#32094)
+* WARP1: don't report zero phase currents on power-only meters (#32090)
+* Modbus: unify delay and timeout settings (BC) (#31996)
+* chore: remove result envelope reintroduced in #31530 (#32088)
+* Optimizer: surface battery-to-grid discharge as suggestion (#32087)
+* Site: add experimental battery grid discharge setting (#32086)
+* Daheimladen: fix hardware check (#32079)
+* Bump fast-uri from 3.1.3 to 3.1.4 (#32085)
+* API: generate /api/state documentation from UI types (#31530)
+* FNN Hems: align power config wording with EEBus (productionNominalMax) (#31948)
+* Wattsonic: remove wrong grid currents (inverter registers) (#32049)
+* chore: use consistent 'vehicle' wording in messaging notifications (#31939)
+* chore: clarify heidelbridge
+* Vaillant: solve ALTCHA challenge on login (#32070)
 * Vehicle (VW/EU Data Act): add Skoda Enyaq soc key (#32060)
 * Optimizer: publish result before status check (#32055)
 * UI: use consistent vehicle wording in messaging events (#31938) (#32048)
