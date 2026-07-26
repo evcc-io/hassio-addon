@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* EEBus: accept an inactive §14a limit without a value (#32155)
+* Bump github.com/getkin/kin-openapi from 0.143.0 to 0.144.0 (#32153)
+* Bump github.com/quic-go/webtransport-go from 0.10.0 to 0.11.1 (#32152)
+* Bump postcss from 8.5.16 to 8.5.23 (#32154)
+* EEBus: fix OHPCF re-boost after the heat pump withdrew its flexibility (#32150)
+* Tariff: fix chargesZones boundaries not taking effect between price zones (#32143)
+* UI: fix missing general config tiles with battery configured (#32140)
+* chore: add firmware requirements (#32135)
+* Home Assistant: configurable charge status values (BC) (#32136)
 * Optimizer: hide battery forecast when already full or empty (#32121)
 * Optimizer: don't show outdated battery forecast (#32119)
 * chore: exclude local artifacts from docker build context (#32111)
