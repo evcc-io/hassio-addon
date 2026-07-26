@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Tariff: base cache validity on update interval instead of rate coverage (#32168)
+* Tariff: keep fixed tariff rates ordered when chargesZones markers are combined (#32165)
 * EEBus: accept an inactive §14a limit without a value (#32155)
 * Bump github.com/getkin/kin-openapi from 0.143.0 to 0.144.0 (#32153)
 * Bump github.com/quic-go/webtransport-go from 0.10.0 to 0.11.1 (#32152)
