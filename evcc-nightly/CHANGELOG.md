@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* E3DC: address session data request per wallbox index (#32172)
+* Tariff (solar): center sub-slot interpolation on the source slot (#32116)
+* Loadpoint: ignore implausible charge rater readings (#32174)
+* HEMS: use Wp unit for installed generator power (#32173)
+* chore: clarify firmware (#32167)
+* chore: add rfid capability (#32160)
 * Tariff: base cache validity on update interval instead of rate coverage (#32168)
 * Tariff: keep fixed tariff rates ordered when chargesZones markers are combined (#32165)
 * EEBus: accept an inactive §14a limit without a value (#32155)
