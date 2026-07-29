@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Deye 3p hybrid: add feed-in curtailment (BC) (#32206)
+* Session: fixed overflowing of cards on small screens (#32261)
+* EEBus OHPCF: keep enabled state when enable fails (#32263)
+* Battery: move grid discharge setting to battery page (#32256)
+* Add SMA Sunny Home Manager 2.0 ModbusTCP with curtailment (#32091)
 * vw/eudataact: fall back to battery care mode field for target SoC (#32242)
 * Cardata: fix mqtt channel stealing (#32244)
 * Add THB (Thai Baht) to currency list (#32231)
