@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* vw/eudataact: fall back to battery care mode field for target SoC (#32242)
+* Cardata: fix mqtt channel stealing (#32244)
+* Add THB (Thai Baht) to currency list (#32231)
+* Huawei SUN2000: read all ESS registers at once (#32234)
+* Update and fix translations (#32224)
+* Shelly 3EM (Gen.1): add http cache, default 1s (#32216)
+* Huawei SUN2000: treat two battery units as single battery (BC) (#32034)
+* EEBus: treat data not valid as unavailable (#32204)
+* chore: single permanent sentinel error type (#32200)
+* core: apply dim/curtail to devices that cannot report their state (#32198)
+* api: match permanent sentinel errors after backoff unwrapping (#32197)
+* Huawei SUN2000: add curtailment description (#32188)
+* OCPP: tolerate empty chargePointVendor in BootNotification (#32184)
+* Solaredge: add curtailment (#31982)
 * E3DC: address session data request per wallbox index (#32172)
 * Tariff (solar): center sub-slot interpolation on the source slot (#32116)
 * Loadpoint: ignore implausible charge rater readings (#32174)
