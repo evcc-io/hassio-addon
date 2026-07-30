@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Translations update from Hosted Weblate (#32232)
+* vw/eudataact: restore welcomecharge (#32276)
+* Huawei SUN2000: optimize timings (#32235)
+* UI: fix loadpoint value alignment on narrow screens (#32275)
+* chore: update npm dependencies (#32271)
+* docs: collapse double spaces in generated CLI docs
+* chore: publish docker image from /nightly command (#32269)
+* HEMS: add custom implementation (#32187)
+* History: normalize tooltip units, add total row (#32262)
+* UI: suppress API error toasts during restart (#32265)
 * Deye 3p hybrid: add feed-in curtailment (BC) (#32206)
 * Session: fixed overflowing of cards on small screens (#32261)
 * EEBus OHPCF: keep enabled state when enable fails (#32263)
