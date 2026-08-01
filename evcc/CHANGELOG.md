@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.313.1] - 2026-08-01
 
+## Changelog
+### Other Changes ☀️
+* 0.313 backport: chore: pin clock in device colors test (#32325) (#32387)
+* Cardata: delete obsolete streaming containers (#32376)
+### Bug Fixes 🐞
+* 0.313 backport: Sessions UI: fix grouped chart layout and legend styling (#32383)
+* 0.313 backport: chore: fix request cache warning (#32382)
+
 
 
 ## [0.313.0] - 2026-07-30
