@@ -2,7 +2,54 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Fronius Solar API V1: cache GetPowerFlowRealtimeData requests (#32422)
+* Huawei EMMA: add curtailment (#32006)
+* Charger (FoxESS EVC, foxess-evc): remove broken session energy (#32371)
+* OpenEMS: add cache (#32402)
+* Docs: mention --disable-auth for local UI checks (#32414)
+* chore: require agents to watch CI and to not argue with review bots (#32412)
+* Fix rendering notifications from the state at event time (#32401)
+* chore: warn on repeated requests only when they succeed (#32403)
+* Dockerfile: fix vite+ installer failing in the ui build stage (#32406)
+* chore: cc the authors of a regression-causing pull request (#32404)
+* Loadpoint: consider load management in phase scaling (#32353)
+* chore: delete the release branch after a bugfix release (#32395)
+* chore: keep the backport marker out of the release notes (#32392)
+* chore: serialize hassio changelog updates (#32389)
+* chore: open backport pull requests without a body (#32385)
+* chore: distinguish backport pull requests by title and label (#32381)
+* chore: name backport branch after the bugfix release (#32375)
+* chore: state that the backport pull request was opened (#32374)
+* chore: enforce release branch policy and add backport command (#32369)
+* chore: skip Claude PR labeling for bot pull requests (#32372)
+* Bump github/codeql-action from 4 to 4.37.3 (#32359)
+* Bump docker/login-action from 4.1.0 to 4.6.0 (#32360)
+* Bump actions/setup-go from 6 to 7 (#32361)
+* Bump docker/setup-buildx-action from 4.1.0 to 4.2.0 (#32362)
+* Bump actions/stale from 10 to 11 (#32363)
+* chore: merge Fronius Smart Meter IP with SunSpec (#32351)
+* Add NEcharge Pro charger (OCPP 1.6J) (#31631)
+* Sessions UI: fix grouped chart layout and legend styling (#32338)
+* chore: fix request cache warning (#32342)
+* chore: remove leftover eslint dependencies (#32334)
+* chore: upgrade modules
+* chore: use vite+ (#32297)
+* Fronius: add Argeno and Smart Meter IP meter templates (#32329)
+* Viessmann: discover installation id and gateway serial (#32308)
+* chore: pin clock in device colors test (#32325)
 * Cardata: delete obsolete streaming containers (#32314)
+
+## [0.313.1] - 2026-08-01
+
+## Changelog
+### Other Changes ☀️
+* 0.313 backport: chore: pin clock in device colors test (#32325) (#32387)
+* Cardata: delete obsolete streaming containers (#32376)
+### Bug Fixes 🐞
+* 0.313 backport: Sessions UI: fix grouped chart layout and legend styling (#32383)
+* 0.313 backport: chore: fix request cache warning (#32382)
+
+
 
 ## [0.313.0] - 2026-07-30
 
