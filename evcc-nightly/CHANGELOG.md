@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Translations update from Hosted Weblate (#32285)
+* Alpitronic HYC: fix status mapping and bundle register reads (#32260)
+* Add Youliq One (#32429)
 * Fronius Solar API V1: cache GetPowerFlowRealtimeData requests (#32422)
 * Huawei EMMA: add curtailment (#32006)
 * Charger (FoxESS EVC, foxess-evc): remove broken session energy (#32371)
