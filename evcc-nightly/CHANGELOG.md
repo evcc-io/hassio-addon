@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Templates: keep large numeric params parseable (#32528)
+* vw/eudataact: only use bcam threshold as target soc when care mode active (#32521)
+* Add DWD (Bright Sky) temperature forecast (#32522)
+* Sessions: record added range per charging session (#32509)
+* Remote access: show tunnel connect errors, self-recover after offline boot (#32511)
+* cfos: expose temperature exceedance (#32514)
+* Meter (FoxESS H3): add battery control (#32302)
+* chore: bump spine-go rollup to include deferred early subscribe/bind requests (#32508)
+* fix: modbus/read service cache key ignores read parameters (#32499)
 * SolarMax SMT: drop the whole-kWh energy register (#32497)
 * Soc: simplify estimator (#32495)
 * EEBus: keep grid limits applied as the LPC/LPP spec requires (BC) (#32492)
