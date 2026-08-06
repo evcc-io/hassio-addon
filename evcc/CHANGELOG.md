@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.313.2] - 2026-08-06
 
+## Changelog
+### Other Changes ☀️
+* Sponsor: wait for network to settle during startup check [0.313 backport] (#32557)
+* Warn on repeated requests only when they succeed [0.313 backport] (#32472)
+### Bug Fixes 🐞
+* Atmoce: fix curtailed for battery [0.313 backport] (#32461)
+
 
 
 ## [0.313.1] - 2026-08-01
