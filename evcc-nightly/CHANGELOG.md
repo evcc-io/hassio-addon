@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: update CODEOWNERS for template contributors (#32546)
+* HTTP: increase request timeout (#32542)
+* Atmoce: add basic holdcharge on pre-01.01.00.28.15 firmware (#32537)
+* Atmoce: dynamic parameters for capacity/maxchargepower/maxdischargepower (#32536)
+* Meter (Victron): add GX AC load meter template (#32411)
 * Templates: keep large numeric params parseable (#32528)
 * vw/eudataact: only use bcam threshold as target soc when care mode active (#32521)
 * Add DWD (Bright Sky) temperature forecast (#32522)
