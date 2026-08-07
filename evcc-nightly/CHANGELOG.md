@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* ci: manage waiting for feedback label (#32577)
+* Huawei SUN2000: clarify battery configuration in description (#32558)
+* ci: skip openapi step for backport tags without openapi target (#32562)
+* Docs: point getState externalDocs to API State reference page (#32568)
+* Add ferroamp meter (#32566)
+* API: publish forecast as arrays with unix timestamps (BC) (#32391)
+* Charging plan: make strategy settings discoverable (#32452)
+* Bender: skip Mennekes 4You/4Business unsupported registers 730/740 (#32560)
+* emsesp: use single cached bulk fetch to avoid firmware rate limiting (#32559)
+* Sponsor: wait for network to settle during startup check (#32556)
 * chore: update CODEOWNERS for template contributors (#32546)
 * HTTP: increase request timeout (#32542)
 * Atmoce: add basic holdcharge on pre-01.01.00.28.15 firmware (#32537)
@@ -73,6 +83,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Viessmann: discover installation id and gateway serial (#32308)
 * chore: pin clock in device colors test (#32325)
 * Cardata: delete obsolete streaming containers (#32314)
+
+## [0.313.2] - 2026-08-06
+
+## Changelog
+### Other Changes ☀️
+* Sponsor: wait for network to settle during startup check [0.313 backport] (#32557)
+* Warn on repeated requests only when they succeed [0.313 backport] (#32472)
+### Bug Fixes 🐞
+* Atmoce: fix curtailed for battery [0.313 backport] (#32461)
+
+
 
 ## [0.313.1] - 2026-08-01
 
