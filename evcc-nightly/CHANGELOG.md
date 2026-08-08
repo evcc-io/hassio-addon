@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Config UI: fix duration template param handling (#32572)
+* core: fix nil pointer panic when deleting active grid meter (#32607)
+* UI Charts: swipe on charts to switch time range (#32614)
+* UI Charts: show/hide tooltips on touch (#32613)
+* UI: hide chart tooltips on touch release (#32603)
+* UI Customize: email-based problem report flow for custom support email (#32584)
+* UI Customize: add white-label flags (logo, brand, website, email, phone) (#32582)
+* pvnode: resample interval averages to power at slot start (#32604)
+* Loadpoint: limit boost power to battery limits (#28178)
+* Optimizer: add static grid export limit (#32541)
+* Huawei SmartLogger: fix PV energy yield (#32592)
 * ci: manage waiting for feedback label (#32577)
 * Huawei SUN2000: clarify battery configuration in description (#32558)
 * ci: skip openapi step for backport tags without openapi target (#32562)
