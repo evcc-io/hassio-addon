@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* core: simplify site/optimizer integration (#32646)
+* Shelly: query return energy support once (#32644)
+* Shelly: fix PV energy for devices with reverse power measurement enabled (#32550)
+* core: keep limitSoc/limitEnergy on integrated device disconnect (#32623)
+* Solcast: keep forecast alive outside active hours (#32639)
+* Skoda: expose welcomecharge parameter (#32636)
+* chore: upgrade modules
+* Optimizer: stop demanding charge once the vehicle is full (#32633)
+* chore: ugprade modules
+* Solplanet AI dongle: add battery control (#31908)
 * Config UI: fix duration template param handling (#32572)
 * core: fix nil pointer panic when deleting active grid meter (#32607)
 * UI Charts: swipe on charts to switch time range (#32614)
