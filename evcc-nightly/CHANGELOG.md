@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Add admin api for deleting invalid metrics (#32666)
+* chore: drop unused generated openapi.md (#32668)
+* chore: semver-compliant version for dev and nightly builds (#32663)
+* Tesla BLE: handle sleeping vehicles with vehicle-api charger (#32615)
+* Site: respect minSoc in maxDischargePower calculation (#32664)
+* Powerwall: add Fleet API support (BC) (#32410)
+* chore: fix lint:format skipping assets and tests (#32662)
+* Huawei SmartLogger: add returnenergy to grid (#32650)
+* Hoymiles AhoyDTU: add cache (#32652)
+* chore: remove prettier editor leftovers, align oxfmt config (#32657)
+* Tasmota: mask password in error messages (#32659)
+* Optimizer: add feasible status (#32632)
 * core: simplify site/optimizer integration (#32646)
 * Shelly: query return energy support once (#32644)
 * Shelly: fix PV energy for devices with reverse power measurement enabled (#32550)
