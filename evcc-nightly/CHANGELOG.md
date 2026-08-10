@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: fix dev version string in Docker builds (#32683)
+* Config UI: show static grid export limit on hems card (#32634)
+* Optimizer: re-run on vehicle changes and include unmodeled loads (#32681)
+* chore: monotonic package version for dev builds (#32679)
 * Add admin api for deleting invalid metrics (#32666)
 * chore: drop unused generated openapi.md (#32668)
 * chore: semver-compliant version for dev and nightly builds (#32663)
