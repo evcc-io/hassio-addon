@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: drop Docker build GHA cache (#32684)
+* History UI: add prefetch and caching (#32699)
+* Log: separate ring buffer budget for trace and higher levels (#32698)
+* chore: don't guard connection settings with the registry mutex (#32695)
+* UI Sessions: migrate charts from Chart.js to ECharts (#32625)
+* Modbus: fix missing template delay and timeout defaults (#32694)
+* chore: upgrade modules
+* chore: fix flaky aux meter e2e test (#32685)
 * chore: fix dev version string in Docker builds (#32683)
 * Config UI: show static grid export limit on hems card (#32634)
 * Optimizer: re-run on vehicle changes and include unmodeled loads (#32681)
