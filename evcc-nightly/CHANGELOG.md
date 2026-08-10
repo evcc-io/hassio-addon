@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: drop the shared Go cache from CI (#32703)
 * chore: disable unused CodeQL overlay database cache (#32702)
 * chore: consolidate CI Go and Playwright caches (#32701)
 * chore: persist Docker build cache mounts across CI runs (#32700)
