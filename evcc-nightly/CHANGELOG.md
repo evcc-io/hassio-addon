@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* MQTT: publish one forecast message per key (BC) (#32716)
+* Revert "MQTT: publish the forecast as a single JSON message (#32710)"
+* MQTT: publish the forecast as a single JSON message (#32710)
+* chore: fix the CodeQL overlay mode value so it takes effect (#32709)
+* chore: trial setup-go's built-in cache (#32708)
 * chore: drop the shared Go cache from CI (#32703)
 * chore: disable unused CodeQL overlay database cache (#32702)
 * chore: consolidate CI Go and Playwright caches (#32701)
