@@ -2,6 +2,25 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* docs: add shelly plug m (#32753)
+* Site: make battery discharge limit availability explicit (#32728)
+* chore: stop caching dist on pull requests and warm the vp task cache for forks (#32749)
+* Tariff: qualify db device log names with the configured title (#32747)
+* chore: minor (#32748)
+* chore: minor
+* Huawei SmartLogger: add curtailment (#32585)
+* UI: replace "none" with 100% for vehicle default charging limit (#32739)
+* Forecast: match persisted solar history to the published curve (#32693)
+* Config UI: allow disabling devices (#29455)
+* chore: narrow the vitest cache exclusion (#32738)
+* chore: cache the vp openapi and test tasks (#32733)
+* chore: reuse the vp task cache in the integration job (#32734)
+* chore: enable vp task caching (#32729)
+* chore: fix the warmed Go cache key so fork builds match it (#32727)
+* chore: warm the GitHub-scoped cache from master for fork PRs (#32726)
+* chore: disable the unused CodeQL TRAP cache (#32725)
+* Meter (SolarEdge Hybrid): fix pv power (#32720)
+* chore: minor
 * MQTT: publish one forecast message per key (BC) (#32716)
 * Revert "MQTT: publish the forecast as a single JSON message (#32710)"
 * MQTT: publish the forecast as a single JSON message (#32710)
