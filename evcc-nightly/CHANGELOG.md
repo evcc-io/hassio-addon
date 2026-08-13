@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* MCP: expose state, sessions and experimental endpoints (#32806)
+* Voltie: add the firmware 352 capabilities (#32783)
+* chore: add api.CurrentLimiter (#32804)
+* Atmoce: remove battery curtailment (#32803)
+* Sonnenbatterie: cache repeated http status requests (#32797)
+* Deye: simplify curtailment scaling (#32798)
+* Tariff (Energy-Charts): cache forecast requests for 1h (#32800)
 * emsesp: add power envelope (#32772)
 * Voltie: rewrite Modbus driver for API v1.1 (#32671)
 * Add Socomec Countis E3x/E4x meter (#32775)
