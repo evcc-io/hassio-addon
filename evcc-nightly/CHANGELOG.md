@@ -2,6 +2,19 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* emsesp: add power envelope (#32772)
+* Voltie: rewrite Modbus driver for API v1.1 (#32671)
+* Add Socomec Countis E3x/E4x meter (#32775)
+* Powerwall: add dynamic battery parameters (#32742)
+* tesla-ble: add finishtime  (#32768)
+* OCPP tests: make the suite re-runnable in one binary (#32764)
+* Issue agent: re-analyze when the reporter answers a triage question (#32763)
+* chore: bump evcc-io/ocpp-go (#32762)
+* chore: fix data race in charger state tests (#32759)
+* OCPP tests: fix panic on send on closed channel during charge point stop (#32757)
+* Revert "Tariff: qualify db device log names with the configured title (#32747)"
+* Config UI: use auto unit for energy and power (#32754)
+* charger/custom: support api.PhaseGetter via optional "getphases" field (#32756)
 * docs: add shelly plug m (#32753)
 * Site: make battery discharge limit availability explicit (#32728)
 * chore: stop caching dist on pull requests and warm the vp task cache for forks (#32749)
@@ -156,6 +169,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Viessmann: discover installation id and gateway serial (#32308)
 * chore: pin clock in device colors test (#32325)
 * Cardata: delete obsolete streaming containers (#32314)
+
+## [0.313.3] - 2026-08-12
+
+## Changelog
+### Other Changes ☀️
+* Bender: skip Mennekes 4You/4Business unsupported registers 730/740 [0.313 backport] (#32593)
+### Bug Fixes 🐞
+* Meter (SolarEdge Hybrid): fix stale battery power register in pv formula [0.313 backport] (#32724)
+* Shelly: fix PV energy for devices with reverse power measurement enabled [0.313 backport] (#32643)
+* core: fix nil pointer panic when deleting active grid meter [0.313 backport] (#32621)
+
+
 
 ## [0.313.2] - 2026-08-06
 
