@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* PV: reserve only min power for higher-priority loadpoints starting up (#32812)
+* Config UI: prevent accidental modal close with unsaved changes (#32826)
+* Optimizer UI: migrate charts to echarts, remove chart.js (#32837)
+* UI: fix sessions table covering heading in app (#32830)
+* Battery Boost: allow scaling to 3p while active (#32776)
+* SunEnergyXT: add SunEnergyXT 500 template (#30852)
+* Goodwe: add curtailment (BC) (#32795)
+* ioBroker: update installation and auth details (#32817)
+* Fronius Gen24: add PV curtailment support (#32823)
 * UI: fix auto power unit for negative values (#32813)
 * Config UI: mobile optimized section navigation (#32810)
 * MCP: expose state, sessions and experimental endpoints (#32806)
