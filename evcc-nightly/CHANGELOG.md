@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* UI: fix auto power unit for negative values (#32813)
+* Config UI: mobile optimized section navigation (#32810)
 * MCP: expose state, sessions and experimental endpoints (#32806)
 * Voltie: add the firmware 352 capabilities (#32783)
 * chore: add api.CurrentLimiter (#32804)
