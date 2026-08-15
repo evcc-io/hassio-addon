@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Alpitronic: update handling for power absorption and fix status logic (v3.1.0) (#32820)
 * PV: reserve only min power for higher-priority loadpoints starting up (#32812)
 * Config UI: prevent accidental modal close with unsaved changes (#32826)
 * Optimizer UI: migrate charts to echarts, remove chart.js (#32837)
