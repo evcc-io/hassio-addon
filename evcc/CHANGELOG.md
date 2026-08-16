@@ -66,7 +66,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Loadpoint: consider load management in phase scaling (#32353)
 * Loadpoint: limit boost power to battery limits (#28178)
 * Log: separate ring buffer budget for trace and higher levels (#32698)
-* MQTT: publish the forecast as a single JSON message (#32710)
 * OCPP tests: make the suite re-runnable in one binary (#32764)
 * Optimizer UI: migrate charts to echarts, remove chart.js (#32837)
 * Optimizer: consider planner precondition (late charging) (#32872)
@@ -74,8 +73,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Optimizer: stop demanding charge once the vehicle is full (#32633)
 * PV: reserve only min power for higher-priority loadpoints starting up (#32812)
 * Remote access: show tunnel connect errors, self-recover after offline boot (#32511)
-* Revert "MQTT: publish the forecast as a single JSON message (#32710)"
-* Revert "Tariff: qualify db device log names with the configured title (#32747)"
 * Sessions: record added range per charging session (#32509)
 * Shelly: query return energy support once (#32644)
 * Site: make battery discharge limit availability explicit (#32728)
@@ -87,7 +84,6 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Sonnenbatterie: cache repeated http status requests (#32797)
 * Sponsor: wait for network to settle during startup check (#32556)
 * Tariff (Energy-Charts): cache forecast requests for 1h (#32800)
-* Tariff: qualify db device log names with the configured title (#32747)
 * Tasmota: mask password in error messages (#32659)
 * Templates: keep large numeric params parseable (#32528)
 * Tesla BLE: handle sleeping vehicles with vehicle-api charger (#32615)
@@ -133,6 +129,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * UI: fix sessions table covering heading in app (#32830)
 * core: fix nil pointer panic when deleting active grid meter (#32607)
 * fix: modbus/read service cache key ignores read parameters (#32499)
+
 
 
 
