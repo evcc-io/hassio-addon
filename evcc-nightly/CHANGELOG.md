@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Site: feed the optimizer a trailing percentile solar scale (#32849)
+* Add Solplanet hybrid inverter (Modbus TCP) (#32888)
+* Optimizer chart: day boundaries with weekday at 00:00 (#32894)
+* Reapply "Optimizer: respect session energy limit when vehicle soc is unknown (#32895)"
+* Revert "Optimizer: respect session energy limit when vehicle soc is unknown (#32895)"
+* Add CHINT ECH10K-TH-EU inverter (#32858)
+* Optimizer: respect session energy limit when vehicle soc is unknown (#32895)
+* Modbus templates: share block reads (#32887)
+* GoodWe: list ESA series under hybrid template (#32884)
 * chore: build the release and nightly images on depot (#32883)
 * chore: make the restored docker cache mounts writable (#32882)
 * chore: fix release notes changelog template (#32877)
