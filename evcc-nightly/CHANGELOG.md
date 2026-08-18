@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: extend horizon to 48h plus end of day (#32893)
+* Loadpoint: fix config error for disabled loadpoints (#32880)
 * Site: feed the optimizer a trailing percentile solar scale (#32849)
 * Add Solplanet hybrid inverter (Modbus TCP) (#32888)
 * Optimizer chart: day boundaries with weekday at 00:00 (#32894)
