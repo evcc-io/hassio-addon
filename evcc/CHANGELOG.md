@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.314.2] - 2026-08-19
 
+## Changelog
+### Other Changes ☀️
+* Revert "PV: reserve only min power for higher-priority loadpoints starting up" (#32948)
+* Vehicle: don't instantiate disabled vehicles (#32943)
+### Bug Fixes 🐞
+* Loadpoint: fix config error for disabled loadpoints (#32923)
+* Tesla Powerwall Fleet: fix template not selectable in GUI (#32936)
+
 
 
 ## [0.314.1] - 2026-08-16
