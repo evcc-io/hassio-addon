@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* api: let Identify return multiple identities (#32949)
+* Templates: add http service for parameter choices (#32951)
+* SMA EV Charger: add setup instructions (#32862)
+* Translations update from Hosted Weblate (#32432)
+* Revert "PV: reserve only min power for higher-priority loadpoints starting up" (#32947)
+* chore: sign and notarize macOS release binaries (#32946)
+* Sponsor: include device serial in hardware check metadata (#32927)
+* Fix site.pvPower estimation for battery without pv (#32930)
+* chore: wait for the pull request to merge in the backport command (#32942)
+* Vehicle: don't instantiate disabled vehicles (#32919)
+* Marstek: add discharge and optimise batterymode (#32571)
+* chore: add ship-go rollup with mdns re-announcement leak fix (#32940)
+* Templates: support class-local include files (#32871)
+* Tesla Powerwall Fleet: fix template not selectable in ui (#32934)
 * Optimizer: extend horizon to 48h plus end of day (#32893)
 * Loadpoint: fix config error for disabled loadpoints (#32880)
 * Site: feed the optimizer a trailing percentile solar scale (#32849)
