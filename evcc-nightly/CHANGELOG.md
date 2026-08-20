@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Phases: disable instead of scaling down to 1p without sufficient surplus (#32991)
+* SolarMax MAX.STORAGE: drop the whole-kWh energy register (#32986)
+* [BUGFIX] Update url / backup example curl command  (#32984)
+* Sungrow: add curtailment (#32976)
+* Battery control: apply battery mode per battery and only on change (#32967)
+* EEBus: don't deny pairing while devices are still being configured (#32966)
+* Loadpoint: sync charger phases on vehicle connect (#32962)
+* Afore hybrid: add RS485 (#32961)
 * api: let Identify return multiple identities (#32949)
 * Templates: add http service for parameter choices (#32951)
 * SMA EV Charger: add setup instructions (#32862)
@@ -32,6 +40,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * chore: fix release notes changelog template (#32877)
 * chore: publish the homebrew package as a cask (#32874)
 * SunEnergyXT 500: fix battery control (#32866)
+
+## [0.314.2] - 2026-08-19
+
+## Changelog
+### Other Changes ☀️
+* Revert "PV: reserve only min power for higher-priority loadpoints starting up" (#32948)
+* Vehicle: don't instantiate disabled vehicles (#32943)
+### Bug Fixes 🐞
+* Loadpoint: fix config error for disabled loadpoints (#32923)
+* Tesla Powerwall Fleet: fix template not selectable in GUI (#32936)
+
+
 
 ## [0.314.1] - 2026-08-16
 
