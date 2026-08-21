@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Site: separate measurement from power calculation in update cycle (#32770)
+* Afore: remove Modbus TCP option (#32964)
+* Meter (SunSpec): read max AC power from nameplate (#32732)
+* Templates: add ErrNotAvailable default to battery mode switches (#33023)
+* Sunspec: serialize access to a shared device tree (#33014)
+* Charts: prevent long-press text selection (#33012)
+* Sunspec: share block reads across values on the same connection (#33011)
+* DaheimLaden: improve error handling (#33010)
+* docs: add inline style convention to agent rules (#33007)
+* my-PV meters: skip TLS verification for local data.jsn requests (#33003)
+* Issue: remove obsolete number input spinner styles (#33006)
+* Add StecaCharger (#32990)
+* Home Assistant: auto-detect Supervisor instance and token (#33000)
+* chore: upgrade Go to 1.27 (#30601)
 * Phases: disable instead of scaling down to 1p without sufficient surplus (#32991)
 * SolarMax MAX.STORAGE: drop the whole-kWh energy register (#32986)
 * [BUGFIX] Update url / backup example curl command  (#32984)
