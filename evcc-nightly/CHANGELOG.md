@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* DaheimLaden: fix firmware init (#33032)
+* Digest auth: reuse challenges across requests (#32842)
+* UI: Add date format preference in user interface settings (#29321)
+* Tariff: add Energy Price Forecast regions and currencies (#33051)
+* chore: use math/rand/v2 and Go 1.27 generic rand.N (#33055)
+* Tariff: make Energy Price Forecast cacheable (#33049)
+* UI Customize: add custom-theme flag for default theme (#33042)
+* EEBus: keep pairing requests pending while devices are being configured (#33046)
+* chore: sponsorship (#33045)
+* Battery boost: resume from hold when limit is lowered (#32999)
+* API: bound jq evaluation on /api/state against unauthenticated DoS (#33028)
+* Zaptec: optional fix for auto-charging (#32996)
 * Site: separate measurement from power calculation in update cycle (#32770)
 * Afore: remove Modbus TCP option (#32964)
 * Meter (SunSpec): read max AC power from nameplate (#32732)
