@@ -22,12 +22,9 @@ legacy: true
 uart: true
 homeassistant_api: true
 
-arch: 
-  - armhf
-  - armv7
+arch:
   - aarch64
   - amd64
-  - i386
 
 map: 
   - type: addon_config
