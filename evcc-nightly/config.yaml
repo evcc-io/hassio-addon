@@ -6,6 +6,7 @@ description: Nightly version of EV Charge Controller!
 url: https://github.com/evcc-io/evcc
 stage: experimental
 
+startup: application
 init: false
 
 panel_icon: mdi:ev-station
