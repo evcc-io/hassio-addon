@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Sonoff: add switch socket charger (#33058)
+* Curtailment devices: new device class for feed-in limitation (BC) (#32416)
+* Add 1SINQ OneKey heat pump (sgready via MQTT) (#33069)
 * DaheimLaden: fix firmware init (#33032)
 * Digest auth: reuse challenges across requests (#32842)
 * UI: Add date format preference in user interface settings (#29321)
