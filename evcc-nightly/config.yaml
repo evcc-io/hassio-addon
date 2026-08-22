@@ -4,7 +4,7 @@ version: nightly.20260822-7df861f
 slug: evcc-nightly
 description: Nightly version of EV Charge Controller!
 url: https://github.com/evcc-io/evcc
-stage: stable
+stage: experimental
 
 init: false
 
