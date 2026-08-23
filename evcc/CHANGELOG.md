@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.314.3] - 2026-08-23
 
+## Changelog
+### Other Changes ☀️
+* Metrics: fall back to power integration when a meter loses its energy register (#33110)
+* OCPP: keep websocket alive between heartbeats (#33101)
+* Shelly: no return energy register on gen1 relay and plug meters (#33112)
+### Bug Fixes 🐞
+* DaheimLaden: fix firmware init (#33067)
+
 
 
 ## [0.314.2] - 2026-08-19
