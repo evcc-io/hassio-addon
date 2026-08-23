@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: upgrade modules
+* Loadpoint: project continuous device min power shortfall into PV disable gate (#33075)
+* Voltie: only offer phase switching where the power board supports it (#33070)
+* Loadpoint: disable PV mode when idle integrated device lacks surplus (#33073)
+* EEBus OHPCF: add disablepowerlimiter option (#33071)
 * Sonoff: add switch socket charger (#33058)
 * Curtailment devices: new device class for feed-in limitation (BC) (#32416)
 * Add 1SINQ OneKey heat pump (sgready via MQTT) (#33069)
