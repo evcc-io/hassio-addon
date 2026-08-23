@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* pvnode: resample against the preceding interval, not the following one (#33102)
+* OCPP: keep websocket alive between heartbeats (#33099)
 * chore: upgrade modules
 * Loadpoint: project continuous device min power shortfall into PV disable gate (#33075)
 * Voltie: only offer phase switching where the power board supports it (#33070)
