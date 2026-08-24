@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Sungrow: add grid and battery returnenergy (#33129)
+* Mqtt: always render preset timeout (BC) (#33084)
+* OneKey: make mqtt timeout configurable, default 90s (#33120)
+* chore: log use case events as Evnt: <ski> <event> (#33117)
+* Loadpoint: don't reserve surplus when paused by feed-in priority (#33072)
+* chore: update docs (#32816)
+* Shelly: no return energy register on gen1 relay and plug meters (#33111)
+* Loadpoint: ignore charge interruption during phase switch (#33109)
+* Metrics: fall back to power integration when a meter loses its energy register (#33103)
+* Deye 3p hybrid: fix energy scaling for HV pre-1098 firmware (#33074)
+* Energy Price Forecast CO2: add regions (#33080)
+* Tariff (solar): resample sub-slots along the source curve (#33105)
 * pvnode: resample against the preceding interval, not the following one (#33102)
 * OCPP: keep websocket alive between heartbeats (#33099)
 * chore: upgrade modules
@@ -76,6 +88,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * chore: fix release notes changelog template (#32877)
 * chore: publish the homebrew package as a cask (#32874)
 * SunEnergyXT 500: fix battery control (#32866)
+
+## [0.314.3] - 2026-08-23
+
+## Changelog
+### Other Changes ☀️
+* Metrics: fall back to power integration when a meter loses its energy register (#33110)
+* OCPP: keep websocket alive between heartbeats (#33101)
+* Shelly: no return energy register on gen1 relay and plug meters (#33112)
+### Bug Fixes 🐞
+* DaheimLaden: fix firmware init (#33067)
+
+
 
 ## [0.314.2] - 2026-08-19
 
