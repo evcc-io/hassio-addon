@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: make dev versions increase monotonically (#33205)
 * chore: accept both vite+ bin locations in Docker build (#33203)
 * chore: upgrade dependencies
 * warp-ws: use wss when charger URI is https (#33184)
