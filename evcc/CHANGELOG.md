@@ -1,5 +1,19 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
+## [0.314.5] - 2026-08-27
+
+## Changelog
+### Other Changes ☀️
+* Grünstromindex: fall back to co2_g_oekostrom when co2_g_standard is null (#33165)
+* Keep permanent sentinel errors distinguishable (#33197)
+* Optimizer: limit precondition demand to required charging duration (#33139)
+* Soc: extrapolate from charged energy when vehicle api is unavailable (#33149)
+* warp-ws: use wss when charger URI is https (#33198)
+### Bug Fixes 🐞
+* Fix tariff API route not matching co2 (#33167)
+
+
+
 ## [0.314.4] - 2026-08-27
 
 > [!WARNING]
