@@ -2,14 +2,23 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.314.4] - 2026-08-27
 
+> [!WARNING]
+> **This release was tagged on the wrong branch. Do not use it — use [0.314.5](https://github.com/evcc-io/evcc/releases/tag/0.314.5).**
+>
+> Tag `0.314.4` points at the same commit as [0.313.3](https://github.com/evcc-io/evcc/releases/tag/0.313.3), so its binaries, packages and docker images are 0.313.3 builds carrying the 0.314.4 version string. They contain none of the changes of 0.314.0 – 0.314.3, and none of the fixes that were meant to ship as 0.314.4.
+>
+> [0.314.5](https://github.com/evcc-io/evcc/releases/tag/0.314.5) carries those fixes and continues the 0.314 line. The guard that rejects such a tag is [#33232](https://github.com/evcc-io/evcc/pull/33232).
+
 ## Changelog
+
+This build is identical to 0.313.3, whose changelog is reproduced below. It is **not** the changelog of the 0.314 line.
+
 ### Other Changes ☀️
 * Bender: skip Mennekes 4You/4Business unsupported registers 730/740 [0.313 backport] (#32593)
 ### Bug Fixes 🐞
 * Meter (SolarEdge Hybrid): fix stale battery power register in pv formula [0.313 backport] (#32724)
 * Shelly: fix PV energy for devices with reverse power measurement enabled [0.313 backport] (#32643)
 * core: fix nil pointer panic when deleting active grid meter [0.313 backport] (#32621)
-
 
 
 ## [0.314.3] - 2026-08-23
