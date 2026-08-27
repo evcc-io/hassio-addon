@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.314.4] - 2026-08-27
 
+## Changelog
+### Other Changes ☀️
+* Bender: skip Mennekes 4You/4Business unsupported registers 730/740 [0.313 backport] (#32593)
+### Bug Fixes 🐞
+* Meter (SolarEdge Hybrid): fix stale battery power register in pv formula [0.313 backport] (#32724)
+* Shelly: fix PV energy for devices with reverse power measurement enabled [0.313 backport] (#32643)
+* core: fix nil pointer panic when deleting active grid meter [0.313 backport] (#32621)
+
 
 
 ## [0.314.3] - 2026-08-23
