@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Škoda: add MyŠkoda public api vehicle (#33234)
+* chore: reject release tags that do not build on their release line (#33232)
+* About modal: powered by footer for branded installations, update status badge (#33233)
+* Energyflow: clip collapsed details to remove phantom scroll area (#33229)
+* Services: add sunspec/read for reading a point value from a device (#33230)
+* Charging plan: show strategy settings without dynamic tariff (#33168)
+* openWB Pro: add return energy (#33216)
+* Phases: allow 1p scale-down when the loadpoint never disables (#33214)
 * chore: make dev versions increase monotonically (#33205)
 * chore: accept both vite+ bin locations in Docker build (#33203)
 * chore: upgrade dependencies
@@ -116,6 +124,41 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * chore: fix release notes changelog template (#32877)
 * chore: publish the homebrew package as a cask (#32874)
 * SunEnergyXT 500: fix battery control (#32866)
+
+## [0.314.5] - 2026-08-27
+
+## Changelog
+### Other Changes ☀️
+* Grünstromindex: fall back to co2_g_oekostrom when co2_g_standard is null (#33165)
+* Keep permanent sentinel errors distinguishable (#33197)
+* Optimizer: limit precondition demand to required charging duration (#33139)
+* Soc: extrapolate from charged energy when vehicle api is unavailable (#33149)
+* warp-ws: use wss when charger URI is https (#33198)
+### Bug Fixes 🐞
+* Fix tariff API route not matching co2 (#33167)
+
+
+
+## [0.314.4] - 2026-08-27
+
+> [!WARNING]
+> **This release was tagged on the wrong branch. Do not use it — use [0.314.5](https://github.com/evcc-io/evcc/releases/tag/0.314.5).**
+>
+> Tag `0.314.4` points at the same commit as [0.313.3](https://github.com/evcc-io/evcc/releases/tag/0.313.3), so its binaries, packages and docker images are 0.313.3 builds carrying the 0.314.4 version string. They contain none of the changes of 0.314.0 – 0.314.3, and none of the fixes that were meant to ship as 0.314.4.
+>
+> [0.314.5](https://github.com/evcc-io/evcc/releases/tag/0.314.5) carries those fixes and continues the 0.314 line. The guard that rejects such a tag is [#33232](https://github.com/evcc-io/evcc/pull/33232).
+
+## Changelog
+
+This build is identical to 0.313.3, whose changelog is reproduced below. It is **not** the changelog of the 0.314 line.
+
+### Other Changes ☀️
+* Bender: skip Mennekes 4You/4Business unsupported registers 730/740 [0.313 backport] (#32593)
+### Bug Fixes 🐞
+* Meter (SolarEdge Hybrid): fix stale battery power register in pv formula [0.313 backport] (#32724)
+* Shelly: fix PV energy for devices with reverse power measurement enabled [0.313 backport] (#32643)
+* core: fix nil pointer panic when deleting active grid meter [0.313 backport] (#32621)
+
 
 ## [0.314.3] - 2026-08-23
 
