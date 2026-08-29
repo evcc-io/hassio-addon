@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: add curtailment to meter template (#33237)
+* Site: add returnEnergy to aggregated battery state (#33241)
+* UI: show inactive phases as dots in phase indicator (#33173)
 * Škoda: add MyŠkoda public api vehicle (#33234)
 * chore: reject release tags that do not build on their release line (#33232)
 * About modal: powered by footer for branded installations, update status badge (#33233)
