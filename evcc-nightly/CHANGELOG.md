@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Home Assistant: link charge status docs (#33260)
+* OpenDTU: tolerate missing radio_stats in energy filter (#33279)
+* Add BYN, UAH, RUB and KZT to currency list (#33259)
+* Cardata: fix retrying failed container setup (#33243)
 * chore: add curtailment to meter template (#33237)
 * Site: add returnEnergy to aggregated battery state (#33241)
 * UI: show inactive phases as dots in phase indicator (#33173)
