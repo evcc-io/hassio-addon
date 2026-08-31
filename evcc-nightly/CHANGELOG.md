@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Zaptec: fix nil pointer panic when Capabilities observation is missing (#33304)
+* Zendure SolarFlow 800 Pro: add battery control (#33272)
+* Templates: add integration provider link (#32008)
+* EEBus: clamp the curtailment percent to the documented maximum (#33300)
+* HomeWizard: support 1p kWh meters (#33293)
+* EEBus: apply the configured failsafe limits consistently (#33288)
 * Home Assistant: link charge status docs (#33260)
 * OpenDTU: tolerate missing radio_stats in energy filter (#33279)
 * Add BYN, UAH, RUB and KZT to currency list (#33259)
