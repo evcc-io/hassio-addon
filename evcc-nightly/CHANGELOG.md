@@ -2,6 +2,21 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Huawei SUN2000: add force-discharge (#32307)
+* Config UI Loadpoint: rework min/max current inputs (#33418)
+* Charging plan: disable optimization when late charging covers everything (#33422)
+* Battery: report supported modes per device (#32648)
+* Config UI: clarify battery soc limit help texts (#33414)
+* chore: fix master build after mode redesign merge (#33421)
+* Planner: clarify precondition log message (#33400)
+* Mode Redesign: rename pv to smart, replace minpv with always charge (BC) (#32490)
+* chore: extract phase timer handling (#33417)
+* Loadpoint: add fast charging phase upscale delay (#28174)
+* Config UI: usage-specific energy labels for device tags (#33402)
+* Add battery forced discharge to grid mode (feed-in arbitrage) (#31995)
+* OAuth: persistent token source (#33370)
+* UI: place chart tooltips beside the pointer (#33411)
+* UI: improve chart line readability (#33410)
 * API: raise the jq query limit to 8k (#33394)
 * EEBus: wait for use case data before returning the device (#33386)
 * Config UI: raise device test timeout to 15s (#33118)
