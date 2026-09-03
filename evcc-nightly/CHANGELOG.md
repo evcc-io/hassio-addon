@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Loadpoint: treat alwaysCharge as dynamic config (#33444)
+* Loadpoint: add solar share setting (#32104)
+* chore: upgrade modules
+* Battery UI: make new battery page default, remove classic layout (#33434)
+* EEBus: replay use case support to devices registering after discovery (#33430)
+* Revert "EEBus: replay use case support to devices registering after discovery (#33423)"
+* Script plugin: add float setter (#33426)
+* EEBus: replay use case support to devices registering after discovery (#33423)
 * Huawei SUN2000: add force-discharge (#32307)
 * Config UI Loadpoint: rework min/max current inputs (#33418)
 * Charging plan: disable optimization when late charging covers everything (#33422)
