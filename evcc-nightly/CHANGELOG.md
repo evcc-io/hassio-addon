@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Huawei EMMA: fix grid import/export energy registers (#33432)
+* eebus-ohpcf: fail setup when the device does not support OHPCF (#33468)
+* EEBus: capture vehicle identification from update event (#33458)
+* Loadpoint: honor configured phases in minimum active phases (#33462)
+* Subaru vehicle: handle range unit conversion (#33453)
+* chore: better help text for passive mode (#33454)
+* Zaptec: do not offer phase switching in passive mode (#33447)
+* Loadpoint: test that persisted settings remain valid config (#33450)
 * Loadpoint: treat alwaysCharge as dynamic config (#33444)
 * Loadpoint: add solar share setting (#32104)
 * chore: upgrade modules
