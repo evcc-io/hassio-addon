@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: fix maxchargepower
+* Zaptec: fix model detection (#33504)
+* Zendure Solarflow: consolidate battery templates (BC) (#33505)
+* Zaptec: don't expose phase switching for Go (#33484)
+* Loadpoint: ignore dimmer not available (#33486)
+* Meter (Deye): add HTTP micro inverter logger template (#33485)
 * Mode UI: smart mode label and popover alignment (#33479)
 * Huawei EMMA: fix grid import/export energy registers (#33432)
 * eebus-ohpcf: fail setup when the device does not support OHPCF (#33468)
