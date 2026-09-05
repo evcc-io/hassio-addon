@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Mode UI: smart mode label and popover alignment (#33479)
 * Huawei EMMA: fix grid import/export energy registers (#33432)
 * eebus-ohpcf: fail setup when the device does not support OHPCF (#33468)
 * EEBus: capture vehicle identification from update event (#33458)
