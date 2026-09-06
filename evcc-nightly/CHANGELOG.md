@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: isolate phase-switch test HTTP transport (#33526)
+* EEBus: expose LPC and LPP capabilities only when supported (#33525)
+* Atmoce: add battery discharge (#33437)
+* Remote Access UI: don't show toast for proxy errors (#33514)
+* Merge remote-tracking branch 'weblate/master'
+* Config UI: untranslated 'continuous' in device card and test result (#33487)
+* Translations update from Hosted Weblate (#33196)
+* EcoFlow Stream: add battery control (#33433)
+* chore: fix test callback and logging races (#33508)
+* Zendure Solarflow: suggest battery serial via HTTP (#33510)
+* CI: disable Claude workflows (#33507)
 * chore: fix maxchargepower
 * Zaptec: fix model detection (#33504)
 * Zendure Solarflow: consolidate battery templates (BC) (#33505)
@@ -20,17 +31,36 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Loadpoint: treat alwaysCharge as dynamic config (#33444)
 * Loadpoint: add solar share setting (#32104)
 * chore: upgrade modules
+* Translated using Weblate (Finnish)
 * Battery UI: make new battery page default, remove classic layout (#33434)
+* Merge remote-tracking branch 'origin/master'
 * EEBus: replay use case support to devices registering after discovery (#33430)
+* Merge remote-tracking branch 'origin/master'
 * Revert "EEBus: replay use case support to devices registering after discovery (#33423)"
+* Merge remote-tracking branch 'origin/master'
 * Script plugin: add float setter (#33426)
+* Merge remote-tracking branch 'origin/master'
 * EEBus: replay use case support to devices registering after discovery (#33423)
+* Merge remote-tracking branch 'origin/master'
 * Huawei SUN2000: add force-discharge (#32307)
+* Merge remote-tracking branch 'origin/master'
 * Config UI Loadpoint: rework min/max current inputs (#33418)
+* Merge remote-tracking branch 'origin/master'
 * Charging plan: disable optimization when late charging covers everything (#33422)
+* Merge remote-tracking branch 'origin/master'
 * Battery: report supported modes per device (#32648)
+* Merge remote-tracking branch 'origin/master'
 * Config UI: clarify battery soc limit help texts (#33414)
+* Merge remote-tracking branch 'origin/master'
 * chore: fix master build after mode redesign merge (#33421)
+* Translated using Weblate (Dutch)
+* Translated using Weblate (Swedish)
+* Translated using Weblate (Catalan)
+* Translated using Weblate (Turkish)
+* Translated using Weblate (Danish)
+* Translated using Weblate (Russian)
+* Translated using Weblate (Latvian)
+* Translated using Weblate (Lithuanian)
 * Planner: clarify precondition log message (#33400)
 * Mode Redesign: rename pv to smart, replace minpv with always charge (BC) (#32490)
 * chore: extract phase timer handling (#33417)
