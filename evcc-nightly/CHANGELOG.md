@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* OCPP: keep live meter reading when duplicate measurand contexts collide (#33257)
+* MyŠkoda: expose welcomecharge (#33570)
+* Vehicle API: handle TeslaMate sleeping response (#33560)
+* Optimizer: apply active result slot (#33501)
+* chore: skip update check for dev and nightly builds (#33555)
+* Vehicle: fix UI location in deprecated mode warning (#33551)
+* Loadpoint: resume charging during phase switch (#33552)
+* chore: fail early when vp is not Vite+ (#33535)
 * chore: isolate phase-switch test HTTP transport (#33526)
 * EEBus: expose LPC and LPP capabilities only when supported (#33525)
 * Atmoce: add battery discharge (#33437)
