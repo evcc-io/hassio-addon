@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* OpenEVSE: use websocket for state and claims API for control (#33539)
+* Revert "CI: disable Claude workflows (#33507)"
+* Tesla BLE: add charged energy (#33585)
+* Solis Hybrid S: require minsoc and maxsoc for active battery control (#33580)
+* Meter: add Solarman V5 transport and Deye micro inverter template (#33502)
+* my-PV: add HEA THOR 3.5 and 9.0 support (#33500)
+* Tariffs: add spotovaelektrina.cz (#33581)
+* Voltie: detect phase switching from the capability register (#33574)
 * OCPP: keep live meter reading when duplicate measurand contexts collide (#33257)
 * MyŠkoda: expose welcomecharge (#33570)
 * Vehicle API: handle TeslaMate sleeping response (#33560)
