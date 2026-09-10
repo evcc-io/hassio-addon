@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* fox-ess-h3-smart: hold via On-Grid SoC reserve instead of Feed-in First (#33537)
+* Sungrow: add holdcharge battery mode (#32932)
 * OpenEVSE: use websocket for state and claims API for control (#33539)
 * Revert "CI: disable Claude workflows (#33507)"
 * Tesla BLE: add charged energy (#33585)
