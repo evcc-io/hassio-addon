@@ -2,6 +2,21 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Use official vite+ image for Devcontainer (#33564)
+* Translations update from Hosted Weblate (#33520)
+* OCPP: allow transaction-specific charging profiles (#33512)
+* Loadpoint: derive remaining energy and duration from energy limit (#33637)
+* CI: label issue and pr waiting for feedback when pr build finished (#33636)
+* Sponsor: accept temp token from hardware check (#33631)
+* Keba modbus: switch back to 1p on disable (#32665)
+* my-PV HEA: derive heartbeat interval from power timeout register (#33628)
+* my-PV HEA: add 5s heartbeat to rewrite active relays (#33626)
+* Remote access: cache verified basic-auth credentials (#33593)
+* Bump vitest from 4.1.10 to 4.1.11 (#33616)
+* Bump js-yaml from 4.3.1 to 4.3.2 (#33615)
+* MySkoda: prefer charge limit of current saved location (#33612)
+* chore: make the backport command retryable (#33613)
+* Tariff (DWD, ESIOS): evaluate forecast dates per request (#33601)
 * fox-ess-h3-smart: hold via On-Grid SoC reserve instead of Feed-in First (#33537)
 * Sungrow: add holdcharge battery mode (#32932)
 * OpenEVSE: use websocket for state and claims API for control (#33539)
