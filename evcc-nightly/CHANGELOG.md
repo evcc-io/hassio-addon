@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* NRGkick Connect: write current and enable state in a single request (#33675)
+* go-e: add status reason for access control (#33661)
+* Loadpoint: resolve charge meter capabilities once at boot (#33672)
+* Loadpoint: log when circuit limit falls below min current (#33671)
+* Issue triage: apply area label alongside type Bug, fix label names (#33663)
+* Hoymiles OpenDTU: add cache (#33669)
+* Nordpool tariff: cache day-ahead price requests (#33655)
+* Weishaupt: add heat pump (Modbus TCP) (#33193)
 * Use official vite+ image for Devcontainer (#33564)
 * Translations update from Hosted Weblate (#33520)
 * OCPP: allow transaction-specific charging profiles (#33512)
