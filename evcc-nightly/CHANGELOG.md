@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* HEMS Pro: also probe I2C bus 0 for RTC (#33639)
+* Energy demand profile: improve prediction accuracy for heating loadpoints (#28232)
 * NRGkick Connect: write current and enable state in a single request (#33675)
 * go-e: add status reason for access control (#33661)
 * Loadpoint: resolve charge meter capabilities once at boot (#33672)
