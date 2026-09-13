@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: configurable per-slot percentile for the energy demand profiles (#33700)
+* Loadpoint: seed unknown phases from charger on startup (#33701)
+* Optimizer: reapply last solve to newer slots from the control cycle (#33583)
+* Optimizer: treat unknown battery mode as normal for suggestions (#33698)
+* Toyota: fix partial api response handling (#33689)
+* Loadpoint: don't fail setup when the charger has lost phase switching (#33619)
 * HEMS Pro: also probe I2C bus 0 for RTC (#33639)
 * Energy demand profile: improve prediction accuracy for heating loadpoints (#28232)
 * NRGkick Connect: write current and enable state in a single request (#33675)
