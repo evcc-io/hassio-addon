@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Templates: move phases1p3p param to defaults.yaml (BC) (#33588)
+* Marstek Venus A/D: derive battery power from AC power minus MPPT (#33473)
+* Meter: default battery minsoc/maxsoc to 0/100 (#33589)
+* aa55 udp: reject responses whose length does not match the request (#33696)
+* Loadpoint: recompute charge plan immediately on vehicle-side plan changes (#33467)
 * Optimizer: configurable per-slot percentile for the energy demand profiles (#33700)
 * Loadpoint: seed unknown phases from charger on startup (#33701)
 * Optimizer: reapply last solve to newer slots from the control cycle (#33583)
