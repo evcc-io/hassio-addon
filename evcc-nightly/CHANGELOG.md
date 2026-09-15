@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Make diagnostics more discoverable (2) (#33734)
+* chore: shard the Playwright run (#33731)
+* chore: pin openapi-validate to the go.mod Go version (#33729)
+* chore: run go-licenses as a go.mod tool (#33730)
+* chore: run fork pull request jobs on GitHub-hosted runners (#33728)
+* Zaptec: ignore empty session identifier in connection duration (#33720)
+* Site: hide config-disabled loadpoints in energy flow (#33714)
+* Issue page: add copy-as-markdown button and menu shortcut (#33699)
+* Home Assistant: drop battery minsoc/maxsoc preset (BC) (#33707)
 * Templates: move phases1p3p param to defaults.yaml (BC) (#33588)
 * Marstek Venus A/D: derive battery power from AC power minus MPPT (#33473)
 * Meter: default battery minsoc/maxsoc to 0/100 (#33589)
@@ -149,6 +158,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * History: remove energy netting, unify bidirectional detection (#33338)
 * CI: keep the bug label off issues, use the Bug issue type (#33341)
 * chore: rebase the eebus fork rollups on upstream dev (#33340)
+
+## [0.315.1] - 2026-09-14
+
+
 
 ## [0.315.0] - 2026-08-31
 
