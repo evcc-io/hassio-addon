@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: empty state, menu entry when enabled, feedback link (#33750)
+* Optimizer: floor end of horizon battery value at export price (#33746)
+* Modbus proxy: keep default device port after serial round-trip (#33744)
+* EEBus: make milli amp current control optional (#33739)
 * Make diagnostics more discoverable (2) (#33734)
 * chore: shard the Playwright run (#33731)
 * chore: pin openapi-validate to the go.mod Go version (#33729)
