@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* ui: hide temperature limit controls for SGReady devices (#33754)
 * Optimizer: empty state, menu entry when enabled, feedback link (#33750)
 * Optimizer: floor end of horizon battery value at export price (#33746)
 * Modbus proxy: keep default device port after serial round-trip (#33744)
