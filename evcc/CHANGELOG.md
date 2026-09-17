@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.315.2] - 2026-09-17
 
+## Changelog
+### Other Changes ☀️
+* Modbus proxy: keep default device port after serial round-trip (#33745)
+
 
 
 ## [0.315.1] - 2026-09-14
