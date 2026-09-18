@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Spelsberg: add meter capability (#33823)
+* Optimizer: report loadpoint charging state (#33802)
+* MQTT: sanitize map keys used as topic levels (#33819)
+* Zendure Solarflow: add forced discharge mode (#33801)
+* HTTP digest: accept X-WWW-Authenticate challenge header (#33793)
+* Shelly TopAC: fix enabled (#33805)
+* Zendure Solarflow: read charge setpoint from device (#33803)
+* Open-Meteo: cache forecast requests short-term (#33797)
+* Tariff: add epexprijzen-be template for Belgium (#33762)
+* Ghost (Elli): re-login when the REST API rejects the token (#33785)
+* Optimizer: break down household demand into individual profiles (#33749)
 * ui: hide temperature limit controls for SGReady devices (#33754)
 * Optimizer: empty state, menu entry when enabled, feedback link (#33750)
 * Optimizer: floor end of horizon battery value at export price (#33746)
@@ -163,6 +174,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * History: remove energy netting, unify bidirectional detection (#33338)
 * CI: keep the bug label off issues, use the Bug issue type (#33341)
 * chore: rebase the eebus fork rollups on upstream dev (#33340)
+
+## [0.315.2] - 2026-09-17
+
+## Changelog
+### Other Changes ☀️
+* Modbus proxy: keep default device port after serial round-trip (#33745)
+
+
 
 ## [0.315.1] - 2026-09-14
 
