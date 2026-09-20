@@ -2,6 +2,24 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Tariffs: reject slots shorter than 15min (BC) (#33865)
+* Kostal Plenticore: add forced discharge mode (#32396)
+* Vehicle: add LiveWire S2 motorcycle (#33683)
+* Optimizer: only offer grid discharge for batteries with discharge mode (#33860)
+* Meter: add verifybatterymodes command (#33857)
+* Home Assistant charger: make milliamp current control optional (BC) (#33858)
+* Loadpoint: do not send zero power values to estimator (#33846)
+* Optimizer: fix plan SoC goal slot placement off-by-one (#33832)
+* Chargers: use verify enabled helper (#33811)
+* Playwright: follow Shelly Pro 3EM product rename
+* Config UI: improve modal slide transitions (#33833)
+* chore: minor
+* chore: minor
+* chore: update npm dependencies (#33847)
+* Shelly: decorate phase readings only when the device meters them (#33706)
+* Revert "ui: hide temperature limit controls for SGReady devices" (#33840)
+* Polestar: add official Data Portal M2M API (#33814)
+* Home Assistant: add holdcharge and discharge battery modes (#33841)
 * Spelsberg: add meter capability (#33823)
 * Optimizer: report loadpoint charging state (#33802)
 * MQTT: sanitize map keys used as topic levels (#33819)
