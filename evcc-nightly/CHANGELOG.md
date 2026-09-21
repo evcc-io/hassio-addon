@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: let issue agent pick labels from repo, skip pre-labeled issues (#33907)
+* Tariff: don't serve cached rates that have entirely elapsed (#33904)
+* chore: fix data race in TestFixedDstSpringForward (#33895)
+* Tariff: keep serving cached rates and retry while tariff unavailable (#33880)
+* Tariff: retry creating unavailable tariff (#33894)
+* Tariff (fixed): drop zero-length slot on dst spring forward (#33869)
+* Anker Solarbank Max AC: add discharge (#32365)
 * Tariffs: reject slots shorter than 15min (BC) (#33865)
 * Kostal Plenticore: add forced discharge mode (#32396)
 * Vehicle: add LiveWire S2 motorcycle (#33683)
