@@ -1,5 +1,9 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
+## [0.316.0] - 2026-09-22
+
+
+
 ## [0.315.2] - 2026-09-17
 
 ## Changelog
