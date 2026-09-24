@@ -1,5 +1,15 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
+## [unreleased]
+
+* minor
+* Add Roche Energy REL261 battery (#33987)
+* Kia/Hyundai/Genesis EU: add Genesis to OneApp/CCI login, clarify refresh_token docs (#33991)
+* Tariff: add missing epexprijzen.be providers (#33969)
+* Config: redact secrets in custom device yaml for bug reports (#33948)
+* Fronius Ohmpilot: cache SolarAPI response (#33974)
+* Revert "Easee: fix charging stop on scale down (#29464)" (#33964)
+
 ## [0.316.0] - 2026-09-22
 
 ## Changelog
