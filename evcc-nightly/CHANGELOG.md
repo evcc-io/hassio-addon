@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* UI: retry websocket quickly after connection loss (#34035)
+* GoodWe WiFi ET: decode grid power as int16 (#34021)
+* Sungrow iHM: fix feed-in limitation on/off detection (0x55/0xAA) (#33776)
+* Loadpoints UI: re-snap carousel after layout changes - #34029
+* Add Schneider MicroLogic (#33770)
+* MySkoda: detect saved location by current position profile presence (#34015)
+* E3/DC: fix charge and hold charge battery modes (#33721)
+* chore: update caveats (#34009)
+* Translations (de): use Hausbatterie consistently (#34010)
+* Translations update from Hosted Weblate (#33651)
+* FoxESS Avocado: add battery force discharge mode (#33977)
+* Add enecess ecoMain (#33717)
 * minor
 * Add Roche Energy REL261 battery (#33987)
 * Kia/Hyundai/Genesis EU: add Genesis to OneApp/CCI login, clarify refresh_token docs (#33991)
