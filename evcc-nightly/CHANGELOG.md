@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* WARP: wipe stale RFID data (#34052)
+* Translations (de): use "Ein" for switch device on mode (#34058)
+* Tariff: keep cached slots leading up to a fresh tariff's first fetch (#34051)
+* Battery boost: keep boosted power from other loadpoints (#33769)
 * UI: retry websocket quickly after connection loss (#34035)
 * GoodWe WiFi ET: decode grid power as int16 (#34021)
 * Sungrow iHM: fix feed-in limitation on/off detection (0x55/0xAA) (#33776)
