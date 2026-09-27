@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Battery: combine limitsoc with batterymode, Solis holds at current soc (#33623)
 * WARP: wipe stale RFID data (#34052)
 * Translations (de): use "Ein" for switch device on mode (#34058)
 * Tariff: keep cached slots leading up to a fresh tariff's first fetch (#34051)
