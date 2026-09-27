@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.316.1] - 2026-09-27
 
+## Changelog
+### Other Changes ☀️
+* GoodWe WiFi ET: decode grid power as int16 (#34033)
+* MySkoda: use plug connection state when charging state is omitted (#34126)
+* OCPP: use active phases for watts-based charging power (#34130)
+* Optimizer: default battery SMax to capacity without soc limits (#34131)
+
 
 
 ## [0.316.0] - 2026-09-22
