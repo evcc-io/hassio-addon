@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Loadpoints UI: fix inactive card on open without lp param (#34144)
+* Config: skip admin password for unchanged script configs (#34119)
+* Subaru: retry incomplete status payloads with timeout (#33477)
+* Vehicle: remove finish time capability (BC) (#34132)
+* Solaredge Hybrid: add discharge and holdcharge battery modes (#32344)
+* Optimizer: default battery SMax to capacity without soc limits (#34129)
+* OCPP: use active phases for watts-based charging power (#34121)
+* MySkoda: use plug connection state when charging state is omitted (#34124)
+* Keba UDP: add welcomecharge feature (#34123)
+* Loadpoint: larger solar share slider touch target (#34117)
+* About: show full hostname for custom whitelabel website (#34100)
 * Battery: combine limitsoc with batterymode, Solis holds at current soc (#33623)
 * WARP: wipe stale RFID data (#34052)
 * Translations (de): use "Ein" for switch device on mode (#34058)
@@ -26,6 +37,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Config: redact secrets in custom device yaml for bug reports (#33948)
 * Fronius Ohmpilot: cache SolarAPI response (#33974)
 * Revert "Easee: fix charging stop on scale down (#29464)" (#33964)
+
+## [0.316.1] - 2026-09-27
+
+## Changelog
+### Other Changes ☀️
+* GoodWe WiFi ET: decode grid power as int16 (#34033)
+* MySkoda: use plug connection state when charging state is omitted (#34126)
+* OCPP: use active phases for watts-based charging power (#34130)
+* Optimizer: default battery SMax to capacity without soc limits (#34131)
+
+
 
 ## [0.316.0] - 2026-09-22
 
