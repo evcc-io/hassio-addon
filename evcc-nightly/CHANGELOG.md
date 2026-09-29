@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Loadpoint: apply default mode on boot for UI-configured loadpoints (#34160)
+* meter: add Gossen Metrawatt ENERGYMID EM2289 (#34171)
+* EU Data Act: reduce requests (#34042)
+* Sungrow: add pv energy (#34152)
+* docs: fix typos in iso15118 template (#34175)
+* Config UI: Load management configuration via UI (#33077)
+* Sungrow iHM: fix voltage registers and use block reads (#34174)
+* Porsche: Porsche Connect vehicle with in-browser login (#31232)
+* Config UI: fix disabling messenger devices (#34090)
+* Templates: allow caveats on product level (#34162)
+* SENEC.Connect: select system by serial number (#34167)
 * Loadpoints UI: fix inactive card on open without lp param (#34144)
 * Config: skip admin password for unchanged script configs (#34119)
 * Subaru: retry incomplete status payloads with timeout (#33477)
