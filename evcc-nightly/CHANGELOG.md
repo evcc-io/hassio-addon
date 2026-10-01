@@ -2,6 +2,39 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Revert "Add ABL SURSUM EVCC controller (#33644)"
+* Optimizer: include Continuous heating loadpoints in demand breakdown when in ModeOff (#34262)
+* Add ABL SURSUM EVCC controller (#33644)
+* Meter (Solis): drop coarse pv energy register (#34260)
+* Add Gossen Metrawatt ENERGYMID (via MBMD) (#34189)
+* Schneider: support Charge Pro via FC04/FC16 (#33872) (#34165)
+* EEBus: persist full-list writes to the remote cache (#34125)
+* chore: add serial example for template test (#34255)
+* Weishaupt: derive status from power setpoint (#34134)
+* UI: show time picker icon on touch devices (#34247)
+* Vehicle (Tesla BLE): expose climater state (#34250)
+* Weishaupt: remove power reading from unlisted register 33126 (#34251)
+* Config: retry meter reads in device status (#34246)
+* Sungrow hybrid: use shared block reads (#34164)
+* Loadpoints UI: close always-charge popover when swiping carousel (#34242)
+* Loadpoint: keep a vehicle assigned while detection by status is running (#34237)
+* Tests: search log at info level so the startup line stays in the window (#34215)
+* Fritz: renew existing session id before full re-login (#34229)
+* Revert "chore: upgrade modules"
+* chore: upgrade modules
+* SunSpec: report not-implemented sentinel as ErrNotAvailable instead of zero (#34217)
+* docs: link problem report guide from issue template and UI (#34209)
+* chore: use prebuilt simulator for e2e tests (#34214)
+* Issue report: add missing UI config values (#34201)
+* Zaptec: detect stand-alone mode (#34184)
+* Toyota: use phevUsableBatteryLevel for PHEV vehicles (#34196)
+* EEBus: surface ship-go handshake, transport and mdns discovery debug lines (#34191)
+* Bump fast-uri from 3.1.6 to 3.1.8 (#34185)
+* Bump ip-address from 10.5.0 to 10.7.2 (#34190)
+* fix: sessions legend grid overflowing card on long labels (#33944)
+* Config UI: site country setting and grid discharge confirmation (#34178)
+* Revert "meter: add Gossen Metrawatt ENERGYMID EM2289 (#34171)"
+* OCPP: clear stale transaction state on reboot (#33909)
 * Loadpoint: apply default mode on boot for UI-configured loadpoints (#34160)
 * meter: add Gossen Metrawatt ENERGYMID EM2289 (#34171)
 * EU Data Act: reduce requests (#34042)
