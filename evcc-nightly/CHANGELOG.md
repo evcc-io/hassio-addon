@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Discovery: link collection issue, recognize more devices (#34336)
+* Add lekker dynamic tariff (#34333)
+* Config: suggest local network hosts for device templates (#34244)
+* Battery: end battery-supported charging on grid import (#34128)
+* EUDA: change login flow to speedup login (#34313)
+* Log: parse the line header without regexp (#34320)
+* Config UI: flag disabled loadpoints referencing an unknown circuit (#34257)
+* Solcast: don't waste quota during off-hours (#33771)
 * Solinteg: unify M-TEC, Wattsonic and Solinteg templates (BC) (#24975)
 * Templates: expose modbus delay and timeout for hand-rolled connections (#33947)
 * Meter (Sungrow hybrid): drop calculated phase currents (#34294)
