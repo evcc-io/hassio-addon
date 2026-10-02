@@ -2,6 +2,25 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Solinteg: unify M-TEC, Wattsonic and Solinteg templates (BC) (#24975)
+* Templates: expose modbus delay and timeout for hand-rolled connections (#33947)
+* Meter (Sungrow hybrid): drop calculated phase currents (#34294)
+* Shutdown: floor the wait for shutdown hooks (#34276)
+* Tests: wait for always charge once state before toggling off (#34273)
+* Tests: fix flaky bool service datalist assertion (#34274)
+* chore: upgrade vite-plus to 1.0.0 (#34291)
+* Tests: use local MQTT broker in config-mqtt spec (#34278)
+* Tests: wait for modal shown in aux and battery specs (#34279)
+* Database: respond before shutdown on restore/reset (#34285)
+* HomeAssistant meter: support plugin-based battery SoC limits (#33863)
+* OCPP: measure meter value freshness on receipt instead of charger timestamp (#34288)
+* Bump golang from 1.27.0-alpine to 1.27.1-alpine (#34271)
+* Bump docker/build-push-action from 7.3.0 to 7.4.0 (#34269)
+* Bump depot/setup-action from 1.7.1 to 1.7.2 (#34268)
+* Bump actions/setup-python from 6 to 7 (#34267)
+* Bump github/codeql-action from 4.37.9 to 4.38.2 (#34265)
+* Bump anthropics/claude-code-action from 1.0.210 to 1.0.236 (#34266)
+* Mode: don't activate Smart just from opening the Always charge dropdown (#34264)
 * Revert "Add ABL SURSUM EVCC controller (#33644)"
 * Optimizer: include Continuous heating loadpoints in demand breakdown when in ModeOff (#34262)
 * Add ABL SURSUM EVCC controller (#33644)
