@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.316.2] - 2026-10-04
 
+## Changelog
+### Other Changes ☀️
+* EU Data Act: improve login (#34179)
+* Meter (Solis): drop coarse pv energy register (#34261)
+* Weishaupt: remove power reading from unlisted register 33126 (#34252)
+### Bug Fixes 🐞
+* E3/DC: fix charge and hold charge battery modes (#34013)
+* Loadpoints UI: fix inactive card on open without lp param (#34145)
+
 
 
 ## [0.316.1] - 2026-09-27
