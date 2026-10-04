@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: upgrade modules
+* chore: minor
+* Fronius Verto Plus: add curtail support (#34411)
+* FoxESS H3 Smart: hold via discharge current limit, fix write order (BC) (#34363)
+* Issue agent: PR labeler applies bug only for issues typed Bug (#34406)
+* Mennekes AMTRON 4You/4Business (OCPP): Add 1p3p capability (#34373)
+* chore: pin GitHub Actions to commit SHAs (#34389)
+* docs: replace dead documentation links (#34391)
+* Heating: use active phases for current to power conversion (#34402)
+* Issue agent: close reports that kept the UI paste placeholder (#34400)
+* Issue agent: read referenced discussions (#34399)
 * Loadpoint: accept status C while disabled for continuous devices (#34385)
 * Tariff (ESIOS): apply Canarias prices per local hour (#34384)
 * chore: tidy json flag check and host names (#34383)
@@ -137,6 +148,19 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Config: redact secrets in custom device yaml for bug reports (#33948)
 * Fronius Ohmpilot: cache SolarAPI response (#33974)
 * Revert "Easee: fix charging stop on scale down (#29464)" (#33964)
+
+## [0.316.2] - 2026-10-04
+
+## Changelog
+### Other Changes ☀️
+* EU Data Act: improve login (#34179)
+* Meter (Solis): drop coarse pv energy register (#34261)
+* Weishaupt: remove power reading from unlisted register 33126 (#34252)
+### Bug Fixes 🐞
+* E3/DC: fix charge and hold charge battery modes (#34013)
+* Loadpoints UI: fix inactive card on open without lp param (#34145)
+
+
 
 ## [0.316.1] - 2026-09-27
 
