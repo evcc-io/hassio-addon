@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Issue agent: always apply an area label, re-add waiting for feedback after a reply (#34416)
 * chore: upgrade modules
 * chore: minor
 * Fronius Verto Plus: add curtail support (#34411)
