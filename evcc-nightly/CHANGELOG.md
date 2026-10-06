@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: drop near-term PV forecast correction (#34464)
+* Charger (Stiebel Eltron WPM): add note about heating / ISG configuration requirements (#34461)
+* Tariff: optimize formula evaluation by compiling at init (#33780)
+* Go plugin: compile script once instead of evaluating per call (#34456)
+* Log price limits with three decimals (#34455)
+* Backport command: create the release branch with the deploy token (#34428)
+* New Energy UI: historical data, analysis, savings (#33989)
 * Issue agent: always apply an area label, re-add waiting for feedback after a reply (#34416)
 * chore: upgrade modules
 * chore: minor
