@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Phases: allow 1p scale-down while climater keep-alive suppresses disable (#34499)
+* sqlite: use a connection pool with WAL (#34495)
+* Vehicle (Pleos): add welcomecharge (#34491)
+* Loadpoint: drop to min current before scaling up phases (#34457)
+* EU Data Act: serialize concurrent logins (#34492)
+* Bender: skip unsupported register 720 on Mennekes 4You/4Business (#34472)
+* LG ThinQ: add water heater boost via target temperature (#33621)
+* sqlite: enable WAL mode (#30903)
+* UI: unify battery mode icons (#33901)
 * Optimizer: drop near-term PV forecast correction (#34464)
 * Charger (Stiebel Eltron WPM): add note about heating / ISG configuration requirements (#34461)
 * Tariff: optimize formula evaluation by compiling at init (#33780)
