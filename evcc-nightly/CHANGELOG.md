@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Charger (Stiebel Eltron): split WPMsystem and WPM 3/3i templates (BC) (#34493)
+* chore: update docs (#34512)
+* UI: show vehicle limit in status independent of connection status (#34520)
+* UI: keep Safari vendor prefixes in production CSS (#34516)
+* UI (Energy): unify source labels between stat block and modal (#34508)
+* UI: add week-start indicator to month charts (#34498)
+* Tariff: average Energy Price Forecast at source (#34486)
 * Phases: allow 1p scale-down while climater keep-alive suppresses disable (#34499)
 * sqlite: use a connection pool with WAL (#34495)
 * Vehicle (Pleos): add welcomecharge (#34491)
