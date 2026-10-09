@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Sigenergy: add energy gateway option (#34094)
+* Optimizer: treat missing feed-in tariff as zero (#34544)
+* Tariff (Octopus DE): redact credentials in trace log (#34540)
+* Templates: empty param values keep the template default (BC) (#34528)
+* Zaptec: ignore command rejection code 520 (#34506)
+* Vehicle (Tesla BLE): add odometer (#34480)
 * Charger (Stiebel Eltron): split WPMsystem and WPM 3/3i templates (BC) (#34493)
 * chore: update docs (#34512)
 * UI: show vehicle limit in status independent of connection status (#34520)
