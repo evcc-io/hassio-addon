@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.317.1] - 2026-10-11
 
+## Changelog
+### Other Changes ☀️
+* Energy: build overview slots from all series (#34624)
+* Kostal Plenticore: restore manual maxacpower configuration (#34642)
+* SunSpec: nan option to substitute the not-implemented sentinel (#34638)
+* Tariffs (Ostrom): accept fractional numbers in static price response (#34601)
+
 
 
 ## [0.317.0] - 2026-10-09
