@@ -2,6 +2,26 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Service: http/get label and hint for rich suggestions (#34699)
+* Modbus: rich serial port suggestions (#34700)
+* Shelly: channel suggestions (#34701)
+* Tasmota: channel suggestions (#34703)
+* Fritz!DECT: rich device suggestions (#34692)
+* Viessmann: rich equipment suggestions (#34697)
+* EEBus: rich device suggestions for SKI (#34696)
+* Circuit: drop stale service todo on meter param (#34695)
+* Octopus: rich device suggestions (#34694)
+* Tibber: rich vehicle suggestions (#34693)
+* Home Assistant: improved entity suggestions (#34654)
+* Config: fix "false" placeholder on fields without default value (#34655)
+* Optimizer: ignore prioritySoc on loadpoints it controls (#34689)
+* SENEC Connect: add .Home V4 product (#34688)
+* Battery: only offer grid discharge for batteries supporting discharge (#34685)
+* MySkoda: add wake-up via charging/start (#34686)
+* Templates: render battery params for Sessy, ioBroker and Victron VRM (#34680)
+* Optimizer: ignore grid solver noise in battery suggestion (#34678)
+* Optimizer: add automatic mode (#32881)
+* Optimizer: energy plan goal from remaining plan energy (#34644)
 * Translations update from Hosted Weblate (#34076)
 * Tibber: apply charge zones without other charges (#34643)
 * Home Assistant charger: add temperature entity for heating devices (#34614)
@@ -27,6 +47,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * CI: read build-toolchain node version from .node-version (#34585)
 * Vehicle (Mercedes): discover fleet vehicles (#34556)
 * Issue: hint to search issues and try nightly before reporting a bug (#34572)
+
+## [0.317.1] - 2026-10-11
+
+## Changelog
+### Other Changes ☀️
+* Energy: build overview slots from all series (#34624)
+* Kostal Plenticore: restore manual maxacpower configuration (#34642)
+* SunSpec: nan option to substitute the not-implemented sentinel (#34638)
+* Tariffs (Ostrom): accept fractional numbers in static price response (#34601)
+
+
 
 ## [0.317.0] - 2026-10-09
 
