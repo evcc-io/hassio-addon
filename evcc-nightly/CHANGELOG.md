@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Translations update from Hosted Weblate (#34076)
+* Tibber: apply charge zones without other charges (#34643)
+* Home Assistant charger: add temperature entity for heating devices (#34614)
+* chore: simplify error handling (#34615)
+* Kostal Plenticore: restore manual maxacpower configuration (#34133)
+* Planner: only skip short slot if more slots follow (#34604)
+* SunSpec: nan option to substitute the not-implemented sentinel (#34370)
+* Energy: build overview slots from all series (#34618)
 * Config UI: fix enabling disabled temperature forecast (#34595)
 * Marstek: allow charging in hold mode (#34497)
 * Tariffs (Ostrom): accept fractional numbers in static price response (#34599)
