@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Modbus proxy: report upstream timeouts as gateway target failure (#34705)
 * Service: http/get label and hint for rich suggestions (#34699)
 * Modbus: rich serial port suggestions (#34700)
 * Shelly: channel suggestions (#34701)
