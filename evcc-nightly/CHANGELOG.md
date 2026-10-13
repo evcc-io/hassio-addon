@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Sungrow Hybrid: add currents (#34770)
+* mDNS: stable instance name per installation (BC) (#34691)
+* Loadpoint: fix fractional min current on circuit (#34750)
+* Phases: project the 1p switch from the actual draw (#34755)
+* Phases: stop 3p min charging within one disable delay when 1p not sustainable (#34752)
+* Energy UI: align KPI card inset with battery view on phones (#34744)
+* Config UI: keep auth provider action visible for long titles (#34737)
+* Battery UI: replace German "Speicher" with "Hausbatterie"/"Ladestand" (#34717)
+* Optimizer: hourly slots beyond 48 hours (#34738)
+* Config UI: fill empty optional params in service urls (#34702)
+* Easee: lock 3p at charger level instead of switching to auto (#34640)
 * Modbus proxy: report upstream timeouts as gateway target failure (#34705)
 * Service: http/get label and hint for rich suggestions (#34699)
 * Modbus: rich serial port suggestions (#34700)
