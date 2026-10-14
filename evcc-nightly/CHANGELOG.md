@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Translations update from Hosted Weblate (#34675)
+* Sungrow hybrid: add phase currents for LAN connection (#34706)
+* Huawei SmartLogger: fix swapped grid import/export energy registers (#34766)
+* Forecast: fix price chart drawing prices one slot early (#34792)
+* Energy UI: reorder usage and overview chart stacks (#34756)
+* Home Assistant: fix battery direction help (BC) (#34745)
+* Sungrow Hybrid: Add voltage and power registers for Modbus (#34771)
+* Kathrein: add watchdog (#34784)
+* Add Grizzl-E Mini Connect charger (OCPP) (#33908)
+* Optimizer: plot battery SoC forecast at slot end (#34777)
 * Sungrow Hybrid: add currents (#34770)
 * mDNS: stable instance name per installation (BC) (#34691)
 * Loadpoint: fix fractional min current on circuit (#34750)
