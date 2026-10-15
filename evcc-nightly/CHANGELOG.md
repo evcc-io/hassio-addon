@@ -2,6 +2,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Messenger (ntfy): add schema option to allow http (#34843)
+* Add Frank Energie tariff (#34835)
+* i18n: solar share description uses "solar surplus"
+* i18n: align English and German strings with glossary (#34836)
+* i18n: add shared terminology glossary (#34787)
+* Optimizer: hold battery while an uncontrolled loadpoint charges on the smart cost limit (#34826)
+* Circuits UI: improve power visualization (unlimited, feed-in), restart hint (#34791)
+* Sofar G3: add battery discharge mode (#34684)
+* Optimizer: fix charge cycling when home battery feeds minimum charge (#34811)
+* Easee: derive total energy from session energy (#34818)
 * Translations update from Hosted Weblate (#34675)
 * Sungrow hybrid: add phase currents for LAN connection (#34706)
 * Huawei SmartLogger: fix swapped grid import/export energy registers (#34766)
