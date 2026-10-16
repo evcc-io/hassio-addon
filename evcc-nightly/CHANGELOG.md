@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: explain the plan through the optimizer service (#34920)
+* SMA: ignore 64-bit NaN energy counters (#34924)
+* Translations update from Hosted Weblate (#34927)
 * Sessions: area-true scaling for polar charts (#34914)
 * Translations update from Hosted Weblate (#34806)
 * Pleos: update api registration instructions (#34913)
