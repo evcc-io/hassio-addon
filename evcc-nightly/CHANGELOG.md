@@ -2,6 +2,26 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Sessions: area-true scaling for polar charts (#34914)
+* Translations update from Hosted Weblate (#34806)
+* Pleos: update api registration instructions (#34913)
+* Tesla: inline Fleet API client, drop tesla-proxy-client (#34887)
+* Add A-Tronix AX Plus (#34580)
+* chore: replace writeholding(s) with writesingle/writemultiple (#33523)
+* Contributing: ground rules and contributor intro (#34908)
+* Revert "Optimizer: hold charge for idle battery at maxsoc bound while exporting (#34903)"
+* Optimizer: hold charge for idle battery at maxsoc bound while exporting (#34903)
+* Kia/Hyundai EU: sign OneApp/CCI auth calls with X-Fingerprint (#34898)
+* Fiat: replace aws sdk with plain cognito call and own sigv4 signer (#34901)
+* UI: show energy pattern cells in year view (#34896)
+* UI: week start of energy charts from site country (#34899)
+* chore: correct log operator in LimitSocReached message (#34613)
+* Keba P40: fall back to template model for unknown product code (#34574)
+* WARP (WebSocket): ignore non power manager topics from energy manager (#34892)
+* UI: golden export color in light mode (#34865)
+* Loadpoint: keep welcome charge alive across charging strategies (#32278)
+* Tesla: request location_data for geofence position (#34884)
+* Optimizer: hourly slots beyond 48h also for a self-hosted optimizer (#34833)
 * Messenger (ntfy): add schema option to allow http (#34843)
 * Add Frank Energie tariff (#34835)
 * i18n: solar share description uses "solar surplus"
