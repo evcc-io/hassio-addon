@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.317.2] - 2026-10-17
 
+## Changelog
+### Other Changes ☀️
+* Kia/Hyundai EU: sign OneApp/CCI auth calls with X-Fingerprint (#34906)
+* Phases: project the 1p switch from the actual draw (#34758)
+* Phases: stop 3p min charging within one disable delay when 1p not sustainable (#34754)
+* SHM: persist device serial (#34962)
+* WARP (WebSocket): ignore non power manager topics from energy manager (#34895)
+### Bug Fixes 🐞
+* Forecast: fix price chart drawing prices one slot early (#34798)
+* Huawei SmartLogger: fix swapped grid import/export energy registers (#34800)
+* Loadpoint: fix fractional min current on circuit (#34761)
+
 
 
 ## [0.317.1] - 2026-10-11
