@@ -2,6 +2,29 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Translations update from Hosted Weblate (#34978)
+* Glossary: format with 4 spaces like Weblate (#34980)
+* Optimizer: hold critical planner deadline until end of slot (#34889)
+* OCPP: use cached enabled state while connector is available (#34918)
+* Octopus Energy: Switch UK api url (#34794)
+* Translations update from Hosted Weblate (#34974)
+* chore: fix dependabot alerts (#34976)
+* Hassio changelog workflow: limit GITHUB_TOKEN permissions (#34973)
+* chore: adapt to client_golang v1.25 Query signature (#34970)
+* chore: upgrade modules
+* Bender: ignore invalid  values (#34560)
+* Loadpoint: simplify solar delays, move grid thresholds to advanced (#34593)
+* Modbus proxy: forward unknown function codes (#34735)
+* Bender: add vehicle SoC for Mennekes 4You/4Business (#34496)
+* chore: fix test after aws sdk removal (#34965)
+* Config: skip runtime-disabled devices in site loop (#34505)
+* Fiat: skip deep refresh while not plugged in (#34861)
+* Translations update from Hosted Weblate (#34934)
+* Energyflow: hide battery status icon when battery label shows it (#34944)
+* chore: update npm dependencies, vite-plus 1.3.0 (#34946)
+* Sungrow-hybrid: add battery to grid discharging (#34957)
+* SHM: persist device serial (#34959)
+* Battery limits: expose plugin errors (BC) (#34960)
 * Optimizer: explain the plan through the optimizer service (#34920)
 * SMA: ignore 64-bit NaN energy counters (#34924)
 * Translations update from Hosted Weblate (#34927)
@@ -102,6 +125,22 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * CI: read build-toolchain node version from .node-version (#34585)
 * Vehicle (Mercedes): discover fleet vehicles (#34556)
 * Issue: hint to search issues and try nightly before reporting a bug (#34572)
+
+## [0.317.2] - 2026-10-17
+
+## Changelog
+### Other Changes ☀️
+* Kia/Hyundai EU: sign OneApp/CCI auth calls with X-Fingerprint (#34906)
+* Phases: project the 1p switch from the actual draw (#34758)
+* Phases: stop 3p min charging within one disable delay when 1p not sustainable (#34754)
+* SHM: persist device serial (#34962)
+* WARP (WebSocket): ignore non power manager topics from energy manager (#34895)
+### Bug Fixes 🐞
+* Forecast: fix price chart drawing prices one slot early (#34798)
+* Huawei SmartLogger: fix swapped grid import/export energy registers (#34800)
+* Loadpoint: fix fractional min current on circuit (#34761)
+
+
 
 ## [0.317.1] - 2026-10-11
 
