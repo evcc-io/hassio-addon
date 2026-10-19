@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Battery: read soc limits once per cycle (#34998)
+* chore: add circuits modal to storybook
+* Loadpoint: log the pv enable threshold that is actually compared (#34996)
+* DemandTemperature: improve heating demand forecast across seasonal transitions (#34647)
+* Powerwall: hide grid charging when the site disallows it (#34963)
 * Translations update from Hosted Weblate (#34978)
 * Glossary: format with 4 spaces like Weblate (#34980)
 * Optimizer: hold critical planner deadline until end of slot (#34889)
