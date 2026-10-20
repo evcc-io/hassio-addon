@@ -24,7 +24,7 @@ arch:
   - amd64
 
 map: 
-  - type: addon_config
+  - type: app_config
     read_only: False
   - type: homeassistant_config
     read_only: False
