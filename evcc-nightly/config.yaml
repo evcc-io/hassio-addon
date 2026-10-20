@@ -47,7 +47,7 @@ ports_description:
   5200/tcp: "Modbus Proxy"
   5201/tcp: "Modbus Proxy (multi port)"
   5353/udp: "Multicast DNS (mDNS)"
-  7050/tcp: "evopt API"
+  7050/tcp: "Optimizer API"
   7070/tcp: "evcc UI & API"
   7090/udp: "Keba"
   8887/tcp: "OCPP web socket"
