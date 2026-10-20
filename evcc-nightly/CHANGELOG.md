@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Site: support grid connections without neutral (#34796)
+* UI: show time picker icon on touch devices (follow-up) (#34936)
+* Translations update from Hosted Weblate (#34988)
+* RCT: add S0 external energy (#34890)
+* chore: upgrade modules
 * Battery: read soc limits once per cycle (#34998)
 * chore: add circuits modal to storybook
 * Loadpoint: log the pv enable threshold that is actually compared (#34996)
