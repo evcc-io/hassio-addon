@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle (Mazda): add Mazda 6e and CX-6e  (#35096)
+* Tariff: add Great Britain to Energy Price Forecast (#35092)
 * Add CHINT DTSU666 meters (#35094)
 * Add Tuya chargers (local protocol) (#34036)
 * saj-h2: fix grid meter currents and energy (#35024)
