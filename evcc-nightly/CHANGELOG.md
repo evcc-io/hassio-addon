@@ -2,6 +2,10 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* docs: document optimizer suggestion derivation and control (#35173)
+* chore: update docs (#35169)
+* Settings: drag loadpoints by handle only (#35142)
+* Log: show loadpoint title in area filter (#35140)
 * Vehicle (Mazda): add Mazda 6e and CX-6e  (#35096)
 * Tariff: add Great Britain to Energy Price Forecast (#35092)
 * Add CHINT DTSU666 meters (#35094)
