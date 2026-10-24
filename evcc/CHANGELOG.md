@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.317.3] - 2026-10-24
 
+## Changelog
+### Other Changes ☀️
+* Loadpoint: keep min SoC on config save (#35199)
+* SMA: ignore 64-bit NaN energy counters (#35033)
+
 
 
 ## [0.318.0] - 2026-10-24
