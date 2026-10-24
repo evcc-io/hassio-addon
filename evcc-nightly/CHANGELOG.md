@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* SofarSolar G3: write max charge/discharge power for battery modes (BC) (#35204)
+* Zaptec: serialize token requests to respect rate limit (#35176)
+* Redact: include private params of deprecated templates (#35167)
+* Config UI: add onboarding flow and setup checklist (#35126)
+* Tariff: add EDF Tempo (#35192)
+* UI: reload on chunk load failure after update (#35202)
+* App: respect side safe-area insets (iPhone Duo) (#35198)
+* Loadpoint: keep min SoC on config save (#35197)
+* Issue: reduce EEBUS noise (#35183)
+* Use "smart charging" claim in CLI, PWA meta, packaging and API metadata (#35187)
+* Keba modbus: re-apply disable after phase toggle (#35184)
+* Battery: note that always charge ignores buffer setting (#35182)
 * docs: document optimizer suggestion derivation and control (#35173)
 * chore: update docs (#35169)
 * Settings: drag loadpoints by handle only (#35142)
