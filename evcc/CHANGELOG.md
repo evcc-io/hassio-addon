@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.318.1] - 2026-10-25
 
+## Changelog
+### Other Changes ☀️
+* Sungrow-hybrid: correct grid voltages and currents (#35289)
+* Tesla: fall back to vehicle_data without location when scope is missing (#35229)
+* UI: revert intra-word underscore handling in markdown renderer (#35281)
+
 
 
 ## [0.317.3] - 2026-10-24
