@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Revert "Templates: use evcc MQTT broker if mqtt host is empty" (#35280)
+* Revert "Cardata: use shared mqtt preset and stream source" (#35279)
 * Bump fast-uri from 3.1.8 to 3.1.9 (#35259)
 * Bump happy-dom from 21.0.3 to 21.0.4 (#35260)
 * OCPP forwarder: stop re-dial loop and back off on instant upstream drop (#34772)
