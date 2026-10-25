@@ -2,6 +2,31 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: drop goimports formatter from golangci-lint (#35336)
+* Tariff: wait for retry interval after failed creation (#35320)
+* MQTT: bound startup cleanup duration (#35310)
+* Home Assistant: add notification icon and color (#35332)
+* chore: speed up template and service tests (#35333)
+* RCT: fix grid charging when battery below min soc (#35312)
+* Tariff (fixed): don't overlap rates for zone boundaries in skipped DST hour (#35329)
+* Tariff (fixed): keep zones on wall clock time on DST change days (#35319)
+* Use grid helpers for current/power conversion (#35328)
+* Deye: add SUN-EVSE11K01/22K01 charger (#34202)
+* Optimizer: include HEMS consumption limit in grid import limit (#35323)
+* Optimizer: include circuit max current in grid import limit (#35321)
+* Site: keep last battery soc when one of several reads fails (#35302)
+* Meter (Huawei EMMA): document Modbus TCP requirements and battery control (#34182)
+* Loadpoint: estimate remaining charge for plan goal while plan slot is active (#35266)
+* EU Data Act: prefer current mileage.value key for odometer (#35294)
+* EU Data Act: prefer current battery_state_report.soc key for soc (#35293)
+* Sungrow-hybrid: remove grid values not accessible via dongle (#35277)
+* Loadpoint: drop solar share grid allowance while battery discharges below prioritySoc (#35064)
+* Circuit: reserve offered current for loadpoint during phase switch (#34847)
+* OCPP forwarder: track idTag and transaction of relayed transactions (#35244)
+* Onboarding: block tariff checklist items for legacy tariff configuration (#35265)
+* Energy: visual improvements, axis alignment (#35282)
+* UI: revert intra-word underscore handling in markdown renderer (#35272)
+* Onboarding: move skip to site step, password is mandatory (#35275)
 * Revert "Templates: use evcc MQTT broker if mqtt host is empty" (#35280)
 * Revert "Cardata: use shared mqtt preset and stream source" (#35279)
 * Bump fast-uri from 3.1.8 to 3.1.9 (#35259)
@@ -27,6 +52,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * chore: minsoc and maxsoc in default meter template (#35209)
 * Optimizer: hide explain for self-hosted optimizer (#35220)
 * Cardata: keep newer stream data and age the REST refresh by message time (#35219)
+
+## [0.318.1] - 2026-10-25
+
+## Changelog
+### Other Changes ☀️
+* Sungrow-hybrid: correct grid voltages and currents (#35289)
+* Tesla: fall back to vehicle_data without location when scope is missing (#35229)
+* UI: revert intra-word underscore handling in markdown renderer (#35281)
+
+
 
 ## [0.317.3] - 2026-10-24
 
