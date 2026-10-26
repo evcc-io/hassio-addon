@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Vehicle: fix getmaxcurrent example in user-defined template (#35347)
 * chore: drop goimports formatter from golangci-lint (#35336)
 * Tariff: wait for retry interval after failed creation (#35320)
 * MQTT: bound startup cleanup duration (#35310)
