@@ -2,6 +2,21 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Config: fix legacy circuits modal docs link (#35422)
+* chore: move Playwright simulator off the EEBus port range (#35381)
+* Optimizer: suggest the battery mode control applies (#35402)
+* Tariff (Energinet): include current quarter-hour (#35396)
+* sonnenBatterie: repeat charge setpoint while charging (#35391)
+* fix(eudataact): support Auth0 Universal Login Page for CUPRA/VW (#35385)
+* Loadpoint: adopt charger phases while disabled (#35383)
+* EcoFlow Stream: detect leader among multiple serials (#35334)
+* chore: speed up Playwright with reduced motion and faster polling (#35373)
+* Tariff (Home Assistant): support sub-hourly solar forecast slots (#35342)
+* Shelly Top AC: handle charger_insert work state (#35345)
+* EEBus: support single-phase chargers and dynamic phase limits (#35133)
+* Tariff (Octopus DE): fix time-of-use slots shifting after DST change (#35353)
+* Optimizer: estimate vehicle state from charged energy without soc (#35366)
+* chore: speed up the Playwright run (#35325)
 * Vehicle: fix getmaxcurrent example in user-defined template (#35347)
 * chore: drop goimports formatter from golangci-lint (#35336)
 * Tariff: wait for retry interval after failed creation (#35320)
