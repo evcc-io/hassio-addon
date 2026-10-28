@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Heating: demand predictor selector in loadpoint settings (#34342)
+* Kostal Piko MP Plus: cache measurements request (#35404)
+* Optimizer: don't treat pv battery charging as grid charging (#35428)
+* Config/Energyflow: sort consumers alphabetically (#35433)
+* UI: ignore safe-area insets when embedded in an iframe (#35448)
+* UI: render markdown with marked instead of snarkdown (#35295)
 * Config: fix legacy circuits modal docs link (#35422)
 * chore: move Playwright simulator off the EEBus port range (#35381)
 * Optimizer: suggest the battery mode control applies (#35402)
