@@ -1,6 +1,6 @@
 ---
 name: evcc (nightly)
-version: nightly.20261028-927ed3c
+version: nightly.20261029-9404d82
 slug: evcc-nightly
 description: Nightly build. smart charging | open source energy management
 url: https://github.com/evcc-io/evcc
