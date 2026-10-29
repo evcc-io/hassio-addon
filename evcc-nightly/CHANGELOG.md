@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Meter (FoxESS H3 Smart): add holdcharge battery mode (#35398)
 * Heating: demand predictor selector in loadpoint settings (#34342)
 * Kostal Piko MP Plus: cache measurements request (#35404)
 * Optimizer: don't treat pv battery charging as grid charging (#35428)
