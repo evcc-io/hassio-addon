@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* SMA Hybrid: add battery charge energy (#35567)
+* DaheimLaden: accept raw-ASCII station id from replacement comm modules (#35440)
+* Add Rheidon PC200 Pro (OCPP) (#35511)
+* Optimizer: add socToWh helper (#35553)
+* Onboarding: don't open wizard on partial state after restart (#35380)
+* White-label: custom app icon and brand name in PWA manifest (#35551)
+* Optimizer: consider all vehicle plan goals within horizon (#35552)
+* Vehicle: retry creating unavailable vehicle (#35534)
+* Energyflow: add "Others" row for unmetered home consumption (#35513)
+* Weidmüller: fix factory settings (#35123)
+* Telemetry: fix stuck charge upload on sites with many loadpoints (#35536)
 * Meter (FoxESS H3 Smart): add holdcharge battery mode (#35398)
 * Heating: demand predictor selector in loadpoint settings (#34342)
 * Kostal Piko MP Plus: cache measurements request (#35404)
