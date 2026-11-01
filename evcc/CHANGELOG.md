@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.318.2] - 2026-11-01
 
+## Changelog
+### Other Changes ☀️
+* FoxESS H3-Pro/Smart: don't overwrite Off-Grid (EPS) min SoC (#35671)
+* sonnenBatterie: repeat charge setpoint while charging (#35393)
+### Bug Fixes 🐞
+* fix(eudataact): support Auth0 Universal Login Page for CUPRA/VW (#35390)
+
 
 
 ## [0.318.1] - 2026-10-25
