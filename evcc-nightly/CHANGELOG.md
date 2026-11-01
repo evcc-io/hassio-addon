@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: don't treat planner slot as deadline critical (#35648)
+* SunSpec: retry device detection (#35649)
+* SofarSolar G3: add slave option to disable battery control (#35647)
+* Plugin (SunSpec): support integer points in float setter (#35646)
+* FoxESS H3-Pro/Smart: don't overwrite Off-Grid (EPS) min SoC (#35628)
+* Huawei: move curtailment to separate devices (BC) (#32451)
+* CI PR labeler: restrict to existing labels (#35623)
 * Optimizer: combine SoC projections into one chart (#35444)
 * Tariffs: add Spotový Radar (CZ price forecast) (#35467)
 * Config UI: add nested device support (enables SG Ready relays, merged tariff) (#35407)
