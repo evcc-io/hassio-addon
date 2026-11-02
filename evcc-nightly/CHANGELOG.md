@@ -2,6 +2,30 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Bump voidzero-dev/vite-plus from 1.3.0 to 1.4.0 (#35668)
+* Add OCI labels to Dockerfile (#35695)
+* OCPP: skip BootNotification wait when trigger is rejected (#35401)
+* Modbus: release shared connection for every registration (#35581)
+* Optimizer: re-run on triggers during a running update (#35644)
+* Loadpoint: add energy counted after charge stop to session (#35559)
+* Bump depot/build-push-action from 1.18.0 to 1.19.0 (#35678)
+* Bump actions/download-artifact from 8.0.1 to 8.0.2 (#35677)
+* Bump anthropics/claude-code-action from 1.0.244 to 1.0.264 (#35676)
+* chore: bump go.yaml.in/yaml/v4 to v4.0.0-rc.7 (#35679)
+* Bump actions/setup-python from 7.0.0 to 7.1.0 (#35680)
+* Battery: warn if only one power limit is configured (#35675)
+* CodeQL: align init and analyze action versions (#35674)
+* Genesis EU: sign OneApp/CCI auth calls with X-Fingerprint (#35652)
+* Huawei SmartLogger: remove battery (BC) (#35658)
+* Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6 (#35654)
+* UI: improve startup and offline behavior (#35657)
+* Bump goreleaser/goreleaser-action from 7.2.3 to 7.3.0 (#35664)
+* Bump docker/login-action from 4.6.0 to 4.7.0 (#35663)
+* Bump github/codeql-action/analyze from 4.38.2 to 4.39.1 (#35665)
+* Bump actions/upload-artifact from 7.0.1 to 7.0.2 (#35667)
+* Bump golang from 1.27.1-alpine to 1.27.3-alpine (#35669)
+* Bump cloudsmith-cli from 1.28.0 to 1.30.1 in /.github (#35670)
+* FoxESS H3: hold via max discharge current instead of remote active power (#35639)
 * Optimizer: don't treat planner slot as deadline critical (#35648)
 * SunSpec: retry device detection (#35649)
 * SofarSolar G3: add slave option to disable battery control (#35647)
@@ -113,6 +137,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * chore: minsoc and maxsoc in default meter template (#35209)
 * Optimizer: hide explain for self-hosted optimizer (#35220)
 * Cardata: keep newer stream data and age the REST refresh by message time (#35219)
+
+## [0.318.2] - 2026-11-01
+
+## Changelog
+### Other Changes ☀️
+* FoxESS H3-Pro/Smart: don't overwrite Off-Grid (EPS) min SoC (#35671)
+* sonnenBatterie: repeat charge setpoint while charging (#35393)
+### Bug Fixes 🐞
+* fix(eudataact): support Auth0 Universal Login Page for CUPRA/VW (#35390)
+
+
 
 ## [0.318.1] - 2026-10-25
 
