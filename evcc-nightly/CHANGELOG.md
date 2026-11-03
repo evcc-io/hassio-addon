@@ -2,6 +2,22 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Loadpoint: switch phases with unknown phase state in circuit fast charging (#35361)
+* shortrfc3339: emit a quoted UTC timestamp from MarshalJSON (#35722)
+* Weishaupt: don't refresh power setpoint while disabled (#35703)
+* Sponsor: renew hardware token in-process (#33816)
+* Bump follow-redirects from 1.16.1 to 1.16.2 (#35653)
+* Bump voidzero-dev/setup-vp from 1.21.2 to 1.22.0 (#35666)
+* Victron VRM: fetch solar forecast for up to 7 days (#35710)
+* Tests: limit log lines in issue test to stay below URL limit (#35704)
+* OCPP forwarder: read meterInterval under its mutex (#35555)
+* Translations update from Hosted Weblate (#35061)
+* Add Mennekes Amtron 4Business 600 (OCPP) (#35426)
+* Add Mennekes Amtron 4Business 600 (Modbus TCP) (#35427)
+* SMA Hybrid: fix battery power and energy (#35508)
+* Huawei SUN2000 Inverter: reduce default timeout (#35687)
+* Solax: drop grid energy (not phase-balanced) (#35707)
+* Solax G2: fix 32-bit word order (#35590)
 * Bump voidzero-dev/vite-plus from 1.3.0 to 1.4.0 (#35668)
 * Add OCI labels to Dockerfile (#35695)
 * OCPP: skip BootNotification wait when trigger is rejected (#35401)
