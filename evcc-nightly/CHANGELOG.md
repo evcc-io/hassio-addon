@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* UI: add missing config.devices.extMeter translation (#35748)
+* EU Data Act: template-defined soc key preference, Cupra prefers battery_level_HV (#35686)
+* Tesla BLE: treat sleeping vehicle as asleep, not as error (#35740)
+* Streamlined weather-model selection in Open-Meteo integrations (#35701)
+* Hoymiles OpenDTU: support basic auth (#35739)
+* UI: use vehicle limits for charging phase indicators (#35692)
+* Config UI: assign charging points and heaters to circuits inline (#35127)
+* Tariff: update Energy Price Forecast API key links (#35565)
+* Optimizer: skip run when solar forecast is unavailable (#35726)
 * Loadpoint: switch phases with unknown phase state in circuit fast charging (#35361)
 * shortrfc3339: emit a quoted UTC timestamp from MarshalJSON (#35722)
 * Weishaupt: don't refresh power setpoint while disabled (#35703)
