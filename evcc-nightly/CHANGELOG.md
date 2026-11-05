@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Config: require admin password for all script plugin sources (#35423)
+* Energy: keep hidden small flows in Sankey node totals (#35787)
 * UI: add missing config.devices.extMeter translation (#35748)
 * EU Data Act: template-defined soc key preference, Cupra prefers battery_level_HV (#35686)
 * Tesla BLE: treat sleeping vehicle as asleep, not as error (#35740)
