@@ -2,6 +2,23 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* EM2Go: integrate charge power for session energy (#35759)
+* Optimizer: continue 100% soc plan while vehicle connected (#35854)
+* Tariffs: Add strømligning.dk tariff API template definition (#35767)
+* Spotový Radar: add Slovakia (OKTE, EUR) (#35751)
+* Volvo Connected: OAuth2 migration (BC) (#35845)
+* Issue agent: cc device contributors on device issues (#35849)
+* RCT: restore internal soc strategy when none saved (#35851)
+* Vaillant: unescape HTML entities in login form action (#35110)
+* Vehicle (EU Data Act): template-defined target soc keys (#35829)
+* Templates: render list param examples in unit tests (#35848)
+* chore: upgrade modules
+* Easee: reset stale session energy on plug-in (#35826)
+* Optimizer: leave home battery its planned charge when vehicle follows pv surplus (BC) (#35841)
+* EEBus: update spine-go and ship-go to current upstream dev (#35831)
+* Optimizer: apply battery suggestion while a vehicle modelled as fixed demand charges (#35306)
+* Optimizer: don't floor vehicle end of horizon value at export price (#35827)
+* Optimizer: don't toggle phases inside 1p/3p gap (#35825)
 * Config: require admin password for all script plugin sources (#35423)
 * Energy: keep hidden small flows in Sankey node totals (#35787)
 * UI: add missing config.devices.extMeter translation (#35748)
