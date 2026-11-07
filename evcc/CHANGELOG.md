@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.318.3] - 2026-11-07
 
+## Changelog
+### Other Changes ☀️
+* Genesis EU: sign OneApp/CCI auth calls with X-Fingerprint (#35673)
+* Kia/Hyundai EU: send current Android Chrome User-Agent on OneApp login (#35922)
+* LG ESS: don't report feed-in energy as grid import (#35927)
+
 
 
 ## [0.318.2] - 2026-11-01
