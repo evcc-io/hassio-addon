@@ -2,6 +2,18 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Huawei SmartLogger: always use modbus id 0 (#35939)
+* FoxESS H3: drop charge mode (#35937)
+* EEBus: add Buderus and Bosch OHPCF heat pumps (#35936)
+* Loadpoint: update immediately on charger status change (#35697)
+* Optimizer: split site_optimizer.go by responsibility (#35932)
+* Optimizer: group runtime state on site (#35928)
+* Huawei EMMA: always use modbus id 0 (#35930)
+* LG ESS: don't report feed-in energy as grid import (#35926)
+* Tests: set sponsor subject under lock (#35925)
+* Optimizer: model planner schedule as fixed demand in battery-only mode (#35924)
+* Kia/Hyundai EU: send current Android Chrome User-Agent on OneApp login (#35324)
+* Schrack i-CHARGE CION: add RFID identification (#35921)
 * Loadpoint: reset SoC estimator for new sessions (#35764)
 * OCPP: ignore zero energy register after non-zero total (#35853)
 * ABL eMH: warn if charging release by group master is required (#35860)
@@ -196,6 +208,16 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * chore: minsoc and maxsoc in default meter template (#35209)
 * Optimizer: hide explain for self-hosted optimizer (#35220)
 * Cardata: keep newer stream data and age the REST refresh by message time (#35219)
+
+## [0.318.3] - 2026-11-07
+
+## Changelog
+### Other Changes ☀️
+* Genesis EU: sign OneApp/CCI auth calls with X-Fingerprint (#35673)
+* Kia/Hyundai EU: send current Android Chrome User-Agent on OneApp login (#35922)
+* LG ESS: don't report feed-in energy as grid import (#35927)
+
+
 
 ## [0.318.2] - 2026-11-01
 
