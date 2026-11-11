@@ -2,6 +2,19 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Easee (OCPP): make remotestart optional (#36081)
+* PC Electric Garo: treat status 144 without session as connected (#35778)
+* Energy UI: card headers, pattern views, source breakdown (#36076)
+* AlphaESS: control battery via dispatch registers (#36014)
+* myPV: don't refresh power setpoint while disabled (#35772)
+* Meter (Indevolt): write grid charging before mode change (#35812)
+* Tariff: split hourly slots when 15m slots come first (#35776)
+* Plan: cap charged energy while no valid soc was received (#36066)
+* SAJ H2: restore grid energy sum register, add single-phase option (BC) (#36064)
+* energypriceforecast.eu: update countries (#36060)
+* Cardata: list Neue Klasse streaming keys, reject non-finite values (#36061)
+* Sonnen: require minsoc of 0 or at least 5 (BC) (#36059)
+* Tinkerforge WARP: document phase switching requirements for WARP3/WARP4 (#36049)
 * i18n (de): revert Weblate terminology changes, follow glossary (#35824)
 * chore: Charging plan: ignore stale plan responses, stabilize e2e tests (#36040)
 * Config UI: store template defaults only for displayed params (#36001)
