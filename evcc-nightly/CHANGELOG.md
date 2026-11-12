@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Energy: align panel grid with bars (#36075)
+* AC Thor: support latest firmware (#36087)
+* Energyflow: per-group power units, split chargers and heaters (#36111)
+* Forecast: show up to 8 days (#36109)
+* Battery: rename hold mode to holddischarge (BC) (#36103)
+* SMA Hybrid: integrate battery energy from power (#36106)
+* Pleos: share token between vehicles of an api key (#36097)
+* Sonnen: send backup buffer 0 when holding below 5% (#36096)
 * Easee (OCPP): make remotestart optional (#36081)
 * PC Electric Garo: treat status 144 without session as connected (#35778)
 * Energy UI: card headers, pattern views, source breakdown (#36076)
