@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Sungrow iHM: move curtailment to separate device (BC) (#35625)
+* Sungrow-hybrid: add curtailment device (#35638)
+* Add KACO NH3 hybrid template (#35725)
+* Smart cost: keep and show exact slot price as limit (#35852)
+* Meter (Tesla Powerwall): add pypowerwall (#35974)
+* Templates: remove the modbus id 1 default (#35681)
+* Optimizer: no heating demand for heaters charging from surplus only (#35940)
+* Loadpoint UI: time-based values instead of session values for integrated devices (BC) (#35525)
+* Energy: split flow chart loadpoints into charging and heating (#36114)
 * Energy: align panel grid with bars (#36075)
 * AC Thor: support latest firmware (#36087)
 * Energyflow: per-group power units, split chargers and heaters (#36111)
