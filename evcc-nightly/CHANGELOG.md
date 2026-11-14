@@ -2,6 +2,24 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Tuya: add smart plug as meter and switch socket (#36156)
+* Translations update from Hosted Weblate (#35720)
+* Huawei SUN2000: fix curtailment docu (#36192)
+* chore: upgrade modules
+* Tariff (Octopus DE): support charges, charges zones, tax and formula (#35958)
+* Messenger (ntfy): log failed requests (#36182)
+* Meter (Hoymiles DTU): expose cache parameter (#36121)
+* Optimizer: add risk profile (#35923)
+* Innogy eBox: add caveat for estimated charging power (#36128)
+* Templates: discovery hints from collection issue (#36175)
+* Templates: show and require maxacpower for curtailers (#35637)
+* Issue agent: fix unbalanced parenthesis in claude_args (#36174)
+* chore: harden /build and issue agent workflows
+* Anker Solarbank Max AC: implement hold battery (via backup SoC) (#36026)
+* FoxESS: support C-Series chargers w/o phase switching (#36141)
+* Tesla: take Fleet API region from access token (#36085)
+* Hyundai/Kia Bluelink: add charge start/stop (#35610)
+* Victron VRM: place hourly solar forecast at the middle of the hour (#36163)
 * Sungrow iHM: move curtailment to separate device (BC) (#35625)
 * Sungrow-hybrid: add curtailment device (#35638)
 * Add KACO NH3 hybrid template (#35725)
