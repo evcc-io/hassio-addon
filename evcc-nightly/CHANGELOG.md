@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: hide only the planned battery share from a surplus-following vehicle (#36230)
 * Tuya: add smart plug as meter and switch socket (#36156)
 * Translations update from Hosted Weblate (#35720)
 * Huawei SUN2000: fix curtailment docu (#36192)
