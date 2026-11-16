@@ -2,6 +2,13 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [0.319.1] - 2026-11-16
 
+## Changelog
+### Other Changes ☀️
+* Dacia: control Spring charging via pause-resume (#35978)
+* Huawei SmartLogger: accept stale storageunit and maxsoc params (#36003)
+* Loadpoint: clear vehicle soc on disconnect (#35964)
+* Open-Meteo jq null values handling (#36028)
+
 
 
 ## [0.319.0] - 2026-11-08
