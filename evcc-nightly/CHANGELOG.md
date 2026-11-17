@@ -2,6 +2,11 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: sign release checksums and publish build provenance (#36132)
+* Config (InfluxDB): support InfluxDB 3 in form (#36324)
+* Remote access: print / PDF for client credentials (#36181)
+* docs: note untranslated In/Out labels in glossary (#36309)
+* Add Sonoff Pro-3PCT120 (#36013)
 * Easee: ignore replayed completed session (#36288)
 * Meter (Shelly): add Plug M (#36292)
 * Ghost (Elli): return RFID read errors (#36290)
@@ -110,6 +115,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 * Loadpoint: clear vehicle soc on disconnect (#35962)
 * SEMP-Charger: initialize enabled state from device status (#35952)
 * Optimizer: reject household demand forecasts above 1 MW (#35961)
+
+## [0.319.1] - 2026-11-16
+
+## Changelog
+### Other Changes ☀️
+* Dacia: control Spring charging via pause-resume (#35978)
+* Huawei SmartLogger: accept stale storageunit and maxsoc params (#36003)
+* Loadpoint: clear vehicle soc on disconnect (#35964)
+* Open-Meteo jq null values handling (#36028)
+
+
 
 ## [0.319.0] - 2026-11-08
 
