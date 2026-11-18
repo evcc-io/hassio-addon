@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* GPIO: add active low and bias options (#36376)
+* Powerfox Poweropti: add local API (#35113)
+* Plugin (watchdog): require a positive timeout (#36341)
+* chore: fix stale claude-code-action pin comments (#36353)
+* EU Data Act: follow portal move to eu-data-act.vwgroup-datahub.com (#36333)
+* Bump voidzero-dev/setup-vp from 1.21.2 to 1.22.0 in /.github/actions/build-toolchain (#36352)
+* Bump anthropics/claude-code-action from 1.0.264 to 1.0.271 (#36351)
+* Bump docker/login-action from 4.7.0 to 4.8.0 (#36350)
+* Bump voidzero-dev/vite-plus from 1.4.0 to 1.7.0 (#36348)
+* Bump the codeql-action group across 1 directory with 2 updates (#36349)
+* chore: tighten GitHub Actions permissions (#36330)
 * chore: sign release checksums and publish build provenance (#36132)
 * Config (InfluxDB): support InfluxDB 3 in form (#36324)
 * Remote access: print / PDF for client credentials (#36181)
