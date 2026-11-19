@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: revise password instructions (#36381)
 * GPIO: add active low and bias options (#36376)
 * Powerfox Poweropti: add local API (#35113)
 * Plugin (watchdog): require a positive timeout (#36341)
