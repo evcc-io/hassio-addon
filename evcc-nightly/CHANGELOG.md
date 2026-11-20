@@ -2,6 +2,20 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* OCPP: trigger BootNotification and publish status on reconnect (#35651)
+* chore: don't panic when the tariff key is not a string (#36428)
+* Meter (E3/DC): reject invalid port instead of silently connecting to 0 (#36425)
+* SofarSolar G3: fix template overflow on 32-bit platforms (#36427)
+* Optimizer: don't notify about suggestions it applies itself (#35443)
+* Optimizer: limit charging below sub-circuits (#36421)
+* Vehicle (EU Data Act): derive soc from energy contents (#36413)
+* Loadpoint: don't infer soc from energy when capacity is unknown (#36340)
+* chore: reject NaN soc (#36337)
+* Plugin (const): reject invalid hex for byte setters (#36338)
+* lgess: hold at 99.x% now sets the hold limit to 100 (#36197)
+* chore: replace monitor first-wait nanosecond hack with a waited flag (#36317)
+* chore: reject negative and overflowing second durations (#36339)
+* Issue agent: never apply the needs decision label (#36417)
 * chore: revise password instructions (#36381)
 * GPIO: add active low and bias options (#36376)
 * Powerfox Poweropti: add local API (#35113)
