@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* SolarEdge (OCPP): exclude Current.Offered measurand (#36306)
+* Metrics: persist interpolation of short slot gaps (#36281)
+* Forecast: mark estimated prices (#36138)
+* Vehicles: add Vauxhall (Stellantis UK) (#36434)
+* Energy: hatch forecast deviation in both themes, add legend entry (#36452)
+* Epexprijzen.nl: added new suppliers & contracts (#36461)
+* Energy: keep import and export of the same slot in flows (#36444)
+* Charging plan: disable strategy while optimizer controls loadpoint (#36448)
+* Energy: fix charge line color and heating pattern tooltip (#36450)
+* Energy: unify chart tooltips, show energy with average power in day view (#36451)
+* SofarSolar G3: fix 32-bit divide by zero (#36458)
 * OCPP: trigger BootNotification and publish status on reconnect (#35651)
 * chore: don't panic when the tariff key is not a string (#36428)
 * Meter (E3/DC): reject invalid port instead of silently connecting to 0 (#36425)
