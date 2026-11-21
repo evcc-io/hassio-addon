@@ -2,6 +2,9 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Meter (Tesla Powerwall): fix battery energy direction (#36482)
+* Energy: improve history loading performance (#36294)
+* Templates: replace go scripts by plain plugins (#36476)
 * SolarEdge (OCPP): exclude Current.Offered measurand (#36306)
 * Metrics: persist interpolation of short slot gaps (#36281)
 * Forecast: mark estimated prices (#36138)
