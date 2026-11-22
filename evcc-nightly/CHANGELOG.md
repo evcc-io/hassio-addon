@@ -2,6 +2,8 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Docker: respect EVCC_NETWORK_PORT in healthcheck (#36491)
+* chore: apply go fix modernizers (#36492)
 * Meter (Tesla Powerwall): fix battery energy direction (#36482)
 * Energy: improve history loading performance (#36294)
 * Templates: replace go scripts by plain plugins (#36476)
