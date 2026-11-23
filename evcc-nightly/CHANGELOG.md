@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Marstek Venus E: add charged energy (#36487)
+* Tariff (Strømligning): include forecast prices (#36500)
+* Loadpoint: fix meterless current load management deadlock (#33463)
+* Home Assistant: clamp negative solar forecast values (#36507)
+* chore: update minimatch to 11 (#36523)
+* chore: detail connected load settings (#36521)
+* Deye EVSE: write power limit with FC16 (#36443)
+* Solis Hybrid S: document disabling Solis AI / Smart Strategy (#36219)
 * Docker: respect EVCC_NETWORK_PORT in healthcheck (#36491)
 * chore: apply go fix modernizers (#36492)
 * Meter (Tesla Powerwall): fix battery energy direction (#36482)
