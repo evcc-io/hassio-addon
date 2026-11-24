@@ -2,6 +2,15 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Metrics: store meters WITHOUT ROWID (#36538)
+* Optimizer: flag vehicles without known soc in battery details (#36549)
+* Translations update from Hosted Weblate (#36207)
+* eHive One: add configurable FNN contact template (#36515)
+* Tuya dé: send requested current instead of rounding to steps (#36506)
+* Optimizer: follow pv surplus for full power covered by forecast pv (#36540)
+* Optimizer: support late charging (#36534)
+* RCT: write battery mode parameters sequentially (#36525)
+* Optimizer: size hold reserve from the actual gap between runs (#36532)
 * Marstek Venus E: add charged energy (#36487)
 * Tariff (Strømligning): include forecast prices (#36500)
 * Loadpoint: fix meterless current load management deadlock (#33463)
