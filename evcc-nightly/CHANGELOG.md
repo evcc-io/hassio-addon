@@ -2,6 +2,27 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Optimizer: follow pv surplus for full power with forecast export (#36581)
+* Energy UI: small improvements, mirror grid chart, consistent direction labels, touch fixes (#36572)
+* Energy: release page, remove experimental dependency (#36578)
+* Merge commit from fork
+* Merge commit from fork
+* Translations update from Hosted Weblate (#36556)
+* Onboarding: simplify checklist save and undo (#36573)
+* License: ignore filippo.io/nistec (#36574)
+* Config UI: clearer setup checklist states (#36562)
+* chore: upgrade modules
+* Bump body-parser and joi for high severity advisories (#36567)
+* Add Matismart MPM4000 (multi-circuit meter) (#36564)
+* chore: remove duplicate permissions key in nightly-docker workflow (#36563)
+* Metrics: vacuum failure after meters migration does not block startup (#36560)
+* Meter: add whatwatt Go (#36552)
+* Packaging: compress deb with xz (#36559)
+* chore: further tighten GitHub Actions workflows (#36332)
+* Metrics: vacuum after meters WITHOUT ROWID migration (#36558)
+* Optimizer: show vehicle plan goals in the soc chart (#36526)
+* Translations update from Hosted Weblate (#36546)
+* SMA Speedwire: fall back to string power sum when PvPower is missing (#36554)
 * Metrics: store meters WITHOUT ROWID (#36538)
 * Optimizer: flag vehicles without known soc in battery details (#36549)
 * Translations update from Hosted Weblate (#36207)
