@@ -2,6 +2,7 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* OCPP: use meterStart as energy register at transaction start (#36579)
 * Optimizer: follow pv surplus for full power with forecast export (#36581)
 * Energy UI: small improvements, mirror grid chart, consistent direction labels, touch fixes (#36572)
 * Energy: release page, remove experimental dependency (#36578)
