@@ -2,6 +2,12 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Huawei SUN2000: reject invalid 0x7FFFFFFF on grid energy registers (#36600)
+* Notifications: add log area, improve UI (#36604)
+* Energy UI: metered totals in Sankey, total consumption label (#36587)
+* Config UI: fix setup checklist flash while device status loads (#36606)
+* Translations update from Hosted Weblate (#36575)
+* SMA: use summed DC power of all strings when PvPower is missing (#36588)
 * OCPP: use meterStart as energy register at transaction start (#36579)
 * Optimizer: follow pv surplus for full power with forecast export (#36581)
 * Energy UI: small improvements, mirror grid chart, consistent direction labels, touch fixes (#36572)
