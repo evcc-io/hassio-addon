@@ -2,6 +2,14 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Demo: restart fly machine every 12h (#36623)
+* SMA Speedwire: add caveats for L2 requirements (#36621)
+* Cardata: resubscribe stream after reconnect (#36622)
+* Tariffs (energyforecast.de): use API v2, respect profile costs and VAT (BC) (#36620)
+* OCPP: fix remotestart master switch (#36614)
+* SMA Speedwire: add DC PV generation, DC battery power and capacity (#36619)
+* Zaptec: reset session identifier on disconnect (#36617)
+* MQTT: migrate to paho.golang (MQTT 5) (BC) (#36610)
 * Huawei SUN2000: reject invalid 0x7FFFFFFF on grid energy registers (#36600)
 * Notifications: add log area, improve UI (#36604)
 * Energy UI: metered totals in Sankey, total consumption label (#36587)
