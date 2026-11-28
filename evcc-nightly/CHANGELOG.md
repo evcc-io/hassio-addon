@@ -2,6 +2,17 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* Templates: make hardcoded 1s caches configurable (#36660)
+* Kostal Piko: cache http readings (#36659)
+* Polestar: adapt login to Keycloak (#36653)
+* Packaging: move apt sources from Cloudsmith to dl.evcc.io (#36657)
+* Energy: sync loadpoint slots with site meters (#36648)
+* Templates: export integration provider link to docs (#36650)
+* Vehicle (EU Data Act): ignore hv_soc (#36646)
+* Config UI: recommend a meter for root circuits (#36640)
+* Energy UI: label autarky as self-sufficiency (#36630)
+* EEBus: drop cached entities the device removes (#36632)
+* Solax: add X3 Hybrid G2 template (#36536)
 * Demo: restart fly machine every 12h (#36623)
 * SMA Speedwire: add caveats for L2 requirements (#36621)
 * Cardata: resubscribe stream after reconnect (#36622)
